@@ -2,7 +2,8 @@ import { useEffect } from 'react';
 
 export function useSEO(title: string, description: string) {
   useEffect(() => {
-    document.title = `${title} | Agentic Services`;
+    const fullTitle = title.includes('Agentic Services') ? title : `${title} | Agentic Services`;
+    document.title = fullTitle;
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
@@ -16,7 +17,7 @@ export function useSEO(title: string, description: string) {
 
     let ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) {
-      ogTitle.setAttribute('content', `${title} | Agentic Services`);
+      ogTitle.setAttribute('content', fullTitle);
     }
 
     let ogDesc = document.querySelector('meta[property="og:description"]');

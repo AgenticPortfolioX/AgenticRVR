@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Workflow, Video, Home, Cuboid, ArrowUpRight, Server } from 'lucide-react';
+import { Workflow, Video, Home, Cuboid, ArrowUpRight, Server, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Services() {
@@ -15,7 +15,7 @@ export default function Services() {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-sm text-orange-400"
           >
             <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse" />
-            Three specialized divisions working in harmony to elevate your business.
+            Four specialized divisions working in harmony to elevate your business.
           </motion.div>
         </div>
 
@@ -46,13 +46,40 @@ export default function Services() {
             </div>
           </motion.div>
 
-          {/* Hardware Nodes - Orange Card */}
+          {/* Speed-to-Lead Agents - New Card */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-[2rem] p-10 text-black relative overflow-hidden group"
+            className="md:col-span-1 bg-[#141414] rounded-[2rem] p-10 border border-white/5 relative overflow-hidden group"
+          >
+            <div className="absolute top-0 left-0 w-64 h-64 bg-orange-500/5 rounded-full blur-[60px] -translate-x-1/2 -translate-y-1/2 group-hover:bg-orange-500/10 transition-colors duration-500" />
+            
+            <div className="relative z-10 h-full flex flex-col justify-between">
+              <div className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10">
+                <Zap className="w-7 h-7 text-orange-500" />
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-medium mb-2">Speed-to-Lead</h3>
+                <p className="text-zinc-400 text-sm mb-4">
+                  Instant, intelligent AI responses. Qualify leads and book meetings 24/7.
+                </p>
+                <Link to="/speed-to-lead" className="flex items-center gap-2 text-sm font-medium text-orange-500 hover:text-orange-400 transition-colors">
+                  Learn more <ArrowUpRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Hardware Nodes - Orange Card */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="md:col-span-1 bg-gradient-to-br from-orange-400 to-orange-600 rounded-[2rem] p-10 text-black relative overflow-hidden group"
           >
             <div className="relative z-10 h-full flex flex-col justify-between">
               <div className="w-14 h-14 rounded-2xl bg-black/10 flex items-center justify-center">
@@ -61,7 +88,7 @@ export default function Services() {
               
               <div>
                 <h3 className="text-2xl font-medium mb-2">Hardware Nodes</h3>
-                <p className="text-black/70 font-medium mb-4">
+                <p className="text-black/70 font-medium mb-4 text-sm">
                   Sovereign Bitcoin, Lightning, and NOSTR Nodes with Agentic Ai Management.
                 </p>
                 <Link to="/nodes" className="flex items-center gap-2 text-sm font-medium text-black hover:text-black/70 transition-colors">
@@ -78,8 +105,8 @@ export default function Services() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="md:col-span-3 bg-[#141414] rounded-[2rem] p-10 border border-white/5 relative overflow-hidden group"
+            transition={{ delay: 0.3 }}
+            className="md:col-span-2 bg-[#141414] rounded-[2rem] p-10 border border-white/5 relative overflow-hidden group"
           >
             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop')] bg-cover bg-center opacity-20 group-hover:opacity-30 transition-opacity duration-500 mix-blend-luminosity" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-[#141414]/80 to-transparent" />

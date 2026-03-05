@@ -1,10 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
+import { Mail, Phone, MapPin, ArrowRight, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
 
 export default function Contact() {
   useSEO('Contact Us', 'Get in touch with Agentic Services for AI workflows, video marketing, and sovereign hardware nodes.');
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    try {
+      // Simulate network request
+      await new Promise((resolve) => setTimeout(resolve, 1500));
+      setSubmitStatus('success');
+    } catch (error) {
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen">
@@ -62,7 +81,7 @@ export default function Contact() {
               </div>
               <div>
                 <div className="text-sm text-zinc-500 mb-1">Location</div>
-                <div className="text-xl font-medium text-white">Global / Remote</div>
+                <div className="text-xl font-medium text-white">Oakland County Michigan, Wayne County & Metro Detroit</div>
               </div>
             </div>
           </motion.div>
@@ -74,27 +93,54 @@ export default function Contact() {
             className="bg-[#141414] rounded-[2rem] p-8 md:p-10 border border-white/5"
           >
             <h3 className="text-2xl font-medium mb-6">Send a Message</h3>
-            <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="text-sm text-zinc-400">First Name</label>
-                  <input type="text" className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors" placeholder="John" />
+                  <label htmlFor="firstName" className="text-sm text-zinc-400">First Name</label>
+                  <input id="firstName" required type="text" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="John" />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm text-zinc-400">Last Name</label>
-                  <input type="text" className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors" placeholder="Doe" />
+                  <label htmlFor="lastName" className="text-sm text-zinc-400">Last Name</label>
+                  <input id="lastName" required type="text" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="Doe" />
                 </div>
               </div>
               <div className="space-y-2">
-                <label className="text-sm text-zinc-400">Email</label>
-                <input type="email" className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors" placeholder="john@example.com" />
+                <label htmlFor="email" className="text-sm text-zinc-400">Email</label>
+                <input id="email" required type="email" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="john@example.com" />
               </div>
               <div className="space-y-2">
-                <label className="text-sm text-zinc-400">Message</label>
-                <textarea rows={4} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors resize-none" placeholder="How can we help you?"></textarea>
+                <label htmlFor="message" className="text-sm text-zinc-400">Message</label>
+                <textarea id="message" required rows={4} disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors resize-none disabled:opacity-50" placeholder="How can we help you?"></textarea>
               </div>
-              <button className="w-full py-4 bg-orange-500 hover:bg-orange-400 text-black rounded-xl font-medium transition-colors flex items-center justify-center gap-2">
-                Send Message <ArrowRight className="w-4 h-4" />
+              
+              {submitStatus === 'success' && (
+                <div className="p-4 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center gap-3 text-green-400">
+                  <CheckCircle2 className="w-5 h-5 shrink-0" />
+                  <p className="text-sm">Message sent successfully! We'll be in touch soon.</p>
+                </div>
+              )}
+
+              {submitStatus === 'error' && (
+                <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 flex items-center gap-3 text-red-400">
+                  <AlertCircle className="w-5 h-5 shrink-0" />
+                  <p className="text-sm">Something went wrong. Please try again later.</p>
+                </div>
+              )}
+
+              <button 
+                type="submit" 
+                disabled={isSubmitting}
+                className="w-full py-4 bg-orange-500 hover:bg-orange-400 text-black rounded-xl font-medium transition-colors flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed"
+              >
+                {isSubmitting ? (
+                  <>
+                    <Loader2 className="w-5 h-5 animate-spin" /> Sending...
+                  </>
+                ) : (
+                  <>
+                    Send Message <ArrowRight className="w-4 h-4" />
+                  </>
+                )}
               </button>
             </form>
           </motion.div>

@@ -21,7 +21,8 @@ export default function Footer() {
           <div>
             <h4 className="font-medium mb-4">Services</h4>
             <ul className="space-y-3 text-zinc-400 text-sm">
-              <li><Link to="/workflows" className="hover:text-orange-500 transition-colors">Agentic Workflows</Link></li>
+              <li><Link to="/workflows" className="hover:text-orange-500 transition-colors">Automated Workflows</Link></li>
+              <li><Link to="/speed-to-lead" className="hover:text-orange-500 transition-colors">Speed-to-Lead</Link></li>
               <li><Link to="/video" className="hover:text-orange-500 transition-colors">Video Marketing</Link></li>
               <li><Link to="/nodes" className="hover:text-orange-500 transition-colors">Hardware Nodes</Link></li>
             </ul>
@@ -39,10 +40,13 @@ export default function Footer() {
         </div>
         
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/5 text-sm text-zinc-500">
-          <p>© {new Date().getFullYear()} Agentic Services. All rights reserved.</p>
+          <div className="flex flex-col gap-2 text-center md:text-left">
+            <p>© {new Date().getFullYear()} Agentic Services. All rights reserved.</p>
+            <p>Serving Oakland County Michigan, Wayne County & Metro Detroit.</p>
+          </div>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

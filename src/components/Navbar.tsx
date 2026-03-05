@@ -13,7 +13,8 @@ export default function Navbar() {
           <span className="font-semibold text-xl tracking-tight">Agentic<span className="text-orange-500">.</span></span>
         </Link>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
-          <Link to="/workflows" className="hover:text-white transition-colors">Workflows</Link>
+          <Link to="/workflows" className="hover:text-white transition-colors">Automated Workflows</Link>
+          <Link to="/speed-to-lead" className="hover:text-white transition-colors">Speed-to-Lead</Link>
           <Link to="/video" className="hover:text-white transition-colors">Video Marketing</Link>
           <Link to="/nodes" className="hover:text-white transition-colors">Hardware Nodes</Link>
           <Link to="/blog" className="hover:text-white transition-colors">Updates</Link>

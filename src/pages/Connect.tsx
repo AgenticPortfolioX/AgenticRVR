@@ -8,6 +8,7 @@ export default function Connect() {
 
   const [formData, setFormData] = useState({ name: '', email: '', text: '', telegram: '' });
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [contactMethod, setContactMethod] = useState<'text' | 'telegram' | 'email'>('text');
   const [error, setError] = useState('');
 
@@ -46,13 +47,17 @@ END:VCARD`;
       return;
     }
 
-    setSubmitted(true);
+    setIsSubmitting(true);
     // In a real app, this would trigger an API call to send the "Nice to meet you" email/text
     setTimeout(() => {
       setFormData({ name: '', email: '', text: '', telegram: '' });
-      setSubmitted(false);
+      setSubmitted(true);
+      setIsSubmitting(false);
       setContactMethod('text');
-    }, 3000);
+      
+      // Reset success message after a few seconds
+      setTimeout(() => setSubmitted(false), 5000);
+    }, 1500);
   };
 
   return (
@@ -64,24 +69,46 @@ END:VCARD`;
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-8"
+          className="mb-12"
         >
-          <div className="relative inline-block mb-4">
-            <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-orange-500/50 p-1">
-              <div className="w-full h-full rounded-full bg-zinc-800 overflow-hidden">
-                <img 
-                  src="https://i.seadn.io/gae/yNi-XdGxsgQCPpqSio4o31ygAV6wjc54pniMG8qgirj3XKNWKcg4PDq2vw0DVkGjSQ_qA1fPgcZsyclGqlcaCbShz-sOAEjl5CbZOA?auto=format&w=400" 
-                  alt="Justin Gramke" 
-                  className="w-full h-full object-cover"
-                />
+          <div className="flex items-start justify-center gap-6 md:gap-8 max-w-md mx-auto">
+            {/* Main Profile Column */}
+            <div className="flex-1 flex flex-col items-center text-center">
+              <div className="relative inline-block mb-4">
+                <div className="w-28 h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-orange-500/50 p-1">
+                  <div className="w-full h-full rounded-full bg-zinc-800 overflow-hidden">
+                    <img 
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop" 
+                      alt="Justin Gramke" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                <div className="absolute bottom-2 right-2 w-4 h-4 bg-green-500 border-2 border-[#050505] rounded-full"></div>
               </div>
+              <h1 className="text-2xl md:text-3xl font-medium tracking-tight mb-1">Justin Gramke</h1>
+              <p className="text-orange-500 text-sm md:text-base font-medium h-6 flex items-center justify-center">Compliance Architect</p>
             </div>
-            <div className="absolute bottom-2 right-2 w-4 h-4 bg-green-500 border-2 border-[#050505] rounded-full"></div>
+
+            {/* Online Persona (Grams) Column */}
+            <div className="flex-1 flex flex-col items-center text-center translate-x-4 translate-y-8">
+              <div className="relative inline-block mb-4">
+                <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-2 border-orange-500/30 p-1">
+                  <div className="w-full h-full rounded-full bg-zinc-800 overflow-hidden">
+                    <img 
+                      src="https://i.seadn.io/gae/yNi-XdGxsgQCPpqSio4o31ygAV6wjc54pniMG8qgirj3XKNWKcg4PDq2vw0DVkGjSQ_qA1fPgcZsyclGqlcaCbShz-sOAEjl5CbZOA?auto=format&w=400" 
+                      alt="Grams" 
+                      className="w-full h-full object-cover opacity-80"
+                    />
+                  </div>
+                </div>
+              </div>
+              <h2 className="text-lg md:text-xl font-medium tracking-tight mb-1">Grams</h2>
+              <p className="text-orange-500 text-[10px] md:text-xs font-medium uppercase tracking-wider h-6 flex items-center justify-center">Pudgy Penguin #4860</p>
+            </div>
           </div>
           
-          <h1 className="text-3xl font-medium tracking-tight mb-1">Justin "Grams" Gramke</h1>
-          <p className="text-orange-500 font-medium mb-4">Compliance Architect</p>
-          <p className="text-zinc-400 text-sm leading-relaxed px-4">
+          <p className="text-zinc-400 text-sm leading-relaxed px-4 mt-16 text-center">
             Bridging the gap between decentralized agentic systems and institutional compliance frameworks.
           </p>
         </motion.div>
@@ -95,7 +122,7 @@ END:VCARD`;
         >
           <button 
             onClick={handleSaveContact}
-            className="w-full py-4 rounded-2xl bg-gradient-to-r from-orange-500 to-orange-600 text-black font-semibold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity shadow-[0_0_20px_rgba(255,107,0,0.2)]"
+            className="w-full py-4 rounded-2xl bg-gradient-to-r from-orange-400 to-orange-600 text-black font-semibold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity shadow-[0_0_20px_rgba(255,107,0,0.2)]"
           >
             <UserPlus className="w-5 h-5" />
             Save to Contacts
@@ -271,9 +298,22 @@ END:VCARD`;
 
               <button 
                 type="submit"
-                className="w-full py-3 rounded-xl bg-white text-black text-sm font-semibold flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors mt-4"
+                disabled={isSubmitting}
+                className="w-full py-3 rounded-xl bg-white text-black text-sm font-semibold flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors mt-4 disabled:opacity-70 disabled:cursor-not-allowed"
               >
-                Send Details <Send className="w-4 h-4" />
+                {isSubmitting ? (
+                  <>
+                    <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Sending...
+                  </>
+                ) : (
+                  <>
+                    Send Details <Send className="w-4 h-4" />
+                  </>
+                )}
               </button>
             </form>
           )}

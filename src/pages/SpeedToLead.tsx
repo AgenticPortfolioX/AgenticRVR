@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Workflow, Bot, Zap, ArrowRight, CheckCircle2, TrendingUp, Cpu, Network, ShieldCheck } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Zap, Clock, MessageSquare, Calendar, TrendingUp, CheckCircle2, ArrowRight } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
+import { Link } from 'react-router-dom';
 
-export default function AgenticWorkflows() {
-  useSEO('Automated Workflows | Agentic Services', 'Custom AI agents that take action, use tools, and complete complex multi-step processes across your business.');
+export default function SpeedToLead() {
+  useSEO('Speed-to-Lead Agents | Agentic Services', 'AI systems that respond to new leads instantly, 24/7, without human intervention.');
 
   return (
     <div className="pt-24 pb-16 px-6 min-h-screen bg-[#050505]">
@@ -18,20 +18,21 @@ export default function AgenticWorkflows() {
           className="mb-20 text-center max-w-4xl mx-auto"
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-sm text-orange-400 mb-6">
-            <Workflow className="w-4 h-4" />
-            Automated Agentic Workflows
+            <Zap className="w-4 h-4" />
+            Instant Response AI
           </div>
           <h1 className="text-5xl md:text-7xl font-medium tracking-tight mb-6">
-            Automate the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">impossible</span>.
+            The lead never waits.<br />
+            <span className="text-zinc-500">You never miss out.</span>
           </h1>
           <p className="text-xl text-zinc-400 leading-relaxed mb-8">
-            We build custom AI agents that don't just answer questions—they take action, use tools, and complete complex multi-step processes across your business.
+            A speed-to-lead agent is an AI system that responds to new leads instantly, 24/7, without human intervention. Wake up to qualified appointments instead of cold leads.
           </p>
           <Link 
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-zinc-200 transition-colors"
           >
-            Book a Consultation <ArrowRight className="w-4 h-4" />
+            Deploy Your Agent <ArrowRight className="w-4 h-4" />
           </Link>
         </motion.div>
 
@@ -43,36 +44,36 @@ export default function AgenticWorkflows() {
             viewport={{ once: true }}
             className="bg-[#141414] border border-white/5 rounded-[2rem] p-10"
           >
-            <h2 className="text-3xl font-medium mb-6">The Cost of Manual Work</h2>
+            <h2 className="text-3xl font-medium mb-6">Why Speed Matters</h2>
             <p className="text-zinc-400 mb-8">
-              Your most valuable asset is time. Yet, your team spends countless hours on repetitive, rule-based tasks that stifle growth and innovation.
+              The numbers are brutal. Average B2B response time is 42 hours. Most leads are dead by then.
             </p>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center shrink-0">
-                  <span className="text-orange-500 font-bold text-xl">40%</span>
+                  <span className="text-orange-500 font-bold text-xl">78%</span>
                 </div>
                 <div>
-                  <p className="text-white font-medium">Time Wasted</p>
-                  <p className="text-sm text-zinc-500">The average worker spends 40% of their day on manual administrative tasks.</p>
+                  <p className="text-white font-medium">Buy from the first responder</p>
+                  <p className="text-sm text-zinc-500">Customers buy from the company that responds first.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center shrink-0">
-                  <span className="text-orange-500 font-bold text-xl">10x</span>
+                  <span className="text-orange-500 font-bold text-xl">21x</span>
                 </div>
                 <div>
-                  <p className="text-white font-medium">Error Reduction</p>
-                  <p className="text-sm text-zinc-500">Automated systems reduce data entry and processing errors by up to 10x.</p>
+                  <p className="text-white font-medium">More likely to qualify</p>
+                  <p className="text-sm text-zinc-500">Responding in 5 minutes vs 30 minutes increases qualification by 21x.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center shrink-0">
-                  <span className="text-orange-500 font-bold text-xl">24/7</span>
+                  <span className="text-orange-500 font-bold text-xl">50%</span>
                 </div>
                 <div>
-                  <p className="text-white font-medium">Continuous Operation</p>
-                  <p className="text-sm text-zinc-500">Agents don't sleep. They process data, generate reports, and trigger actions around the clock.</p>
+                  <p className="text-white font-medium">Go to the fastest vendor</p>
+                  <p className="text-sm text-zinc-500">Half of all leads go to the vendor that responds first.</p>
                 </div>
               </div>
             </div>
@@ -84,19 +85,19 @@ export default function AgenticWorkflows() {
             viewport={{ once: true }}
             className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-[2rem] p-10 text-black flex flex-col justify-center"
           >
-            <h2 className="text-3xl font-medium mb-6">Beyond Chatbots</h2>
+            <h2 className="text-3xl font-medium mb-6">The Intelligent Difference</h2>
             <p className="text-black/80 text-lg mb-8 font-medium">
-              Traditional AI just generates text. Agentic workflows actually execute tasks across your software stack.
+              Speed-to-lead isn't just about being fast. It's about being fast AND intelligent.
             </p>
             
             <div className="bg-black/10 rounded-xl p-6 mb-4 backdrop-blur-sm border border-black/10">
-              <div className="text-xs font-bold uppercase tracking-wider text-black/60 mb-2">Standard AI</div>
-              <p className="font-medium">"Here is a draft of an email you can send to your client."</p>
+              <div className="text-xs font-bold uppercase tracking-wider text-black/60 mb-2">Dumb Autoresponder ($50/mo)</div>
+              <p className="font-medium">"Thanks for your inquiry, we'll be in touch soon."</p>
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-xl">
-              <div className="text-xs font-bold uppercase tracking-wider text-orange-500 mb-2">Agentic Workflow</div>
-              <p className="font-medium text-black">"I retrieved the client data from Salesforce, drafted the proposal, generated the PDF, and emailed it to the client. I've also updated the CRM status to 'Proposal Sent'."</p>
+              <div className="text-xs font-bold uppercase tracking-wider text-orange-500 mb-2">Our Agentic Solution ($500/mo)</div>
+              <p className="font-medium text-black">"Hey John, thanks for reaching out about our landscaping services. Quick question: is this for a residential or commercial project?"</p>
             </div>
           </motion.div>
         </div>
@@ -104,28 +105,28 @@ export default function AgenticWorkflows() {
         {/* How It Works */}
         <div className="mb-24">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-medium tracking-tight mb-4">Our Process</h2>
+            <h2 className="text-4xl font-medium tracking-tight mb-4">How It Works</h2>
             <p className="text-zinc-400 max-w-2xl mx-auto">
-              We don't just hand you software. We architect, build, and deploy custom agents tailored to your exact operational needs.
+              When someone submits a form on your website, our agent takes over instantly.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                icon: <Network className="w-6 h-6 text-orange-500" />,
-                title: "Process Discovery",
-                desc: "We analyze your current manual workflows to identify high-ROI automation targets and map the exact logic required."
+                icon: <Clock className="w-6 h-6 text-orange-500" />,
+                title: "Instant Response",
+                desc: "Responds within seconds via text, email, or call."
               },
               {
-                icon: <Cpu className="w-6 h-6 text-orange-500" />,
-                title: "Agent Architecture",
-                desc: "We design specialized AI agents equipped with the exact tools, API connections, and decision-making frameworks they need."
+                icon: <MessageSquare className="w-6 h-6 text-orange-500" />,
+                title: "Qualifies Leads",
+                desc: "Asks qualifying questions and captures key information."
               },
               {
-                icon: <ShieldCheck className="w-6 h-6 text-orange-500" />,
-                title: "Deployment & Monitoring",
-                desc: "Agents are deployed into your environment with full observability, error handling, and human-in-the-loop controls."
+                icon: <Calendar className="w-6 h-6 text-orange-500" />,
+                title: "Books Meetings",
+                desc: "Books a meeting directly on your calendar or sends a quote."
               }
             ].map((feature, i) => (
               <motion.div 
@@ -154,21 +155,21 @@ export default function AgenticWorkflows() {
           className="bg-[#141414] border border-white/5 rounded-[2rem] p-10 md:p-16 text-center"
         >
           <TrendingUp className="w-12 h-12 text-orange-500 mx-auto mb-6" />
-          <h2 className="text-3xl md:text-4xl font-medium mb-6">Scale Without Overhead</h2>
+          <h2 className="text-3xl md:text-4xl font-medium mb-6">Real Results</h2>
           <p className="text-xl text-zinc-400 max-w-3xl mx-auto mb-10">
-            By automating complex workflows, businesses can scale their operations <span className="text-white font-medium">exponentially</span> without linearly increasing their headcount or operational costs.
+            This isn't theoretical. We've seen contractors, real estate agents, and service businesses increase close rates by <span className="text-white font-medium">30-50%</span> just by responding faster.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <div className="flex items-center gap-2 text-zinc-300">
-              <CheckCircle2 className="w-5 h-5 text-green-500" /> API Integrations
+              <CheckCircle2 className="w-5 h-5 text-green-500" /> 24/7 Operation
             </div>
             <div className="hidden sm:block text-zinc-600">•</div>
             <div className="flex items-center gap-2 text-zinc-300">
-              <CheckCircle2 className="w-5 h-5 text-green-500" /> Multi-Step Reasoning
+              <CheckCircle2 className="w-5 h-5 text-green-500" /> Zero Human Intervention
             </div>
             <div className="hidden sm:block text-zinc-600">•</div>
             <div className="flex items-center gap-2 text-zinc-300">
-              <CheckCircle2 className="w-5 h-5 text-green-500" /> Human-in-the-loop
+              <CheckCircle2 className="w-5 h-5 text-green-500" /> Instant Notifications
             </div>
           </div>
         </motion.div>

@@ -1,8 +1,12 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 import { Server, Zap, Bitcoin, MessageSquare, Bot, TrendingUp } from 'lucide-react';
+import { useSEO } from '../hooks/useSEO';
 
 export default function AgenticNodes() {
+  useSEO('Hardware Nodes | Agentic Services', 'Combine the security of Bitcoin, the speed of Lightning, and the freedom of Nostr in one sleek, silent device.');
+
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen">
       <div className="max-w-7xl mx-auto">
@@ -44,17 +48,17 @@ export default function AgenticNodes() {
           <div className="relative bg-[#050505] border border-white/10 rounded-[2rem] p-12 md:p-16 text-center overflow-hidden">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-1/2 bg-orange-500/10 blur-[100px]" />
             <Bitcoin className="w-16 h-16 text-orange-500 mx-auto mb-8 relative z-10" />
-            <h4 className="text-4xl md:text-5xl font-medium mb-6 relative z-10 tracking-tight">The Agentic Node</h4>
+            <h4 className="text-4xl md:text-5xl font-medium mb-6 relative z-10 tracking-tight">The Agentic Bitcoin Node</h4>
             <p className="text-zinc-400 text-lg md:text-xl mb-10 relative z-10 max-w-xl mx-auto leading-relaxed">
               Your personal AI agent lives here. It autonomously manages your node, routes Lightning payments, and interacts with Bitcoin and Nostr applications on your behalf.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 relative z-10">
-              <button className="px-8 py-4 bg-white text-black rounded-full font-semibold hover:scale-105 transition-transform flex items-center justify-center gap-2 w-full sm:w-auto">
+              <Link to="/order-node?model=base" className="px-8 py-4 bg-white text-black rounded-full font-semibold hover:scale-105 transition-transform flex items-center justify-center gap-2 w-full sm:w-auto">
                 Base Node <span className="text-zinc-500 font-normal">|</span> $1,400
-              </button>
-              <button className="px-8 py-4 bg-orange-500 text-black rounded-full font-semibold hover:scale-105 transition-transform flex items-center justify-center gap-2 w-full sm:w-auto">
+              </Link>
+              <Link to="/order-node?model=pro" className="px-8 py-4 bg-orange-500 text-black rounded-full font-semibold hover:scale-105 transition-transform flex items-center justify-center gap-2 w-full sm:w-auto">
                 Pro Node <span className="text-black/60 font-normal">|</span> $1,900
-              </button>
+              </Link>
             </div>
           </div>
         </motion.div>
@@ -159,7 +163,7 @@ export default function AgenticNodes() {
                <li className="flex items-center gap-4 text-zinc-300"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Bitcoin, Lightning & Nostr</li>
                <li className="flex items-center gap-4 text-zinc-300"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Base AI Agent Manager</li>
              </ul>
-             <button className="w-full py-4 bg-white/10 hover:bg-white/20 text-white rounded-full font-medium transition-colors">Order Base Node</button>
+             <Link to="/order-node?model=base" className="w-full py-4 bg-white/10 hover:bg-white/20 text-white rounded-full font-medium transition-colors text-center block">Order Base Node</Link>
            </div>
            
            {/* Pro Model */}
@@ -175,7 +179,7 @@ export default function AgenticNodes() {
                <li className="flex items-center gap-4 text-white font-medium"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Polymarket Trading Bot</li>
                <li className="flex items-center gap-4 text-white font-medium"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Hyperliquid Execution Bot</li>
              </ul>
-             <button className="w-full py-4 bg-orange-500 hover:bg-orange-400 text-black rounded-full font-medium transition-colors shadow-[0_0_30px_rgba(255,107,0,0.3)]">Order Pro Node</button>
+             <Link to="/order-node?model=pro" className="w-full py-4 bg-orange-500 hover:bg-orange-400 text-black rounded-full font-medium transition-colors shadow-[0_0_30px_rgba(255,107,0,0.3)] text-center block">Order Pro Node</Link>
            </div>
         </motion.div>
 

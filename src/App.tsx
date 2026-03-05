@@ -21,7 +21,7 @@ import OrderNode from './pages/OrderNode';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Agentic-Website">
       <ScrollToTop />
       <div className="min-h-screen bg-[#050505] text-white selection:bg-orange-500/30">
         <Navbar />

@@ -326,10 +326,10 @@ END:VCARD`;
           <a href="#" className="text-zinc-500 hover:text-white transition-colors">
             <Twitter className="w-5 h-5" />
           </a>
-          <a href="https://github.com/bloodsport121" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-white transition-colors">
+          <a href="https://github.com/AgenticPortfolioX/Chainlink-CRE-Agentic-Compliance-Bridge" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-white transition-colors">
             <Github className="w-5 h-5" />
           </a>
-          <a href="#" className="text-zinc-500 hover:text-white transition-colors">
+          <a href="https://www.instagram.com/grams12121/" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-white transition-colors">
             <Instagram className="w-5 h-5" />
           </a>
         </motion.div>

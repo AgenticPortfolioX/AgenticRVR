@@ -48,7 +48,7 @@ export default function Footer() {
           <div className="flex gap-4 sm:gap-6 mt-4 md:mt-0 flex-wrap justify-center sm:justify-end">
             <Link to="/opt-in" className="hover:text-white transition-colors">SMS Proof of Consent</Link>
             <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+            <Link to="/terms" className="hover:text-white transition-colors">Terms &amp; Conditions</Link>
           </div>
         </div>
       </div>

@@ -1,10 +1,11 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ShieldCheck, MessageSquare, CheckSquare, Info } from 'lucide-react';
+import { ShieldCheck, MessageSquare, Smartphone, Info, Lock } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
+import { Link } from 'react-router-dom';
 
 export default function OptInStory() {
-  useSEO('SMS Opt-In & Proof of Consent | Agentic Services', 'Details on how Agentic Services collects consumer consent for SMS text messaging campaigns.');
+  useSEO('SMS Opt-In Information | Agentic Services', 'Details on how to opt-in to our messaging service and mandatory legal disclosures.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen bg-[#050505]">
@@ -12,66 +13,22 @@ export default function OptInStory() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-16"
+          className="mb-16 text-center"
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-sm text-orange-400 mb-6">
             <ShieldCheck className="w-4 h-4" />
-            Proof of Consent
+            Compliance Verified
           </div>
           <h1 className="text-4xl md:text-5xl font-medium tracking-tight mb-6">
-            SMS Opt-In <span className="text-orange-500">Story</span>
+            Stay Connected <span className="text-orange-500">via Text</span>
           </h1>
-          <p className="text-lg text-zinc-400 leading-relaxed max-w-2xl">
-            This document outlines the exact narrative of how Agentic Services obtains explicit consumer consent to receive SMS communications, in compliance with A2P 10DLC regulations.
+          <p className="text-lg text-zinc-400 leading-relaxed max-w-2xl mx-auto">
+            To opt-in to our messaging service, please text <span className="text-white font-bold">START</span> to <span className="text-white font-bold">+18444916828</span> from your mobile device.
           </p>
         </motion.div>
 
-        <div className="space-y-12">
-          {/* Section 1: Where Consent is Collected */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="bg-[#141414] border border-white/5 rounded-3xl p-8 md:p-10"
-          >
-            <div className="flex items-center gap-4 mb-6 border-b border-white/5 pb-6">
-              <div className="w-12 h-12 rounded-xl bg-white/5 flex items-center justify-center shrink-0">
-                <CheckSquare className="w-6 h-6 text-orange-500" />
-              </div>
-              <h2 className="text-2xl font-medium">1. Mechanism of Consent</h2>
-            </div>
-            <div className="space-y-6 text-zinc-300">
-              <p>
-                Consumers who wish to connect with Agentic Services or Justin Gramke can navigate to our web forms located at <strong>agenticservices.com/contact</strong> or <strong>agenticservices.com/connect</strong>.
-              </p>
-              <p>
-                To provide consent, the consumer must manually check an empty, un-checked by default checkbox prior to submitting their contact information. We do not use pre-checked boxes, nor do we infer consent from the submission of a phone number alone.
-              </p>
-            </div>
-          </motion.div>
-
-          {/* Section 2: Exact Language */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="bg-[#141414] border border-white/5 rounded-3xl p-8 md:p-10"
-          >
-            <div className="flex items-center gap-4 mb-6 border-b border-white/5 pb-6">
-              <div className="w-12 h-12 rounded-xl bg-white/5 flex items-center justify-center shrink-0">
-                <MessageSquare className="w-6 h-6 text-orange-500" />
-              </div>
-              <h2 className="text-2xl font-medium">2. The Consent Language</h2>
-            </div>
-            <p className="text-zinc-300 mb-6">
-              Next to the required checkbox on our intake forms, the consumer is presented with the following explicit language:
-            </p>
-            <div className="bg-orange-500/10 border border-orange-500/20 rounded-xl p-6 text-orange-100 font-medium italic">
-              "By checking this box, I agree to receive SMS text messages from Agentic Services regarding my inquiry, appointments, and services. Reply STOP to opt-out at any time. Message and data rates may apply. Read our Privacy Policy for more details."
-            </div>
-          </motion.div>
-
-          {/* Section 3: Opt-out Process */}
+        <div className="space-y-8">
+          {/* Section 1: Detailed Disclosure */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -82,15 +39,46 @@ export default function OptInStory() {
               <div className="w-12 h-12 rounded-xl bg-white/5 flex items-center justify-center shrink-0">
                 <Info className="w-6 h-6 text-orange-500" />
               </div>
-              <h2 className="text-2xl font-medium">3. Opt-Out Instructions</h2>
+              <h2 className="text-2xl font-medium">Mandatory Disclosure</h2>
             </div>
-            <div className="space-y-6 text-zinc-300">
-              <p>
-                Agentic Services honors all opt-out requests instantly. Consumers are informed of their right to opt-out at the point of consent.
+            <div className="space-y-6">
+              <p className="text-zinc-300 leading-relaxed">
+                By texting START to +18444916828, you consent to receive recurring automated text messages from Agentic Services regarding service updates and scheduling. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to cancel, HELP for help.
               </p>
-              <p>
-                To revoke consent, a consumer simply needs to reply with the word <strong>STOP</strong> to any message received from our business numbers. Upon receipt of the "STOP" keyword, our system automatically removes the number from all messaging campaigns. No further messages will be sent unless the consumer opts-in again explicitly with a "START" command.
-              </p>
+            </div>
+          </motion.div>
+
+          {/* Section 2: Privacy Assurance */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-[#141414] border border-white/5 rounded-3xl p-8 md:p-10"
+          >
+            <div className="flex items-center gap-4 mb-6 border-b border-white/5 pb-6">
+              <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center shrink-0">
+                <Lock className="w-6 h-6 text-orange-500" />
+              </div>
+              <h2 className="text-2xl font-medium text-white">Privacy Assurance</h2>
+            </div>
+            <p className="text-zinc-300 leading-relaxed italic">
+              "Your mobile information will not be shared with third parties for marketing or promotional purposes."
+            </p>
+          </motion.div>
+
+          {/* Section 3: Policies Link */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center pt-8"
+          >
+            <p className="text-zinc-500 text-sm mb-4">
+              Detailed terms regarding our messaging program can be found in our:
+            </p>
+            <div className="flex items-center justify-center gap-6">
+              <Link to="/terms" className="text-orange-500 hover:text-orange-400 font-medium underline underline-offset-4 decoration-orange-500/20">Terms & Conditions</Link>
+              <Link to="/privacy" className="text-orange-500 hover:text-orange-400 font-medium underline underline-offset-4 decoration-orange-500/20">Privacy Policy</Link>
             </div>
           </motion.div>
 

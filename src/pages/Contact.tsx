@@ -162,6 +162,30 @@ export default function Contact() {
             </form>
           </motion.div>
         </div>
+
+        {/* SMS Text-In Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4 }}
+          className="mt-20 pt-12 border-t border-white/5 text-center max-w-3xl mx-auto"
+        >
+          <p className="text-xl text-white font-medium mb-4">
+            To receive project updates or schedule an appointment via text, message <span className="text-orange-500 font-bold">START</span> to <span className="text-orange-500 font-bold">+18444916828</span>.
+          </p>
+          <div className="space-y-4">
+            <p className="text-xs text-zinc-500 leading-relaxed uppercase tracking-widest font-semibold opacity-50">
+              Mandatory Disclaimer
+            </p>
+            <p className="text-sm text-zinc-400 leading-relaxed">
+              By texting START to +18444916828, you consent to receive recurring automated text messages from Agentic Services regarding service updates and scheduling. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to cancel, HELP for help.
+            </p>
+            <div className="flex items-center justify-center gap-6 text-xs transition-colors">
+              <a href="/privacy" className="text-zinc-500 hover:text-orange-500 underline underline-offset-4 decoration-zinc-800 hover:decoration-orange-500/30">Privacy Policy</a>
+              <a href="/terms" className="text-zinc-500 hover:text-orange-500 underline underline-offset-4 decoration-zinc-800 hover:decoration-orange-500/30">Terms & Conditions</a>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </div>
   );

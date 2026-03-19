@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 
 export default function AgenticWorkflows() {
-  useSEO('Automated Workflows | Agentic Services', 'Custom AI agents that take action, use tools, and complete complex multi-step processes across your business.');
+  useSEO('Automated Workflows | Renowed Value Restoration LLC', 'Custom AI agents that take action, use tools, and complete complex multi-step processes across your business.');
 
   return (
     <div className="pt-24 pb-16 px-6 min-h-screen bg-[#050505]">
@@ -19,7 +19,7 @@ export default function AgenticWorkflows() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-sm text-orange-400 mb-6">
             <Workflow className="w-4 h-4" />
-            Automated Agentic Workflows
+            Automated Restoration Workflows
           </div>
           <h1 className="text-5xl md:text-7xl font-medium tracking-tight mb-6">
             Automate the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">impossible</span>.

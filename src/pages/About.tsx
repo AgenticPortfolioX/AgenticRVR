@@ -4,7 +4,7 @@ import { Sparkles, Target, Users, Zap } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
 
 export default function About() {
-  useSEO('About Us', 'Learn more about Agentic Services, our mission, and our three core pillars.');
+  useSEO('About Us', 'Learn more about Renowed Value Restoration LLC, our mission, and our three core pillars.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen">
@@ -24,7 +24,7 @@ export default function About() {
             transition={{ delay: 0.1 }}
             className="text-5xl md:text-7xl font-medium tracking-tight mb-6"
           >
-            Pioneering the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Agentic</span> Era.
+            Pioneering the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Restoration</span> Era.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -32,7 +32,7 @@ export default function About() {
             transition={{ delay: 0.2 }}
             className="text-xl text-zinc-400 max-w-3xl mx-auto leading-relaxed"
           >
-            We believe the future belongs to those who automate the mundane and secure their sovereignty. Agentic Services was founded to bridge the gap between cutting-edge AI, high-end creative media, and decentralized hardware.
+            We believe the future belongs to those who automate the mundane and secure their sovereignty. Renowed Value Restoration LLC was founded to bridge the gap between cutting-edge AI, high-end creative media, and decentralized hardware.
           </motion.p>
         </div>
 

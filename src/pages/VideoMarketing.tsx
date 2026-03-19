@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 
 export default function VideoMarketing() {
-  useSEO('Video Marketing | Agentic Services', 'High-performance ad creatives, cinematic real estate flythroughs, and 3D graphics that convert.');
+  useSEO('Video Marketing | Renowed Value Restoration LLC', 'High-performance ad creatives, cinematic real estate flythroughs, and 3D graphics that convert.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen">

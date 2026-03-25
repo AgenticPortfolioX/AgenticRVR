@@ -12,7 +12,7 @@ export default function Navbar() {
           </div>
           <span className="font-semibold text-xl tracking-tight">Renowed Value Restoration LLC<span className="text-orange-500">.</span></span>
         </Link>
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
+        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400 mr-8">
           <Link to="/workflows" className="hover:text-white transition-colors">Automated Workflows</Link>
           <Link to="/speed-to-lead" className="hover:text-white transition-colors">Speed-to-Lead</Link>
           <Link to="/replies" className="hover:text-white transition-colors">Respond Agent</Link>
@@ -20,7 +20,7 @@ export default function Navbar() {
           <Link to="/nodes" className="hover:text-white transition-colors">Hardware Nodes</Link>
           <Link to="/blog" className="hover:text-white transition-colors">Updates</Link>
         </div>
-        <Link to="/contact" className="bg-white text-black px-5 py-2.5 rounded-full text-sm font-medium hover:bg-zinc-200 transition-colors">
+        <Link to="/contact" className="bg-white text-black px-6 py-2.5 rounded-full text-sm font-medium hover:bg-zinc-200 transition-colors inline-grid place-items-center">
           Get Started
         </Link>
       </div>

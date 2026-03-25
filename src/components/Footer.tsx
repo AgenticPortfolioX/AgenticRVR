@@ -17,8 +17,8 @@ export default function Footer() {
               Building the future of automated workflows, high-converting video marketing assets, and sovereign hardware nodes.
             </p>
             <div className="text-zinc-500 text-sm space-y-1">
-              <p>2711 williamsburg Cir</p>
-              <p>Auburn hills, Michigan 48326</p>
+              <p>2711 Williamsburg Cir</p>
+              <p>Auburn Hills, Michigan 48326</p>
             </div>
           </div>
           

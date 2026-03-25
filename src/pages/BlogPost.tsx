@@ -9,7 +9,7 @@ import { useSEO } from '../hooks/useSEO';
 
 const getCategoryIcon = (category: string) => {
   switch (category) {
-    case 'Restoration Workflows': return Workflow;
+    case 'Agentic Workflows': return Workflow;
     case 'Video Marketing': return Video;
     case 'Hardware Nodes': return Server;
     default: return Workflow;

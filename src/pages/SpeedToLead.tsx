@@ -96,7 +96,7 @@ export default function SpeedToLead() {
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-xl">
-              <div className="text-xs font-bold uppercase tracking-wider text-orange-500 mb-2">Our Restoration Solution ($500/mo)</div>
+              <div className="text-xs font-bold uppercase tracking-wider text-orange-500 mb-2">Our Agentic Solution ($500/mo)</div>
               <p className="font-medium text-black">"Hey John, thanks for reaching out about our landscaping services. Quick question: is this for a residential or commercial project?"</p>
             </div>
           </motion.div>

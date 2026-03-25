@@ -5,7 +5,7 @@ import { useSEO } from '../hooks/useSEO';
 import { Link } from 'react-router-dom';
 
 export default function AgenticReplies() {
-  useSEO('Restoration Replies | Automated Review Responses', 'Instantly reply to every customer review with intelligent, brand-consistent AI responses that drive local SEO and engagement.');
+  useSEO('Agentic Replies | Automated Review Responses', 'Instantly reply to every customer review with intelligent, brand-consistent AI responses that drive local SEO and engagement.');
 
   return (
     <div className="pt-24 pb-16 px-6 min-h-screen bg-[#050505]">

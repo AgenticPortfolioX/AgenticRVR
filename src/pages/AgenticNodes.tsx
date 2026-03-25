@@ -48,7 +48,7 @@ export default function AgenticNodes() {
           <div className="relative bg-[#050505] border border-white/10 rounded-[2rem] p-12 md:p-16 text-center overflow-hidden">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-1/2 bg-orange-500/10 blur-[100px]" />
             <Bitcoin className="w-16 h-16 text-orange-500 mx-auto mb-8 relative z-10" />
-            <h4 className="text-4xl md:text-5xl font-medium mb-6 relative z-10 tracking-tight">The Restoration Bitcoin Node</h4>
+            <h4 className="text-4xl md:text-5xl font-medium mb-6 relative z-10 tracking-tight">The Agentic Bitcoin Node</h4>
             <p className="text-zinc-400 text-lg md:text-xl mb-10 relative z-10 max-w-xl mx-auto leading-relaxed">
               Your personal AI agent lives here. It autonomously manages your node, routes Lightning payments, and interacts with Bitcoin and Nostr applications on your behalf.
             </p>
@@ -87,7 +87,7 @@ export default function AgenticNodes() {
           ))}
         </div>
 
-        {/* Middle Section: Autonomous Restoration Control */}
+        {/* Middle Section: Autonomous Agentic Control */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -98,7 +98,7 @@ export default function AgenticNodes() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-medium mb-6">
               <Bot className="w-4 h-4" /> Built-in Intelligence
             </div>
-            <h3 className="text-3xl md:text-4xl font-medium mb-6">Restoration Control</h3>
+            <h3 className="text-3xl md:text-4xl font-medium mb-6">Agentic Control</h3>
             <p className="text-zinc-400 text-lg leading-relaxed mb-8">
               Your node isn't just a passive server; it's an active financial agent. It comes equipped with an AI that manages your infrastructure and executes strategies while you sleep.
             </p>

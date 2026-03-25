@@ -24,7 +24,7 @@ export default function About() {
             transition={{ delay: 0.1 }}
             className="text-5xl md:text-7xl font-medium tracking-tight mb-6"
           >
-            Pioneering the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Restoration</span> Era.
+            Pioneering the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Agentic</span> Era.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

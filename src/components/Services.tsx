@@ -20,7 +20,7 @@ export default function Services() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[320px]">
-          {/* Restoration Workflows - Large Card */}
+          {/* Agentic Workflows - Large Card */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -35,7 +35,7 @@ export default function Services() {
               </div>
               
               <div>
-                <h3 className="text-3xl font-medium mb-3">Restoration Workflows</h3>
+                <h3 className="text-3xl font-medium mb-3">Agentic Workflows</h3>
                 <p className="text-zinc-400 text-lg max-w-md mb-6">
                   Automate the mundane. Scale the extraordinary. Custom AI agents designed for your unique business processes.
                 </p>
@@ -76,7 +76,7 @@ export default function Services() {
               </div>
             </motion.div>
 
-            {/* Restoration Reviews - Half Card */}
+            {/* Agentic Reviews - Half Card */}
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -91,7 +91,7 @@ export default function Services() {
                   <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-white/5 to-white/[0.02] flex items-center justify-center border border-white/10">
                     <Sparkles className="w-5 h-5 text-orange-500" />
                   </div>
-                  <h3 className="text-xl font-medium">Restoration Replies</h3>
+                  <h3 className="text-xl font-medium">Agentic Replies</h3>
                 </div>
                 
                 <div className="flex items-center justify-between gap-4">
@@ -122,7 +122,7 @@ export default function Services() {
               <div>
                 <h3 className="text-3xl font-medium mb-2">Hardware Nodes</h3>
                 <p className="text-black/70 font-medium mb-4 text-sm">
-                  Sovereign Bitcoin, Lightning, and NOSTR Nodes with Restoration Ai Management.
+                  Sovereign Bitcoin, Lightning, and NOSTR Nodes with Agentic Ai Management.
                 </p>
                 <Link to="/nodes" className="flex items-center gap-2 text-sm font-medium text-black hover:text-black/70 transition-colors">
                   View Specs <ArrowUpRight className="w-4 h-4" />

@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const getCategoryIcon = (category: string) => {
   switch (category) {
-    case 'Restoration Workflows': return Workflow;
+    case 'Agentic Workflows': return Workflow;
     case 'Video Marketing': return Video;
     case 'Hardware Nodes': return Server;
     default: return Workflow;
@@ -50,7 +50,7 @@ export default function Blog() {
           transition={{ delay: 0.2 }}
           className="flex flex-wrap justify-center gap-4 mb-16"
         >
-          {['All', 'Restoration Workflows', 'Video Marketing', 'Hardware Nodes'].map((cat) => (
+          {['All', 'Agentic Workflows', 'Video Marketing', 'Hardware Nodes'].map((cat) => (
             <button
               key={cat}
               onClick={() => setFilter(cat)}

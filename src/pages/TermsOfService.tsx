@@ -51,16 +51,7 @@ export default function TermsOfService() {
               The materials appearing on Renowed Value Restoration LLC's website could include technical, typographical, or photographic errors. Renowed Value Restoration LLC does not warrant that any of the materials on its website are accurate, complete, or current. Renowed Value Restoration LLC may make changes to the materials contained on its website at any time without notice.
             </p>
 
-            <h2 className="text-2xl font-medium text-white mt-12 mb-4">6. SMS Communications</h2>
-            <p className="mb-4">
-              By opting in to receive SMS text messages from Renowed Value Restoration LLC, you agree to receive recurring automated promotional and personalized marketing text messages (e.g., appointment reminders, service updates) from us.
-            </p>
-            <ul className="list-disc pl-6 space-y-2 mb-6 text-zinc-300">
-              <li><strong>Message and data rates may apply.</strong></li>
-              <li>You can cancel the SMS service at any time. Simply text "<strong>STOP</strong>" to the shortcode or number you received the message from. Upon sending "STOP," we will confirm your unsubscribe status via SMS. Following this confirmation, you will no longer receive SMS messages from us. To rejoin, sign up as you did initially, and we will resume sending SMS messages to you.</li>
-              <li>If you experience issues with the messaging program you can reply with the keyword "<strong>HELP</strong>" for more assistance, or you can get help directly at valuerestoration@gmail.com.</li>
-              <li>Carriers are not liable for delayed or undelivered messages.</li>
-            </ul>
+
 
             <h2 className="text-2xl font-medium text-white mt-12 mb-4">7. Governing Law</h2>
             <p>

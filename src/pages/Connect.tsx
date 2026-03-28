@@ -266,19 +266,7 @@ END:VCARD`;
                       <p className="text-xs text-zinc-500 px-1 mt-2">We'll text you.</p>
                     </div>
 
-                    <div className="flex items-start gap-3 bg-[#0a0a0a]/50 border border-white/5 p-3 rounded-xl">
-                      <div className="flex items-center h-4 mt-0.5">
-                        <input id="connect-sms-consent" type="checkbox" required className="w-4 h-4 rounded border-white/10 bg-[#0a0a0a] text-orange-500" />
-                      </div>
-                      <div className="text-xs">
-                        <label htmlFor="connect-sms-consent" className="font-medium text-zinc-300">
-                          I agree to receive SMS text messages.
-                        </label>
-                        <p className="text-zinc-500 mt-1 leading-relaxed">
-                          By checking this box, I agree to receive SMS text messages from Renowed Value Restoration LLC. Reply STOP to opt-out. Msg & data rates may apply. See our <a href="opt-in" className="text-orange-500 hover:text-orange-400">Proof of Consent</a>.
-                        </p>
-                      </div>
-                    </div>
+
                   </motion.div>
                 )}
                 {contactMethod === 'telegram' && (

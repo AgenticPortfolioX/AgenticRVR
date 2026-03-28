@@ -42,13 +42,7 @@ export default function PrivacyPolicy() {
               <li>Find and prevent fraud</li>
             </ul>
 
-            <h2 className="text-2xl font-medium text-white mt-12 mb-4">SMS Text Messaging & Consent Data</h2>
-            <p>
-              We value your privacy and the security of your communications. If you provide explicit consent to receive SMS text messages from Renowed Value Restoration LLC, we will use your mobile number solely for the purpose of communicating regarding your inquiries, appointments, and related services.
-            </p>
-            <div className="bg-orange-500/10 border border-orange-500/20 rounded-xl p-6 mt-4">
-              <strong className="text-orange-400">Important:</strong> No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
-            </div>
+
 
             <h2 className="text-2xl font-medium text-white mt-12 mb-4">Log Files</h2>
             <p>

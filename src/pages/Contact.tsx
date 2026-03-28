@@ -109,7 +109,7 @@ export default function Contact() {
                 <input id="email" required type="email" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="john@example.com" />
               </div>
               <div className="space-y-2">
-                <label htmlFor="phone" className="text-sm text-zinc-400">Phone Number (Optional for Email, Required for SMS)</label>
+                <label htmlFor="phone" className="text-sm text-zinc-400">Phone Number</label>
                 <input id="phone" type="tel" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="(555) 123-4567" />
               </div>
               <div className="space-y-2">
@@ -117,19 +117,7 @@ export default function Contact() {
                 <textarea id="message" required rows={4} disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors resize-none disabled:opacity-50" placeholder="How can we help you?"></textarea>
               </div>
               
-              <div className="flex items-start gap-3 mt-4 mb-2">
-                <div className="flex items-center h-5 mt-1">
-                  <input id="sms-consent" type="checkbox" required className="w-4 h-4 rounded border-white/10 bg-[#0a0a0a] text-orange-500 focus:ring-orange-500 focus:ring-offset-[#0a0a0a] transition-colors" />
-                </div>
-                <div className="text-sm">
-                  <label htmlFor="sms-consent" className="font-medium text-zinc-300">
-                    I agree to receive SMS text messages.
-                  </label>
-                  <p className="text-zinc-500 text-xs mt-1 leading-relaxed">
-                    By checking this box, I agree to receive SMS text messages from Renowed Value Restoration LLC regarding my inquiry, appointments, and services. Reply STOP to opt-out at any time. Message and data rates may apply. Read our <a href="privacy" className="text-orange-500 hover:text-orange-400 transition-colors">Privacy Policy</a> or <a href="opt-in" className="text-orange-500 hover:text-orange-400 transition-colors">Proof of Consent</a>.
-                  </p>
-                </div>
-              </div>
+
               {submitStatus === 'success' && (
                 <div className="p-4 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center gap-3 text-green-400">
                   <CheckCircle2 className="w-5 h-5 shrink-0" />
@@ -163,29 +151,7 @@ export default function Contact() {
           </motion.div>
         </div>
 
-        {/* SMS Text-In Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          className="mt-20 pt-12 border-t border-white/5 text-center max-w-3xl mx-auto"
-        >
-          <p className="text-xl text-white font-medium mb-4">
-            To receive project updates or schedule an appointment via text, message <span className="text-orange-500 font-bold">START</span> to <span className="text-orange-500 font-bold">+18444916828</span>.
-          </p>
-          <div className="space-y-4">
-            <p className="text-xs text-zinc-500 leading-relaxed uppercase tracking-widest font-semibold opacity-50">
-              Mandatory Disclaimer
-            </p>
-            <p className="text-sm text-zinc-400 leading-relaxed">
-              By texting START to +18444916828, you consent to receive recurring automated text messages from Renowed Value Restoration LLC regarding service updates and scheduling. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to cancel, HELP for help.
-            </p>
-            <div className="flex items-center justify-center gap-6 text-xs transition-colors">
-              <a href="privacy" className="text-zinc-500 hover:text-orange-500 underline underline-offset-4 decoration-zinc-800 hover:decoration-orange-500/30">Privacy Policy</a>
-              <a href="terms" className="text-zinc-500 hover:text-orange-500 underline underline-offset-4 decoration-zinc-800 hover:decoration-orange-500/30">Terms & Conditions</a>
-            </div>
-          </div>
-        </motion.div>
+
       </div>
     </div>
   );

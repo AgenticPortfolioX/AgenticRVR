@@ -80,8 +80,8 @@ END:VCARD`;
                 <div className="w-28 h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-orange-500/50 p-1">
                   <div className="w-full h-full rounded-full bg-zinc-800 overflow-hidden">
                     <img
-                      src="headshot.jpg"
-                      alt="Justin Gramke"
+                      src="penguin.jpg"
+                      alt="Pudgy Penguin #4860"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -89,7 +89,10 @@ END:VCARD`;
                 <div className="absolute bottom-2 right-2 w-4 h-4 bg-green-500 border-2 border-[#050505] rounded-full"></div>
               </div>
               <h1 className="text-2xl md:text-3xl font-medium tracking-tight mb-1">Justin Gramke</h1>
-              <p className="text-orange-500 text-sm md:text-base font-medium h-6 flex items-center justify-center">Compliance Architect</p>
+              <div className="flex items-center gap-2 mb-1 justify-center">
+                <span className="px-2 py-0.5 rounded-md bg-orange-500/10 text-orange-500 text-[10px] font-bold border border-orange-500/20 uppercase tracking-wider">Pudgy Penguin #4860</span>
+              </div>
+              <p className="text-zinc-500 text-sm md:text-base font-medium h-6 flex items-center justify-center">Compliance Architect</p>
             </div>
 
             {/* Online Persona (Grams) Column */}

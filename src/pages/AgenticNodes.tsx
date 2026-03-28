@@ -157,9 +157,6 @@ export default function AgenticNodes() {
              <h4 className="text-2xl font-medium mb-2">Base Node</h4>
              <div className="text-5xl font-medium text-white mb-8">$1,400</div>
              <ul className="space-y-5 mb-10 flex-grow">
-               <li className="flex items-center gap-4 text-zinc-300"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Raspberry Pi 5</li>
-               <li className="flex items-center gap-4 text-zinc-300"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> 8GB RAM</li>
-               <li className="flex items-center gap-4 text-zinc-300"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> 2TB NVMe SSD</li>
                <li className="flex items-center gap-4 text-zinc-300"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Bitcoin, Lightning & Nostr</li>
                <li className="flex items-center gap-4 text-zinc-300"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Base AI Agent Manager</li>
              </ul>
@@ -172,9 +169,6 @@ export default function AgenticNodes() {
              <h4 className="text-2xl font-medium mb-2">Pro Node</h4>
              <div className="text-5xl font-medium text-orange-500 mb-8">$1,900</div>
              <ul className="space-y-5 mb-10 flex-grow">
-               <li className="flex items-center gap-4 text-zinc-300"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Raspberry Pi 5</li>
-               <li className="flex items-center gap-4 text-white font-medium"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> 16GB RAM</li>
-               <li className="flex items-center gap-4 text-zinc-300"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> 2TB NVMe SSD</li>
                <li className="flex items-center gap-4 text-zinc-300"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Bitcoin, Lightning & Nostr</li>
                <li className="flex items-center gap-4 text-white font-medium"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Polymarket Trading Bot</li>
                <li className="flex items-center gap-4 text-white font-medium"><div className="w-1.5 h-1.5 rounded-full bg-orange-500" /> Hyperliquid Execution Bot</li>

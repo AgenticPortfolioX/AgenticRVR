@@ -15,9 +15,21 @@ export default function Contact() {
     setSubmitStatus('idle');
 
     try {
-      // Simulate network request
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      setSubmitStatus('success');
+      const formData = new FormData(e.target as HTMLFormElement);
+      const response = await fetch('https://formspree.io/f/valuerestoration@gmail.com', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        (e.target as HTMLFormElement).reset();
+      } else {
+        setSubmitStatus('error');
+      }
     } catch (error) {
       setSubmitStatus('error');
     } finally {
@@ -97,24 +109,24 @@ export default function Contact() {
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label htmlFor="firstName" className="text-sm text-zinc-400">First Name</label>
-                  <input id="firstName" required type="text" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="John" />
+                  <input id="firstName" name="firstName" required type="text" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="John" />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="lastName" className="text-sm text-zinc-400">Last Name</label>
-                  <input id="lastName" required type="text" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="Doe" />
+                  <input id="lastName" name="lastName" required type="text" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="Doe" />
                 </div>
               </div>
               <div className="space-y-2">
                 <label htmlFor="email" className="text-sm text-zinc-400">Email</label>
-                <input id="email" required type="email" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="john@example.com" />
+                <input id="email" name="email" required type="email" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="john@example.com" />
               </div>
               <div className="space-y-2">
                 <label htmlFor="phone" className="text-sm text-zinc-400">Phone Number</label>
-                <input id="phone" type="tel" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="(555) 123-4567" />
+                <input id="phone" name="phone" type="tel" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="(555) 123-4567" />
               </div>
               <div className="space-y-2">
                 <label htmlFor="message" className="text-sm text-zinc-400">Message</label>
-                <textarea id="message" required rows={4} disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors resize-none disabled:opacity-50" placeholder="How can we help you?"></textarea>
+                <textarea id="message" name="message" required rows={4} disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors resize-none disabled:opacity-50" placeholder="How can we help you?"></textarea>
               </div>
               
 

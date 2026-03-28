@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { UserPlus, Mail, Phone, Linkedin, Github, Calendar, Twitter, Instagram, Send, Code2, MessageCircle, Star } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
+import { Link } from 'react-router-dom';
 import CompactSupport from '../components/CompactSupport';
 
 export default function Connect() {
@@ -267,7 +268,17 @@ END:VCARD`;
                         placeholder="Phone number (e.g., +1234567890)"
                         className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-orange-500 transition-colors"
                       />
-                      <p className="text-xs text-zinc-500 px-1 mt-2">We'll text you.</p>
+                      <div className="flex items-start gap-3 mt-4">
+                        <input
+                          id="sms-consent-connect"
+                          type="checkbox"
+                          required
+                          className="mt-1 w-4 h-4 rounded border-white/10 bg-[#0a0a0a] text-orange-500 focus:ring-orange-500 focus:ring-offset-[#141414]"
+                        />
+                        <label htmlFor="sms-consent-connect" className="text-[10px] text-zinc-500 leading-tight">
+                          I agree to receive SMS text messages. By checking this box, I agree to receive SMS text messages from Renowed Value Restoration LLC. Reply STOP to opt-out. Msg & data rates may apply. See our <Link to="/opt-in" className="text-orange-500 hover:underline">Proof of Consent</Link>.
+                        </label>
+                      </div>
                     </div>
 
 

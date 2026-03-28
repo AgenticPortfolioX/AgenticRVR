@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, ArrowRight, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
   useSEO('Contact Us', 'Get in touch with Renowed Value Restoration LLC for AI workflows, video marketing, and sovereign hardware nodes.');
@@ -128,6 +129,18 @@ export default function Contact() {
                 <label htmlFor="message" className="text-sm text-zinc-400">Message</label>
                 <textarea id="message" name="message" required rows={4} disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors resize-none disabled:opacity-50" placeholder="How can we help you?"></textarea>
               </div>
+
+              <div className="flex items-start gap-3">
+                <input
+                  id="sms-consent"
+                  type="checkbox"
+                  required
+                  className="mt-1 w-4 h-4 rounded border-white/10 bg-[#0a0a0a] text-orange-500 focus:ring-orange-500 focus:ring-offset-[#141414]"
+                />
+                <label htmlFor="sms-consent" className="text-xs text-zinc-500 leading-tight">
+                  I agree to receive SMS text messages. By checking this box, I agree to receive SMS text messages from Renowed Value Restoration LLC regarding my inquiry, appointments, and services. Reply STOP to opt-out at any time. Message and data rates may apply. Read our <Link to="/privacy" className="text-orange-500 hover:underline">Privacy Policy</Link> or <Link to="/opt-in" className="text-orange-500 hover:underline">Proof of Consent</Link>.
+                </label>
+              </div>
               
 
               {submitStatus === 'success' && (
@@ -163,7 +176,33 @@ export default function Contact() {
           </motion.div>
         </div>
 
-
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4 }}
+          className="mt-16 max-w-5xl mx-auto p-8 rounded-[2rem] bg-orange-500/5 border border-orange-500/10"
+        >
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+              <h3 className="text-xl font-medium mb-4">To receive project updates or schedule an appointment via text, message <span className="text-orange-500 font-bold">START</span> to <span className="text-white font-bold">+18444916828</span>.</h3>
+              <div className="space-y-4 text-xs text-zinc-500 leading-relaxed">
+                <p className="font-medium text-zinc-400 uppercase tracking-wider">Mandatory Disclaimer</p>
+                <p>
+                  By texting START to +18444916828, you consent to receive recurring automated text messages from Renowed Value Restoration LLC regarding service updates and scheduling. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to cancel, HELP for help.
+                </p>
+                <div className="flex gap-4">
+                  <Link to="/privacy" className="text-orange-500 hover:underline">Privacy Policy</Link>
+                  <Link to="/terms" className="text-orange-500 hover:underline">Terms & Conditions</Link>
+                </div>
+              </div>
+            </div>
+            <div className="hidden md:flex justify-center">
+              <div className="w-24 h-24 rounded-3xl bg-orange-500/10 flex items-center justify-center">
+                <ArrowRight className="w-10 h-10 text-orange-500 -rotate-45" />
+              </div>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </div>
   );

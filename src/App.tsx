@@ -19,7 +19,7 @@ import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import OrderNode from './pages/OrderNode';
 import AgenticReplies from './pages/AgenticReplies';
-
+import OptInStory from './pages/OptInStory';
 import BlogPost from './pages/BlogPost';
 
 export default function App() {
@@ -46,7 +46,7 @@ export default function App() {
             <Route path="/connect" element={<Connect />} />
             <Route path="/terms" element={<TermsOfService />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
-
+            <Route path="/opt-in" element={<OptInStory />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
         </main>

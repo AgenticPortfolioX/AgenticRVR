@@ -80,8 +80,8 @@ END:VCARD`;
                 <div className="w-28 h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-orange-500/50 p-1">
                   <div className="w-full h-full rounded-full bg-zinc-800 overflow-hidden">
                     <img
-                      src="penguin.jpg"
-                      alt="Pudgy Penguin #4860"
+                      src="headshot.jpg"
+                      alt="Justin Gramke"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -89,23 +89,24 @@ END:VCARD`;
                 <div className="absolute bottom-2 right-2 w-4 h-4 bg-green-500 border-2 border-[#050505] rounded-full"></div>
               </div>
               <h1 className="text-2xl md:text-3xl font-medium tracking-tight mb-1">Justin Gramke</h1>
-              <div className="flex items-center gap-2 mb-1 justify-center">
-                <span className="px-2 py-0.5 rounded-md bg-orange-500/10 text-orange-500 text-[10px] font-bold border border-orange-500/20 uppercase tracking-wider">Pudgy Penguin #4860</span>
-              </div>
-              <p className="text-zinc-500 text-sm md:text-base font-medium h-6 flex items-center justify-center">Compliance Architect</p>
+              <p className="text-orange-500 text-sm md:text-base font-medium h-6 flex items-center justify-center">Compliance Architect</p>
             </div>
 
             {/* Online Persona (Grams) Column */}
             <div className="flex-1 flex flex-col items-center text-center translate-x-4 translate-y-8">
               <div className="relative inline-block mb-4">
-                <div className="w-20 h-20 md:w-24 md:h-24 rounded-full border-2 border-orange-500/30 p-1">
-                  <div className="w-full h-full rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Star className="w-10 h-10 text-orange-400 opacity-60" />
+                <div className="w-20 h-20 md:w-24 md:h-24 rounded-full border-2 border-orange-500/30 p-1 overflow-hidden">
+                  <div className="w-full h-full rounded-full bg-zinc-800 overflow-hidden">
+                    <img
+                      src="penguin.jpg"
+                      alt="Pudgy Penguin #4860"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
               <h2 className="text-lg md:text-xl font-medium tracking-tight mb-1">Grams</h2>
-              <p className="text-orange-500 text-[10px] md:text-xs font-medium uppercase tracking-wider h-6 flex items-center justify-center">Verified Contributor</p>
+              <p className="text-orange-500 text-[10px] md:text-xs font-bold uppercase tracking-wider h-6 flex items-center justify-center">Pudgy Penguin #4860</p>
             </div>
           </div>
 

@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AgenticRVR: Professional Agentic Ecosystem
 
-# Run and deploy your AI Studio app
+AgenticRVR is a sophisticated React-based ecosystem designed to bridge decentralized agentic systems with institutional compliance frameworks. This repository contains the source code for the professional portfolio and service interface of Renowed Value Restoration LLC.
 
-This contains everything you need to run your app locally.
+## Core Capabilities
 
-View your app in AI Studio: https://ai.studio/apps/556626c8-69dd-4792-9e03-566521a706a8
+- **Automated Workflows**: Intelligent task orchestration for enterprise operations.
+- **Speed-to-Lead**: Advanced lead capture and instant engagement agents.
+- **Agentic Replies**: Automated, brand-consistent review response systems.
+- **Sovereign Infrastructure**: Hardware node configuration for Bitcoin, Lightning, and NOSTR.
 
-## Run Locally
+## Technical Architecture
 
-**Prerequisites:**  Node.js
+The project is built with a modern, high-performance stack:
 
+- **Frontend**: React 19 + TypeScript
+- **Styling**: Tailwind CSS 4.0 + Motion (formerly Framer Motion)
+- **Routing**: React Router 7
+- **Icons**: Lucide React
+- **Build Tool**: Vite 6
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Getting Started
+
+### Prerequisites
+
+- Node.js (Latest LTS recommended)
+- npm or yarn
+
+### Local Development
+
+1. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Run Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for Production**:
+   ```bash
+   npm run build
+   ```
+
+## Compliance & Privacy
+
+This project maintains strict adherence to SMS compliance and data privacy regulations. Consult `src/pages/TermsOfService.tsx` and `src/pages/PrivacyPolicy.tsx` for detailed legal frameworks.
+
+---
+© 2026 Renowed Value Restoration LLC. All rights reserved.

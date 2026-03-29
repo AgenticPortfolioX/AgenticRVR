@@ -56,7 +56,7 @@ export default function AgenticReplies() {
                 </div>
                 <div>
                   <p className="text-white font-medium">Revenue Growth</p>
-                  <p className="text-sm text-zinc-500">Increase in revenue correlated with just a one-star improvement on Google.</p>
+                  <p className="text-sm text-zinc-500">Increase in revenue correlated with just a one-star improvement on Local Search Profiles.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -176,7 +176,7 @@ export default function AgenticReplies() {
           <TrendingUp className="w-12 h-12 text-orange-500 mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-medium mb-6">Real Social Proof</h2>
           <p className="text-xl text-zinc-400 max-w-3xl mx-auto mb-10">
-            Google rewards active profiles. 100% response rates signal to algorithms to show your profile more frequently to potential customers.
+            Search Engines reward active profiles. 100% response rates signal to algorithms to show your profile more frequently to potential customers.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <div className="flex items-center gap-2 text-zinc-300">

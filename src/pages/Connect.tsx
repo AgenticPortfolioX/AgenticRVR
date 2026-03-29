@@ -72,7 +72,7 @@ END:VCARD`;
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-12"
+          className="mb-6"
         >
           <div className="flex items-start justify-center gap-6 md:gap-8 max-w-md mx-auto">
             {/* Main Profile Column */}
@@ -111,7 +111,7 @@ END:VCARD`;
             </div>
           </div>
 
-          <p className="text-zinc-400 text-sm leading-relaxed px-4 mt-16 text-center">
+          <p className="text-zinc-400 text-sm leading-relaxed px-4 mt-6 text-center">
             Bridging the gap between decentralized agentic systems and institutional compliance frameworks.
           </p>
         </motion.div>

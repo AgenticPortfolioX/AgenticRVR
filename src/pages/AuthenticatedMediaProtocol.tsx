@@ -221,12 +221,12 @@ export default function AuthenticatedMediaProtocol() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-start gap-4"
           >
-            <a
-              href="#workflow"
+            <Link
+              to="/AMPDemo"
               className="px-8 py-4 rounded-full bg-gradient-to-br from-violet-500 to-blue-600 text-white font-semibold flex items-center gap-2 hover:opacity-90 transition-opacity"
             >
-              See How It Works <ArrowRight className="w-4 h-4" />
-            </a>
+              Demo Tool <ArrowRight className="w-4 h-4" />
+            </Link>
             <Link
               to="/contact"
               className="px-8 py-4 rounded-full bg-white/5 border border-white/10 font-semibold flex items-center gap-2 hover:bg-white/10 transition-colors"

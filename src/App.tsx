@@ -22,6 +22,7 @@ import AgenticReplies from './pages/AgenticReplies';
 import OptInStory from './pages/OptInStory';
 import BlogPost from './pages/BlogPost';
 import AuthenticatedMediaProtocol from './pages/AuthenticatedMediaProtocol';
+import AMPDemo from './pages/AMPDemo';
 
 export default function App() {
   return (
@@ -50,6 +51,7 @@ export default function App() {
             <Route path="/opt-in" element={<OptInStory />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/AMP" element={<AuthenticatedMediaProtocol />} />
+            <Route path="/AMPDemo" element={<AMPDemo />} />
           </Routes>
         </main>
         <Footer />

@@ -19,6 +19,7 @@ export default function Navbar() {
           <Link to="/video" className="hover:text-white transition-colors">Video Marketing</Link>
           <Link to="/nodes" className="hover:text-white transition-colors">Hardware Nodes</Link>
           <Link to="/blog" className="hover:text-white transition-colors">Updates</Link>
+          <Link to="/AMP" className="hover:text-white transition-colors text-violet-400 hover:text-violet-300">AMP Protocol</Link>
         </div>
         <Link to="/contact" className="bg-white text-black px-6 py-2.5 rounded-full text-sm font-medium hover:bg-zinc-200 transition-colors inline-flex items-center justify-center">
           Get Started

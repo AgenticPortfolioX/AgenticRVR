@@ -21,6 +21,7 @@ import OrderNode from './pages/OrderNode';
 import AgenticReplies from './pages/AgenticReplies';
 import OptInStory from './pages/OptInStory';
 import BlogPost from './pages/BlogPost';
+import AuthenticatedMediaProtocol from './pages/AuthenticatedMediaProtocol';
 
 export default function App() {
   return (
@@ -48,6 +49,7 @@ export default function App() {
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/opt-in" element={<OptInStory />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/AMP" element={<AuthenticatedMediaProtocol />} />
           </Routes>
         </main>
         <Footer />

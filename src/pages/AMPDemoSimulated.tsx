@@ -174,12 +174,7 @@ function PhaseCard({ meta, state }: { meta: typeof PHASE_META[0]; state: PhaseSt
 // ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
 // Main
 // ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
-export default function AMPDemo() {
-  useSEO(
-    'AMP Mission Control | Live Blockchain Photo Authentication ΓÇö Deepfake Slayer',
-    'Take a photo and watch it get cryptographically signed, device-key registered on Base Sepolia, and verified via Chainlink ΓÇö the full 6-phase Deepfake Slayer pipeline.',
-  );
-
+export default function AMPDemoSimulated() {
   const [phases, setPhases]           = useState<Record<number, PhaseState>>(initPhases());
   const [currentPhase, setCurrentPhase] = useState(0);
   const [imageUrl, setImageUrl]       = useState<string | null>(null);

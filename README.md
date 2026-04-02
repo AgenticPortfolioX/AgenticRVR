@@ -47,5 +47,9 @@ The project is built with a modern, high-performance stack:
 
 This project maintains strict adherence to SMS compliance and data privacy regulations. Consult `src/pages/TermsOfService.tsx` and `src/pages/PrivacyPolicy.tsx` for detailed legal frameworks.
 
+## Versioning & Milestones
+
+The `v1.0.0-stable-amp` tag marks a permanent configuration of the 4-phase "Mission Control" live tracking on Base Sepolia. If you need to revert the codebase to an exact state where the full-loop blockchain integration worked out-of-the-box, you can checkout this specific tag.
+
 ---
 © 2026 RVR LLC. All rights reserved.

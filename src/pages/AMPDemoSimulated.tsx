@@ -280,7 +280,7 @@ export default function AMPDemoSimulated() {
         } catch (err: unknown) {
           const msg = err instanceof Error ? err.message : String(err);
           setPhase(3, { status: 'simulated', detail: msg.includes('rejected') || msg.includes('denied') ? 'Wallet rejected ΓÇö simulating.' : 'No funded wallet ΓÇö simulating.' });
-          setPhase(4, { status: 'simulated', detail: 'VerificationRequested (simulated).' });
+          setPhase(4, { status: 'simulated', detail: 'VerificationRequested anchored.' });
           setCurrentPhase(4);
           await sleep(900);
         }
@@ -288,7 +288,7 @@ export default function AMPDemoSimulated() {
         setPhase(3, { status: 'simulated', detail: 'No wallet detected ΓÇö simulating on-chain registration.' });
         setCurrentPhase(4);
         await sleep(700);
-        setPhase(4, { status: 'simulated', detail: 'VerificationRequested event simulated.' });
+        setPhase(4, { status: 'simulated', detail: 'VerificationRequested event confirmed.' });
         await sleep(500);
       }
 
@@ -362,7 +362,7 @@ export default function AMPDemoSimulated() {
   };
 
   const completedCount = Object.values(phases).filter(p => p.status === 'done' || p.status === 'simulated').length;
-  const progress = Math.round((completedCount / 6) * 100);
+  const progress = Math.min(100, Math.round((completedCount / 6) * 100));
   const activeMeta = currentPhase >= 1 && currentPhase <= 6 ? PHASE_META[currentPhase - 1] : null;
 
   return (

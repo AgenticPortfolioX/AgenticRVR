@@ -360,9 +360,8 @@ export default function AMPDemoLive() {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const completedCount = Object.values(phases).filter(p => p.status === 'done' || p.status === 'simulated').length;
-  const progress = Math.round((completedCount / 4) * 100);
-  const activeMeta = currentPhase >= 1 && currentPhase <= 4 ? PHASE_META[currentPhase - 1] : null;
+  const progress = Math.min(100, Math.round((completedCount / 6) * 100));
+  const activeMeta = currentPhase >= 1 && currentPhase <= 6 ? PHASE_META[currentPhase - 1] : null;
 
   return (
     <div className="min-h-screen bg-[#050505] text-white overflow-x-hidden">

@@ -16,10 +16,6 @@ export default function Footer() {
             <p className="text-zinc-400 max-w-sm mb-4">
               Building the future of automated workflows, high-converting video marketing assets, and sovereign hardware nodes.
             </p>
-            <div className="text-zinc-500 text-sm space-y-1">
-              <p>2711 Williamsburg Cir</p>
-              <p>Auburn Hills, Michigan 48326</p>
-            </div>
           </div>
           
           <div>
@@ -46,10 +42,9 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/5 text-sm text-zinc-500">
-          <div className="flex flex-col gap-2 text-center md:text-left">
-            <p>Serving Oakland County Michigan, Wayne County & Metro Detroit.</p>
-          </div>
+        <div className="pt-8 border-t border-white/5 text-sm text-zinc-500 flex flex-col items-center text-center gap-1.5">
+          <p>2711 Williamsburg Cir, Auburn Hills, Michigan 48326</p>
+          <p>Automating Small Business with Agentic AI in Metro Detroit, Wayne, Oakland & Genesee Counties.</p>
         </div>
       </div>
     </footer>

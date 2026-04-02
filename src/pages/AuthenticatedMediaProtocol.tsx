@@ -227,12 +227,14 @@ export default function AuthenticatedMediaProtocol() {
             >
               Demo Tool <ArrowRight className="w-4 h-4" />
             </Link>
-            <Link
-              to="/contact"
+            <a
+              href="https://forms.gle/NUFa8M2SwVm2RueB6"
+              target="_blank"
+              rel="noreferrer"
               className="px-8 py-4 rounded-full bg-white/5 border border-white/10 font-semibold flex items-center gap-2 hover:bg-white/10 transition-colors"
             >
               Partner With Us
-            </Link>
+            </a>
           </motion.div>
 
           {/* Stat pills */}
@@ -572,12 +574,14 @@ export default function AuthenticatedMediaProtocol() {
                 investment in the Authenticated Media Protocol, connect with us today.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link
-                  to="/contact"
-                  className="px-10 py-4 rounded-full bg-gradient-to-br from-violet-500 to-blue-600 text-white font-semibold flex items-center gap-2 hover:opacity-90 transition-opacity"
+                <a
+                  href="https://forms.gle/NUFa8M2SwVm2RueB6"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-10 py-4 rounded-full bg-gradient-to-br from-violet-500 to-blue-600 text-white font-semibold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity"
                 >
                   Get In Touch <ChevronRight className="w-4 h-4" />
-                </Link>
+                </a>
                 <Link
                   to="/"
                   className="px-10 py-4 rounded-full bg-white/5 border border-white/10 font-semibold flex items-center gap-2 hover:bg-white/10 transition-colors"

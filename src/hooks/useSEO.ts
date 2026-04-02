@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 export function useSEO(title: string, description: string) {
   useEffect(() => {
-    const fullTitle = title.includes('Renowed Value Restoration LLC') ? title : `${title} | Renowed Value Restoration LLC`;
+    const fullTitle = title.includes('RVR LLC') ? title : `${title} | RVR LLC`;
     document.title = fullTitle;
     
     let metaDescription = document.querySelector('meta[name="description"]');

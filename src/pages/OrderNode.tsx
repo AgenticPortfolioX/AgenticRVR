@@ -5,7 +5,7 @@ import { Server, ArrowRight, Loader2, CheckCircle2, AlertCircle } from 'lucide-r
 import { useSEO } from '../hooks/useSEO';
 
 export default function OrderNode() {
-  useSEO('Order Node | Renowed Value Restoration LLC', 'Order your Restoration Bitcoin Node.');
+  useSEO('Order Node | RVR LLC', 'Order your Restoration Bitcoin Node.');
   const [searchParams] = useSearchParams();
   const initialModel = searchParams.get('model') === 'pro' ? 'pro' : 'base';
 

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 
 export default function ThreeDGraphics() {
-  useSEO('3D Graphics | Renowed Value Restoration LLC', 'Transform flat 2D images into immersive 3D product renders for online sellers and dropshippers.');
+  useSEO('3D Graphics | RVR LLC', 'Transform flat 2D images into immersive 3D product renders for online sellers and dropshippers.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen bg-[#050505]">

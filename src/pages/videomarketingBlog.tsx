@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 
 export default function VideoMarketingBlog() {
-  useSEO('The Future of Property Visualization: Moving Beyond Drone Photography | Renowed Value Restoration LLC', 'Explore how AI-driven photogrammetry and synthetic rendering are revolutionizing real estate visual storytelling by replacing traditional drone photography bottlenecks.');
+  useSEO('The Future of Property Visualization: Moving Beyond Drone Photography | RVR LLC', 'Explore how AI-driven photogrammetry and synthetic rendering are revolutionizing real estate visual storytelling by replacing traditional drone photography bottlenecks.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen bg-[#050505] text-zinc-100">

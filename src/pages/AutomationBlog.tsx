@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 
 export default function AutomationBlog() {
-  useSEO('How AI Automation is Reclaiming 20% of Your Team\'s Day | Renowed Value Restoration LLC', 'Discover how hyperautomation and AI can reclaim 20% of your team\'s daily capacity, reduce errors, and drive ROI.');
+  useSEO('How AI Automation is Reclaiming 20% of Your Team\'s Day | RVR LLC', 'Discover how hyperautomation and AI can reclaim 20% of your team\'s daily capacity, reduce errors, and drive ROI.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen bg-[#050505] text-zinc-100">

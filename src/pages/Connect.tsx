@@ -276,7 +276,7 @@ END:VCARD`;
                           className="mt-1 w-4 h-4 rounded border-white/10 bg-[#0a0a0a] text-orange-500 focus:ring-orange-500 focus:ring-offset-[#141414]"
                         />
                         <label htmlFor="sms-consent-connect" className="text-[10px] text-zinc-500 leading-tight">
-                          I agree to receive SMS text messages. By checking this box, I agree to receive SMS text messages from Renowed Value Restoration LLC. Reply STOP to opt-out. Msg & data rates may apply. See our <Link to="/opt-in" className="text-orange-500 hover:underline">Proof of Consent</Link>.
+                          I agree to receive SMS text messages. By checking this box, I agree to receive SMS text messages from RVR LLC. Reply STOP to opt-out. Msg & data rates may apply. See our <Link to="/opt-in" className="text-orange-500 hover:underline">Proof of Consent</Link>.
                         </label>
                       </div>
                     </div>

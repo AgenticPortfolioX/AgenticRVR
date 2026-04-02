@@ -1,6 +1,6 @@
 # AgenticRVR: Professional Agentic Ecosystem
 
-AgenticRVR is a sophisticated React-based ecosystem designed to bridge decentralized agentic systems with institutional compliance frameworks. This repository contains the source code for the professional portfolio and service interface of Renowed Value Restoration LLC.
+AgenticRVR is a sophisticated React-based ecosystem designed to bridge decentralized agentic systems with institutional compliance frameworks. This repository contains the source code for the professional portfolio and service interface of RVR LLC.
 
 ## Core Capabilities
 
@@ -48,4 +48,4 @@ The project is built with a modern, high-performance stack:
 This project maintains strict adherence to SMS compliance and data privacy regulations. Consult `src/pages/TermsOfService.tsx` and `src/pages/PrivacyPolicy.tsx` for detailed legal frameworks.
 
 ---
-© 2026 Renowed Value Restoration LLC. All rights reserved.
+© 2026 RVR LLC. All rights reserved.

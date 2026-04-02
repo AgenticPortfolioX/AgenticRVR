@@ -5,7 +5,7 @@ import { useSEO } from '../hooks/useSEO';
 import { Link } from 'react-router-dom';
 
 export default function Contact() {
-  useSEO('Contact Us', 'Get in touch with Renowed Value Restoration LLC for AI workflows, video marketing, and sovereign hardware nodes.');
+  useSEO('Contact Us', 'Get in touch with RVR LLC for AI workflows, video marketing, and sovereign hardware nodes.');
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
@@ -138,7 +138,7 @@ export default function Contact() {
                   className="mt-1 w-4 h-4 rounded border-white/10 bg-[#0a0a0a] text-orange-500 focus:ring-orange-500 focus:ring-offset-[#141414]"
                 />
                 <label htmlFor="sms-consent" className="text-xs text-zinc-500 leading-tight">
-                  I agree to receive SMS text messages. By checking this box, I agree to receive SMS text messages from Renowed Value Restoration LLC regarding my inquiry, appointments, and services. Reply STOP to opt-out at any time. Message and data rates may apply. Read our <Link to="/privacy" className="text-orange-500 hover:underline">Privacy Policy</Link> or <Link to="/opt-in" className="text-orange-500 hover:underline">Proof of Consent</Link>.
+                  I agree to receive SMS text messages. By checking this box, I agree to receive SMS text messages from RVR LLC regarding my inquiry, appointments, and services. Reply STOP to opt-out at any time. Message and data rates may apply. Read our <Link to="/privacy" className="text-orange-500 hover:underline">Privacy Policy</Link> or <Link to="/opt-in" className="text-orange-500 hover:underline">Proof of Consent</Link>.
                 </label>
               </div>
               
@@ -188,7 +188,7 @@ export default function Contact() {
               <div className="space-y-4 text-xs text-zinc-500 leading-relaxed">
                 <p className="font-medium text-zinc-400 uppercase tracking-wider">Mandatory Disclaimer</p>
                 <p>
-                  By texting START to +18444916828, you consent to receive recurring automated text messages from Renowed Value Restoration LLC regarding service updates and scheduling. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to cancel, HELP for help.
+                  By texting START to +18444916828, you consent to receive recurring automated text messages from RVR LLC regarding service updates and scheduling. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to cancel, HELP for help.
                 </p>
                 <div className="flex gap-4">
                   <Link to="/privacy" className="text-orange-500 hover:underline">Privacy Policy</Link>

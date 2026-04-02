@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 
 export default function AgenticWorkflows() {
-  useSEO('Automated Workflows | Renowed Value Restoration LLC', 'Custom AI agents that take action, use tools, and complete complex multi-step processes across your business.');
+  useSEO('Automated Workflows | RVR LLC', 'Custom AI agents that take action, use tools, and complete complex multi-step processes across your business.');
 
   return (
     <div className="pt-24 pb-16 px-6 min-h-screen bg-[#050505]">

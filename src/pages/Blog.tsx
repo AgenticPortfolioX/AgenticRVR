@@ -16,7 +16,7 @@ const getCategoryIcon = (category: string) => {
 };
 
 export default function Blog() {
-  useSEO('Updates & Social', 'Latest news, case studies, and updates from Renowed Value Restoration LLC.');
+  useSEO('Updates & Social', 'Latest news, case studies, and updates from RVR LLC.');
   const [filter, setFilter] = useState('All');
 
   const allPosts = getAllPosts();

@@ -5,7 +5,7 @@ import { useSEO } from '../hooks/useSEO';
 import { Link } from 'react-router-dom';
 
 export default function OptInStory() {
-  useSEO('SMS Opt-In Information | Renowed Value Restoration LLC', 'Details on how to opt-in to our messaging service and mandatory legal disclosures.');
+  useSEO('SMS Opt-In Information | RVR LLC', 'Details on how to opt-in to our messaging service and mandatory legal disclosures.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen bg-[#050505]">
@@ -43,7 +43,7 @@ export default function OptInStory() {
             </div>
             <div className="space-y-6">
               <p className="text-zinc-300 leading-relaxed">
-                By texting START to +18444916828, you consent to receive recurring automated text messages from Renowed Value Restoration LLC regarding service updates and scheduling. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to cancel, HELP for help.
+                By texting START to +18444916828, you consent to receive recurring automated text messages from RVR LLC regarding service updates and scheduling. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to cancel, HELP for help.
               </p>
             </div>
           </motion.div>

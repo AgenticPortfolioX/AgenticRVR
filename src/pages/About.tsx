@@ -4,7 +4,7 @@ import { Sparkles, Target, Users, Zap } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
 
 export default function About() {
-  useSEO('About Us', 'Learn more about Renowed Value Restoration LLC, our mission, and our three core pillars.');
+  useSEO('About Us', 'Learn more about RVR LLC, our mission, and our three core pillars.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen">
@@ -32,7 +32,7 @@ export default function About() {
             transition={{ delay: 0.2 }}
             className="text-xl text-zinc-400 max-w-3xl mx-auto leading-relaxed"
           >
-            We believe the future belongs to those who automate the mundane and secure their sovereignty. Renowed Value Restoration LLC was founded to bridge the gap between cutting-edge AI, high-end creative media, and decentralized hardware.
+            We believe the future belongs to those who automate the mundane and secure their sovereignty. RVR LLC was founded to bridge the gap between cutting-edge AI, high-end creative media, and decentralized hardware.
           </motion.p>
         </div>
 

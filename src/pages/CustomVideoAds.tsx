@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 
 export default function CustomVideoAds() {
-  useSEO('Custom Video Ads | Renowed Value Restoration LLC', 'Data-driven video creatives designed specifically for social media platforms to maximize ROAS and engagement.');
+  useSEO('Custom Video Ads | RVR LLC', 'Data-driven video creatives designed specifically for social media platforms to maximize ROAS and engagement.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen bg-[#050505]">

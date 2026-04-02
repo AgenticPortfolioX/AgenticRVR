@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 
 export default function CinematicRealEstate() {
-  useSEO('Cinematic Real Estate | Renowed Value Restoration LLC', 'We replicate real estate walkthroughs and drone flythroughs based entirely off standard property photos.');
+  useSEO('Cinematic Real Estate | RVR LLC', 'We replicate real estate walkthroughs and drone flythroughs based entirely off standard property photos.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen bg-[#050505]">

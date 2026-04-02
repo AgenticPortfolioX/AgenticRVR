@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { useSEO } from '../hooks/useSEO';
 
 export default function PrivacyPolicy() {
-  useSEO('Privacy Policy', 'Privacy Policy for Renowed Value Restoration LLC.');
+  useSEO('Privacy Policy', 'Privacy Policy for RVR LLC.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen">
@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
             <p>Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
             
             <p>
-              At Renowed Value Restoration LLC, accessible from our website, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Renowed Value Restoration LLC and how we use it.
+              At RVR LLC, accessible from our website, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by RVR LLC and how we use it.
             </p>
 
             <h2 className="text-2xl font-medium text-white mt-12 mb-4">Information We Collect</h2>
@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
 
             <h2 className="text-2xl font-medium text-white mt-12 mb-4">SMS Text Messaging & Consent Data</h2>
             <p>
-              We value your privacy and the security of your communications. If you provide explicit consent to receive SMS text messages from Renowed Value Restoration LLC, we will use your mobile number solely for the purpose of communicating regarding your inquiries, appointments, and related services.
+              We value your privacy and the security of your communications. If you provide explicit consent to receive SMS text messages from RVR LLC, we will use your mobile number solely for the purpose of communicating regarding your inquiries, appointments, and related services.
             </p>
             <div className="bg-orange-500/10 border border-orange-500/20 rounded-xl p-6 mt-4">
               <strong className="text-orange-400">Important:</strong> No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
@@ -51,12 +51,12 @@ export default function PrivacyPolicy() {
 
             <h2 className="text-2xl font-medium text-white mt-12 mb-4">Log Files</h2>
             <p>
-              Renowed Value Restoration LLC follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable.
+              RVR LLC follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable.
             </p>
 
             <h2 className="text-2xl font-medium text-white mt-12 mb-4">Cookies and Web Beacons</h2>
             <p>
-              Like any other website, Renowed Value Restoration LLC uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+              Like any other website, RVR LLC uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
             </p>
 
             <h2 className="text-2xl font-medium text-white mt-12 mb-4">CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>

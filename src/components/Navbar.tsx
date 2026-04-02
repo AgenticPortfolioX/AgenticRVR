@@ -10,7 +10,7 @@ export default function Navbar() {
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
             <Sparkles className="w-5 h-5 text-black" />
           </div>
-          <span className="font-semibold text-xl tracking-tight">Renowed Value Restoration LLC<span className="text-orange-500">.</span></span>
+          <span className="font-semibold text-xl tracking-tight">RVR LLC<span className="text-orange-500">.</span></span>
         </Link>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400 mr-8">
           <Link to="/workflows" className="hover:text-white transition-colors">Automated Workflows</Link>

@@ -5,7 +5,7 @@ import { useSEO } from '../hooks/useSEO';
 import { Link } from 'react-router-dom';
 
 export default function SpeedToLead() {
-  useSEO('Speed-to-Lead Agents | Renowed Value Restoration LLC', 'AI systems that respond to new leads instantly, 24/7, without human intervention.');
+  useSEO('Speed-to-Lead Agents | RVR LLC', 'AI systems that respond to new leads instantly, 24/7, without human intervention.');
 
   return (
     <div className="pt-24 pb-16 px-6 min-h-screen bg-[#050505]">

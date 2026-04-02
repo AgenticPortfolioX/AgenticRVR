@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import {
   Shield, Camera, CheckCircle, AlertCircle, Copy,
   Download, Zap, ChevronRight, Fingerprint, Key, RefreshCw,
-  ImageIcon, Wallet, ExternalLink, Globe, Radio, XCircle, Lock,
+  ImageIcon, Wallet, ExternalLink, Globe, Radio, XCircle, Handshake,
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { BrowserProvider, Contract, keccak256, toUtf8Bytes, hexlify, randomBytes } from 'ethers';
@@ -734,10 +734,10 @@ export default function AMPDemo() {
             className="px-6 py-3 rounded-full bg-white/5 border border-white/10 font-semibold text-sm flex items-center justify-center gap-2 hover:bg-white/10 transition-colors">
             <ExternalLink className="w-4 h-4" />View on BaseScan
           </a>
-          <Link to="/contact"
+          <a href="https://forms.gle/UVU1UzUjG7YoURMy7" target="_blank" rel="noreferrer"
             className="px-6 py-3 rounded-full bg-white/5 border border-white/10 font-semibold text-sm flex items-center justify-center gap-2 hover:bg-white/10 transition-colors">
-            <Lock className="w-4 h-4" />Partner With Us
-          </Link>
+            <Handshake className="w-4 h-4" />Partner With Us
+          </a>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 
 export default function SpeedToLeadBlog() {
-  useSEO('AI-Driven Instant Response: How to Capture Every Lead in Seconds | Renowed Value Restoration LLC', 'Learn how AI orchestration can reclaim your lead response time and convert inquiries into opportunities in seconds.');
+  useSEO('AI-Driven Instant Response: How to Capture Every Lead in Seconds | RVR LLC', 'Learn how AI orchestration can reclaim your lead response time and convert inquiries into opportunities in seconds.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen bg-[#050505] text-zinc-100">

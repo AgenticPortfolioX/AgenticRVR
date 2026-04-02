@@ -5,7 +5,7 @@ import { Server, Zap, Bitcoin, MessageSquare, Bot, TrendingUp } from 'lucide-rea
 import { useSEO } from '../hooks/useSEO';
 
 export default function AgenticNodes() {
-  useSEO('Hardware Nodes | Renowed Value Restoration LLC', 'Combine the security of Bitcoin, the speed of Lightning, and the freedom of Nostr in one sleek, silent device.');
+  useSEO('Hardware Nodes | RVR LLC', 'Combine the security of Bitcoin, the speed of Lightning, and the freedom of Nostr in one sleek, silent device.');
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen">

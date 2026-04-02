@@ -13,10 +13,15 @@ import { useSEO } from '../hooks/useSEO';
 // Contract Config
 // ─────────────────────────────────────────────
 const CONTRACTS = {
-  VerificationRegistry: '0x7a14780823c72569593DbbfF52b2d29478d2250A',
+  VerificationRegistry: '0x09D24C90c07Bb245e82c55cB138D83626174AFC0',
   BadgeRegistry: '0xE093522e7dC2740a1C716Cdb29038A0BB5dCE4e3',
   FunctionsRouter: '0xf9B8fc078197181C841c296C876945aaa425B278',
 };
+
+// Pre-registered owner-controlled demo device key.
+// Registered on-chain via register-demo-key.js — block 39697053 (Base Sepolia).
+// Any visitor can call requestVerification() using this shared demo key.
+const DEMO_DEVICE_KEY_HASH = '0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3';
 
 const BASE_SEPOLIA_CHAIN_ID = '0x14a34';
 const BASE_SEPOLIA_PARAMS = {
@@ -235,9 +240,9 @@ export default function AMPDemo() {
       const sig     = await ecSign(keyPair.privateKey, hash);
 
       // ── Phase 1: Submit (Base Sepolia) ──────────────────────────────────
-      setPhase(1, { status: 'active', detail: 'Connecting for Truth Submission…' });
+      setPhase(1, { status: 'active', detail: 'Connecting wallet → Base Sepolia…' });
       const provider = await connectWallet();
-      if (!provider) throw new Error('MetaMask / Provider not detected');
+      if (!provider) throw new Error('MetaMask / Provider not detected. Open this page in a MetaMask-enabled browser.');
 
       const signer = await provider.getSigner();
       const vr = new Contract(CONTRACTS.VerificationRegistry, VR_ABI, signer);
@@ -246,28 +251,37 @@ export default function AMPDemo() {
       const nullifier = '0x' + Array.from(randomBytes(32)).map(b => b.toString(16).padStart(2, '0')).join('');
       await sleep(1000);
 
-      // Device Registration if needed
-      const trusted = await vr.isDeviceTrusted(dkHash);
-      if (!trusted) {
-        setPhase(1, { status: 'active', detail: 'New device detected. Registering hardware key…' });
-        const regTx = await vr.registerDeviceKey(dkHash);
-        await regTx.wait(1);
-      }
+      // Use the pre-registered static demo device key.
+      // registerDeviceKey() is onlyOwner — owner pre-registered this key for the demo.
+      // Visitors call requestVerification() directly using this shared authorized key.
+      const demoDeviceKey = DEMO_DEVICE_KEY_HASH as `0x${string}`;
 
-      setPhase(1, { status: 'active', detail: 'Initializing requestVerification() transaction…' });
-      const mediaBytes32 = ('0x' + hash).padEnd(66, '0').slice(0, 66) as `0x${string}`;
-      const reqTx = await vr.requestVerification(dkHash, mediaBytes32, hexlify(toUtf8Bytes('')), 1n);
+      // Media hash as raw 0x-prefixed bytes32 — matching the E2E test format exactly
+      const mediaBytes32 = `0x${hash}` as `0x${string}`;
+
+      setPhase(1, { status: 'active', detail: 'Submitting truth attestation to Base Sepolia…' });
+      const reqTx = await vr.requestVerification(
+        demoDeviceKey,
+        mediaBytes32,
+        hexlify(toUtf8Bytes('')),
+        1n,
+        { gasLimit: 300_000 }
+      );
       setPhase(1, { status: 'active', detail: 'Awaiting block confirmation…', txHash: reqTx.hash });
       await reqTx.wait(1);
-      setPhase(1, { status: 'done', detail: 'Proof submitted. Oracle consensus requested.', txHash: reqTx.hash });
+      setPhase(1, { status: 'done', detail: `Proof anchored · Block confirmed via VerificationRequested event`, txHash: reqTx.hash });
 
       // ── Phase 2: Verify (Chainlink DON) ──────────────────────────────────
       setCurrentPhase(2);
       setPhase(2, { status: 'active', detail: 'Waiting for Decentralized Oracle Network (DON) consensus…' });
 
-      // Live event listener for VerifiedReal event
+      // Live event listener for VerifiedReal event emitted by confirmVerification()
+      // In production this is triggered by the Chainlink DON after verify_truth.js runs.
+      // The filter matches our exact mediaHash so we only react to our own submission.
       const verificationComplete = new Promise<void>((resolve) => {
-        vr.once(vr.filters.VerifiedReal(mediaBytes32), () => resolve());
+        vr.once('VerifiedReal', (mHash: string) => {
+          if (mHash.toLowerCase() === mediaBytes32.toLowerCase()) resolve();
+        });
       });
 
       // Simulation backup (15s) in case event listening is blocked by RPC
@@ -297,10 +311,12 @@ export default function AMPDemo() {
         media: { name: file.name, size: file.size, type: file.type, sha256: hash },
         hardware_layer: { key_algorithm: 'P-256', device_key_hash: dkHash, ecdsa_sig: sig.slice(0, 24) + '…' },
         world_id: { nullifier_hash: nullifier, proof: 'Simulated SNARK — Zero Knowledge Path Enabled' },
+        device_key: { hash: demoDeviceKey, type: 'OWNER_PRE_REGISTERED', algorithm: 'ECDSA-P256' },
         on_chain: {
           network: 'Base Sepolia',
           verification_registry: CONTRACTS.VerificationRegistry,
           tx_hash: reqTx.hash,
+          zone_id: 1,
         },
         ccip: {
           destination: 'Arbitrum Sepolia',

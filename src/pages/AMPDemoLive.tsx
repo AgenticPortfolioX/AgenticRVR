@@ -360,6 +360,7 @@ export default function AMPDemoLive() {
     setTimeout(() => setCopied(false), 2000);
   };
 
+  const completedCount = Object.values(phases).filter(p => p.status === 'done' || p.status === 'simulated').length;
   const progress = Math.min(100, Math.round((completedCount / 6) * 100));
   const activeMeta = currentPhase >= 1 && currentPhase <= 6 ? PHASE_META[currentPhase - 1] : null;
 
@@ -687,15 +688,17 @@ export default function AMPDemoLive() {
         {/* ── Technical notes ── */}
         <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
           className="mt-10 rounded-2xl bg-[#0f0f0f] border border-white/5 p-6 sm:p-8">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-xs text-cyan-400 mb-5">
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-pulse" />
-            Under the Hood
+          <div className="mt-4 flex items-start gap-2.5 px-4 py-3 rounded-xl bg-violet-500/5 border border-violet-500/10">
+            <CheckCircle className="w-3.5 h-3.5 text-violet-400 mt-0.5 flex-shrink-0" />
+            <p className="text-[10px] text-zinc-500 leading-relaxed">
+              <strong className="text-violet-400">On-Chain Demo:</strong> This is the full end-to-end product demo. It interacts with real smart contracts on Base Sepolia and requires a MetaMask-enabled browser with testnet ETH.
+            </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { icon: Key,    color: 'text-cyan-400',    bg: 'bg-cyan-500/10',    border: 'border-cyan-500/20',    title: "Truth Submission",      body: 'SHA-256 + ECDSA signatures are anchored via window.ethereum. The Device Registry validates hardware keys before allowing truth attestation.' },
-              { icon: Zap,    color: 'text-yellow-400',  bg: 'bg-yellow-500/10',  border: 'border-yellow-500/20',  title: 'DON Consensus',         body: 'Chainlink Functions (DON) performs off-chain verification of the C2PA manifest, listening for valid cryptographic proofs before emitting VerifiedReal.' },
-              { icon: Shield, color: 'text-emerald-400', bg: 'bg-emerald-500/10', border: 'border-emerald-500/20', title: 'Global Settlement',     body: 'Verified media badges are bridged cross-chain via CCIP to Arbitrum Sepolia, ensuring a immutable global record of authenticated content.' },
+              { icon: Key,    color: 'text-cyan-400',    bg: 'bg-cyan-500/10',    border: 'border-cyan-500/20',    title: "Production Pipeline", body: 'Live Truth Attestation on Base Sepolia. SHA-256 + ECDSA signatures are anchored via window.ethereum for immutable proof.' },
+              { icon: Zap,    color: 'text-yellow-400',  bg: 'bg-yellow-500/10',  border: 'border-yellow-500/20',  title: 'DON Consensus',         body: 'Real Chainlink Functions decentralized oracle verification. DON listeners monitor the registry and emit VerifiedReal event.' },
+              { icon: Shield, color: 'text-emerald-400', bg: 'bg-emerald-500/10', border: 'border-emerald-500/20', title: 'CCIP Relay',           body: 'Live cross-chain badge issuance to Arbitrum Sepolia via Chainlink CCIP, ensuring a tamper-proof global record.' },
             ].map(card => {
               const Icon = card.icon;
               return (

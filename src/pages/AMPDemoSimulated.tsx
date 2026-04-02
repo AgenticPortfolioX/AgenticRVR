@@ -285,7 +285,7 @@ export default function AMPDemoSimulated() {
           await sleep(900);
         }
       } else {
-        setPhase(3, { status: 'simulated', detail: 'No wallet detected ΓÇö simulating on-chain registration.' });
+        setPhase(3, { status: 'simulated', detail: 'Hardware key matched to authorized operator registry.' });
         setCurrentPhase(4);
         await sleep(700);
         setPhase(4, { status: 'simulated', detail: 'VerificationRequested event confirmed.' });
@@ -689,15 +689,17 @@ export default function AMPDemoSimulated() {
         {/* ΓöÇΓöÇ Technical notes ΓöÇΓöÇ */}
         <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
           className="mt-10 rounded-2xl bg-[#0f0f0f] border border-white/5 p-6 sm:p-8">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-xs text-cyan-400 mb-5">
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-pulse" />
-            Under the Hood
+          <div className="mt-4 flex items-start gap-2.5 px-4 py-3 rounded-xl bg-orange-500/5 border border-orange-500/10">
+            <AlertCircle className="w-3.5 h-3.5 text-orange-400 mt-0.5 flex-shrink-0" />
+            <p className="text-[10px] text-zinc-500 leading-relaxed">
+              <strong className="text-orange-400">Off-Chain Demo:</strong> This environment does not interact with the blockchain. It is designed for frictionless testing without wallets. For the full protocol loop, toggle to the "On-Chain" version.
+            </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { icon: Key,    color: 'text-cyan-400',    bg: 'bg-cyan-500/10',    border: 'border-cyan-500/20',    title: "What's Real",      body: 'SHA-256 via Web Crypto API. ECDSA P-256 keygen + keccak256 device key. On-chain registerDeviceKey() + requestVerification() on Base Sepolia (MetaMask required).' },
-              { icon: Zap,    color: 'text-yellow-400',  bg: 'bg-yellow-500/10',  border: 'border-yellow-500/20',  title: "Simulated Phases", body: 'World ID biometric handshake, Chainlink DON oracle callback, and CCIP cross-chain relay are simulated with realistic timing delays.' },
-              { icon: Shield, color: 'text-emerald-400', bg: 'bg-emerald-500/10', border: 'border-emerald-500/20', title: 'Production Delta',  body: 'Keys hardware-bound in Secure Enclave / Strongbox. World ID is live. DON runs verify_truth.js. CCIP routes badges autonomously cross-chain.' },
+              { icon: Key,    color: 'text-cyan-400',    bg: 'bg-cyan-500/10',    border: 'border-cyan-500/20',    title: "Instant Verification",  body: 'Local SHA-256 and ECDSA signing via Web Crypto API. This environment is for high-speed demonstration and does not require a crypto wallet.' },
+              { icon: Zap,    color: 'text-yellow-400',  bg: 'bg-yellow-500/10',  border: 'border-yellow-500/20',  title: "Simulated Pipeline",   body: 'This off-chain demo uses simulated network delays to show the 6-phase Truth Protocol without requiring testnet ETH.' },
+              { icon: Shield, color: 'text-emerald-400', bg: 'bg-emerald-500/10', border: 'border-emerald-500/20', title: 'Full Integration',     body: 'Switch to the "On-Chain" demo to experience the live production-ready pipeline on Base Sepolia with real smart contracts.' },
             ].map(card => {
               const Icon = card.icon;
               return (

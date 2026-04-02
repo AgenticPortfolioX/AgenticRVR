@@ -180,7 +180,7 @@ function PhaseCard({ meta, state, active }: { meta: typeof PHASE_META[0]; state:
         )}
 
         {state.extra && (
-          <p className="text-[10px] font-mono text-zinc-500 break-all mt-1 leading-relaxed">{state.extra}</p>
+          <p className="text-[10px] font-mono text-zinc-500 break-all mt-1 leading-relaxed line-clamp-3 sm:line-clamp-none">{state.extra}</p>
         )}
       </div>
     </motion.div>
@@ -477,21 +477,22 @@ export default function AMPDemo() {
   const progress = Math.round((completedCount / 6) * 100);
 
   return (
-    <div className="min-h-screen bg-[#050505] text-white">
+    <div className="min-h-screen bg-[#050505] text-white overflow-x-hidden">
       {/* Ambient glow */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-violet-600/8 rounded-full blur-[180px]" />
-        <div className="absolute bottom-1/3 right-1/4 w-[400px] h-[400px] bg-cyan-600/6 rounded-full blur-[140px]" />
-        <div className="absolute top-1/2 left-1/4 w-[300px] h-[300px] bg-orange-600/6 rounded-full blur-[120px]" />
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[min(700px,180vw)] h-[min(700px,180vw)] bg-violet-600/8 rounded-full blur-[180px]" />
+        <div className="absolute bottom-1/3 right-0 w-[min(400px,100vw)] h-[min(400px,100vw)] bg-cyan-600/6 rounded-full blur-[140px]" />
+        <div className="absolute top-1/2 left-0 w-[min(300px,80vw)] h-[min(300px,80vw)] bg-orange-600/6 rounded-full blur-[120px]" />
       </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pt-32 pb-24">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pt-20 sm:pt-28 lg:pt-32 pb-16 sm:pb-24">
 
         {/* ── Header ── */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-500/10 border border-violet-500/20 text-xs text-violet-400 mb-5">
             <span className="w-1.5 h-1.5 rounded-full bg-violet-500 animate-pulse" />
-            Deepfake Slayer Protocol · AMP Demo · Base Sepolia Testnet
+            <span className="hidden sm:inline">Deepfake Slayer Protocol · AMP Demo · Base Sepolia Testnet</span>
+            <span className="sm:hidden">AMP Demo · Base Sepolia</span>
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium tracking-tighter leading-[1.05] mb-4">
             Mission{' '}
@@ -507,23 +508,23 @@ export default function AMPDemo() {
           </p>
 
           {/* Contract pills */}
-          <div className="flex flex-wrap gap-2 mb-8">
+          <div className="flex flex-wrap gap-2 mb-6 max-w-full">
             {[
               { label: 'VerificationRegistry', addr: CONTRACTS.VerificationRegistry, url: `https://sepolia.basescan.org/address/${CONTRACTS.VerificationRegistry}`, color: 'cyan' },
-              { label: 'BadgeRegistry (Arb)', addr: CONTRACTS.BadgeRegistry, url: `https://sepolia.arbiscan.io/address/${CONTRACTS.BadgeRegistry}`, color: 'emerald' },
+              { label: 'BadgeRegistry', addr: CONTRACTS.BadgeRegistry, url: `https://sepolia.arbiscan.io/address/${CONTRACTS.BadgeRegistry}`, color: 'emerald' },
             ].map(c => (
               <a key={c.label} href={c.url} target="_blank" rel="noreferrer"
-                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/3 border border-white/8 text-[10px] font-mono hover:border-white/20 transition-colors group`}>
-                <span className={`w-1.5 h-1.5 rounded-full ${c.color === 'cyan' ? 'bg-cyan-500' : 'bg-emerald-500'}`} />
-                <span className="text-zinc-400 group-hover:text-white transition-colors">{c.label}</span>
-                <span className="text-zinc-600">{c.addr.slice(0, 8)}…{c.addr.slice(-6)}</span>
-                <ExternalLink className="w-2.5 h-2.5 text-zinc-600" />
+                className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-white/3 border border-white/8 text-[10px] font-mono hover:border-white/20 transition-colors group min-w-0">
+                <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${c.color === 'cyan' ? 'bg-cyan-500' : 'bg-emerald-500'}`} />
+                <span className="text-zinc-400 group-hover:text-white transition-colors truncate">{c.label}</span>
+                <span className="text-zinc-600 hidden sm:inline">{c.addr.slice(0, 6)}…{c.addr.slice(-4)}</span>
+                <ExternalLink className="w-2.5 h-2.5 text-zinc-600 flex-shrink-0" />
               </a>
             ))}
             {walletAddr && (
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-[10px] font-mono text-emerald-400">
-                <Wallet className="w-3 h-3" />
-                {walletAddr.slice(0, 8)}…{walletAddr.slice(-6)}
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-[10px] font-mono text-emerald-400">
+                <Wallet className="w-3 h-3 flex-shrink-0" />
+                <span className="truncate">{walletAddr.slice(0, 6)}…{walletAddr.slice(-4)}</span>
               </span>
             )}
           </div>
@@ -575,7 +576,7 @@ export default function AMPDemo() {
 
               <div className="p-5">
                 {/* Preview */}
-                <div className="aspect-square w-full rounded-xl overflow-hidden bg-[#1a1a1a] border border-white/5 flex items-center justify-center relative mb-4">
+                <div className="w-full h-48 sm:aspect-square sm:h-auto rounded-xl overflow-hidden bg-[#1a1a1a] border border-white/5 flex items-center justify-center relative mb-4">
                   <AnimatePresence mode="wait">
                     {imageUrl ? (
                       <motion.img key="img" src={imageUrl} alt="Captured" className="w-full h-full object-cover"

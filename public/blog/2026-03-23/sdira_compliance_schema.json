@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How AI Automation is Reclaiming 20% of Your Team's Day",
+  "image": "https://rvr.agents/blog/2026-03-23/feature_image.png",
+  "author": {
+    "@type": "Organization",
+    "name": "RVR LLC"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Renowned Value Restoration",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rvr.agents/logo.png"
+    }
+  },
+  "datePublished": "2026-03-23",
+  "description": "Discover how hyperautomation and AI can reclaim 2/5 of your team's weekly capacity by offloading the mundane."
+}

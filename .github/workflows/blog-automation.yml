@@ -1,0 +1,17 @@
+name: Blog Auto-Sync
+on:
+  push:
+    branches: [main]
+    paths: ['public/blog/**']
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install && npx tsx scripts/sync-blog.ts
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: automated blog registry sync"
+          file_pattern: 'src/data/blog-posts.json'

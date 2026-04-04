@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Rise of Agentic Solutions",
+  "image": "https://rvr.agents/blog/2026-04-03/feature_image.png",
+  "author": {
+    "@type": "Organization",
+    "name": "RVR LLC"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Renowned Value Restoration",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rvr.agents/logo.png"
+    }
+  },
+  "datePublished": "2026-04-03",
+  "description": "How AI agents are becoming the backbone of modern business logic."
+}

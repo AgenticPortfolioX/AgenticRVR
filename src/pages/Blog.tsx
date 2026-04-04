@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Calendar, Workflow, Video, Server, ArrowRight } from 'lucide-react';
+import { Calendar, Workflow, Video, Server, ArrowRight, Brain } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
-
-import { getAllPosts } from '../utils/blogLoader';
 import { Link } from 'react-router-dom';
+import blogPosts from '../data/blog-posts.json';
 
 const getCategoryIcon = (category: string) => {
   switch (category) {
     case 'Agentic Workflows': return Workflow;
     case 'Video Marketing': return Video;
     case 'Hardware Nodes': return Server;
+    case 'Agentic Nodes': return Brain;
     default: return Workflow;
   }
 };
@@ -19,8 +19,9 @@ export default function Blog() {
   useSEO('Updates & Social', 'Latest news, case studies, and updates from RVR LLC.');
   const [filter, setFilter] = useState('All');
 
-  const allPosts = getAllPosts();
-  const filteredPosts = filter === 'All' ? allPosts : allPosts.filter(p => p.meta.category === filter);
+  const filteredPosts = filter === 'All' ? blogPosts : blogPosts.filter(p => p.Category === filter);
+
+  const categories = ['All', ...new Set(blogPosts.map(p => p.Category))];
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen">
@@ -50,7 +51,7 @@ export default function Blog() {
           transition={{ delay: 0.2 }}
           className="flex flex-wrap justify-center gap-4 mb-16"
         >
-          {['All', 'Agentic Workflows', 'Video Marketing', 'Hardware Nodes'].map((cat) => (
+          {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setFilter(cat)}
@@ -65,8 +66,8 @@ export default function Blog() {
           ))}
         </motion.div>
 
-        {/* Blog Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Blog Grid - 4 columns on LG */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {filteredPosts.map((post, i) => (
             <motion.div
               key={post.id}
@@ -80,22 +81,22 @@ export default function Blog() {
               >
                 <div className="h-48 relative overflow-hidden">
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10" />
-                  <img src={post.resolvedImage} alt={post.meta.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                  <img src={post.image} alt={post.Title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                   <div className="absolute top-4 left-4 z-20 bg-black/60 backdrop-blur-md px-3 py-1.5 rounded-full flex items-center gap-2 text-xs font-medium text-white border border-white/10">
                     {(() => {
-                      const Icon = getCategoryIcon(post.meta.category);
+                      const Icon = getCategoryIcon(post.Category);
                       return <Icon className="w-3.5 h-3.5 text-orange-500" />
                     })()}
-                    {post.meta.category}
+                    {post.Category}
                   </div>
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
                   <div className="flex items-center gap-2 text-sm text-zinc-500 mb-4">
                     <Calendar className="w-4 h-4" />
-                    {post.meta.date}
+                    {post.Date}
                   </div>
-                  <h3 className="text-xl font-medium mb-3 group-hover:text-orange-400 transition-colors">{post.meta.title}</h3>
-                  <p className="text-zinc-400 text-sm leading-relaxed mb-6 flex-grow">{post.meta.excerpt}</p>
+                  <h3 className="text-xl font-medium mb-3 group-hover:text-orange-400 transition-colors line-clamp-2">{post.Title}</h3>
+                  <p className="text-zinc-400 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">{post.Description}</p>
                   <div className="flex items-center gap-2 text-sm font-medium text-white group-hover:text-orange-500 transition-colors mt-auto">
                     Read Article <ArrowRight className="w-4 h-4" />
                   </div>

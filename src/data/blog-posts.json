@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-03-23",
+    "Title": "How AI Automation is Reclaiming 20% of Your Team's Day",
+    "Date": "2026-03-23",
+    "Description": "Discover how hyperautomation and AI can reclaim 2/5 of your team's weekly capacity by offloading the mundane.",
+    "Category": "Agentic Workflows",
+    "Author": "RVR Admin",
+    "image": "/blog/2026-03-23/feature_image.png",
+    "path": "/blog/2026-03-23/final.md",
+    "schema": "/blog/2026-03-23/sdira_compliance_schema.json"
+  },
+  {
+    "id": "2026-04-03",
+    "Title": "The Rise of Agentic Solutions",
+    "Date": "2026-04-03",
+    "Description": "How AI agents are becoming the backbone of modern business logic.",
+    "Category": "Agentic Nodes",
+    "Author": "RVR Admin",
+    "image": "/blog/2026-04-03/feature_image.png",
+    "path": "/blog/2026-04-03/final.md",
+    "schema": "/blog/2026-04-03/sdira_compliance_schema.json"
+  }
+]

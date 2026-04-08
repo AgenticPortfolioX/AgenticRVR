@@ -10,15 +10,36 @@ if (!fs.existsSync(path.dirname(dataFile))) {
 }
 
 function parseYAML(content: string) {
-  const match = content.match(/^---\s*([\s\S]*?)\s*---/);
+  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!match) return {};
+  
   const res: any = {};
-  match[1].split('\n').filter(l => l.includes(':')).forEach(l => {
-    const [k, ...v] = l.split(':');
-    if (k && v.length > 0) {
-      res[k.trim()] = v.join(':').trim().replace(/^["'](.*)["']$/, '$1');
+  const lines = match[1].split(/\r?\n/);
+  
+  for (const line of lines) {
+    const colonIndex = line.indexOf(':');
+    if (colonIndex === -1) continue;
+    
+    const k = line.substring(0, colonIndex).trim();
+    let v = line.substring(colonIndex + 1).trim();
+    
+    // Remove surrounding quotes
+    if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
+      v = v.substring(1, v.length - 1);
     }
-  });
+    
+    const key = k.toLowerCase();
+    // Handle tags as array
+    if (key === 'tags') {
+      res[key] = v.split(',').map(tag => tag.trim()).filter(tag => tag.length > 0);
+    } else {
+      res[key] = v;
+      // Also keep original key for backward compatibility if needed, 
+      // but the UI likely expects specific keys. 
+      // Based on the previous output, the keys were Title, Date, Description.
+      res[k] = v; 
+    }
+  }
   return res;
 }
 
@@ -37,9 +58,18 @@ async function sync() {
     const content = fs.readFileSync(filePath, 'utf8');
     const meta = parseYAML(content);
     
+    // Map meta_description or description to excerpt
+    const excerpt = meta.meta_description || meta.description || "";
+    
     return { 
       id: f, 
-      ...meta, 
+      title: meta.title || "",
+      date: meta.date || "",
+      description: meta.description || "",
+      category: meta.category || "",
+      author: meta.author || "",
+      tags: meta.tags || [],
+      excerpt,
       image: `/blog/${f}/feature_image.png`, 
       path: `/blog/${f}/final.md`, 
       schema: `/blog/${f}/sdira_compliance_schema.json` 

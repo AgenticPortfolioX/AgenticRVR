@@ -27,7 +27,7 @@ Target Branch: main
 Exact Path: public/blog/[YYYY-MM-DD]/
 
 Your Task: Prepare and 'send' (upload) the following 4 mandatory files to the repository at the path specified above.
-1. final.md
+1. final.md - **CRITICAL**: Must begin with a YAML frontmatter block containing: title, date, description, category, and author.
 2. feature_image.png
 3. publish_instructions.md
 4. sdira_compliance_schema.json

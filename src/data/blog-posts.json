@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-04-09",
+    "title": "AI Agents: The 24/7 Workforce Small Businesses Can't Afford to Ignore",
+    "date": "2026-04-09",
+    "description": "How autonomous AI agents are revolutionizing lead response and operational efficiency for small businesses.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "How autonomous AI agents are revolutionizing lead response and operational efficiency for small businesses.",
+    "image": "/blog/2026-04-09/feature_image.png",
+    "path": "/blog/2026-04-09/final.md",
+    "schema": "/blog/2026-04-09/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-04-03",
     "title": "The Rise of Agentic Solutions",
     "date": "2026-04-03",
@@ -24,18 +37,5 @@
     "image": "/blog/2026-03-23/feature_image.png",
     "path": "/blog/2026-03-23/final.md",
     "schema": "/blog/2026-03-23/sdira_compliance_schema.json"
-  },
-  {
-    "id": "2026-04-09",
-    "title": "",
-    "date": "",
-    "description": "",
-    "category": "",
-    "author": "",
-    "tags": [],
-    "excerpt": "",
-    "image": "/blog/2026-04-09/feature_image.png",
-    "path": "/blog/2026-04-09/final.md",
-    "schema": "/blog/2026-04-09/sdira_compliance_schema.json"
   }
 ]

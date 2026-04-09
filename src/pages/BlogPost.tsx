@@ -124,14 +124,14 @@ export default function BlogPost() {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight mb-8"
+            className="text-4xl md:text-5xl lg:text-7xl font-medium tracking-tight mb-8 leading-[1.1]"
           >
             {post.title}
           </motion.h1>
-          <p className="text-xl text-zinc-400 leading-relaxed mb-12">
+          <p className="text-xl md:text-2xl text-zinc-400 leading-relaxed mb-12 max-w-3xl">
             {post.description}
           </p>
-          <div className="relative aspect-video rounded-3xl overflow-hidden border border-white/10">
+          <div className="relative aspect-video rounded-[2.5rem] overflow-hidden border border-white/10 shadow-2xl">
             <img 
               src={post.image.startsWith('/') ? `/AgenticRVR${post.image}` : `/AgenticRVR/${post.image}`} 
               alt={post.title}
@@ -151,12 +151,22 @@ export default function BlogPost() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="prose prose-invert prose-lg max-w-none prose-img:rounded-3xl prose-headings:font-medium prose-a:text-orange-500 prose-a:no-underline hover:prose-a:text-orange-400"
+          className="prose prose-invert prose-lg md:prose-xl max-w-none prose-headings:tracking-tight prose-a:text-orange-500 prose-a:no-underline hover:prose-a:text-orange-400 prose-strong:text-white prose-strong:font-medium"
         >
           <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {content}
           </ReactMarkdown>
         </motion.div>
+
+        <div className="mt-24 pt-12 border-t border-white/5 text-center">
+          <p className="text-zinc-500 mb-6">Ready to automate your workflows?</p>
+          <Link 
+            to="/connect"
+            className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full font-medium hover:bg-orange-500 hover:text-white transition-all transform hover:scale-105"
+          >
+            Work with Agentic <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -78,7 +78,7 @@ const PHASE_META = [
   { n: 2, label: 'World ID (Proof of Humanity)',  icon: Shield,      color: 'cyan'    },
   { n: 3, label: 'Device Trust (Registry)',       icon: Key,         color: 'violet'  },
   { n: 4, label: 'Submit (Base Sepolia)',         icon: Wallet,      color: 'blue'    },
-  { n: 5, label: 'Verify (Chainlink DON)',        icon: Zap,         color: 'yellow'  },
+  { n: 5, label: 'Verify (Chainlink Oracle Network)', icon: Zap,     color: 'yellow'  },
   { n: 6, label: 'Broadcast (CCIP Relay)',        icon: Globe,       color: 'emerald' },
 ];
 
@@ -362,9 +362,9 @@ export default function AMPDemoLive() {
       await reqTx.wait(1);
       setPhase(4, { status: 'done', detail: `Proof anchored · Block confirmed via VerificationRequested event`, txHash: reqTx.hash });
 
-      // ── Phase 5: Verify (Chainlink DON) ───────────────────────────────
+      // ── Phase 5: Verify (Chainlink Oracle Network) ───────────────────────────────
       setCurrentPhase(5);
-      setPhase(5, { status: 'active', detail: 'Waiting for Decentralized Oracle Network (DON) consensus…' });
+      setPhase(5, { status: 'active', detail: 'Waiting for Decentralized Oracle Network consensus…' });
 
       // Live event listener for VerifiedReal event
       const verificationComplete = new Promise<void>((resolve) => {
@@ -405,11 +405,11 @@ export default function AMPDemoLive() {
           badge_registry: CONTRACTS.BadgeRegistry,
           status: 'CROSS_CHAIN_ANCHORED'
         },
-        verification: { status: 'VERIFIED_REAL', protocol: 'Chainlink DON + CCIP' },
+        verification: { status: 'VERIFIED_REAL', protocol: 'Chainlink Oracle Network + CCIP' },
       };
       setManifestJson(JSON.stringify(manifest, null, 2));
       setDone(true);
-      setCurrentPhase(5);
+      setCurrentPhase(6);
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
       console.error(err);
@@ -537,7 +537,7 @@ export default function AMPDemoLive() {
                     <div>
                       <div className="flex items-center gap-2">
                         <h2 className="text-base font-bold text-emerald-300">Verified Real</h2>
-                        <span className="text-[9px] px-1.5 py-0.5 bg-emerald-500/20 border border-emerald-500/30 rounded-full text-emerald-400 font-bold">4/4</span>
+                        <span className="text-[9px] px-1.5 py-0.5 bg-emerald-500/20 border border-emerald-500/30 rounded-full text-emerald-400 font-bold">6/6</span>
                       </div>
                       <p className="text-[10px] text-zinc-500">All protocol phases complete</p>
                     </div>
@@ -578,7 +578,7 @@ export default function AMPDemoLive() {
                     </div>
                     <div>
                       <p className={`text-[10px] font-bold uppercase tracking-wider ${C[activeMeta.color].text}`}>
-                        Phase {activeMeta.n} of 4
+                        Phase {activeMeta.n} of 6
                       </p>
                       <h2 className="text-sm font-semibold text-white">{activeMeta.label}</h2>
                       <p className="text-[10px] text-zinc-400 mt-0.5">

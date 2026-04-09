@@ -10,11 +10,11 @@ import blogPostsRaw from '../data/blog-posts.json';
 // Type definition for blog post
 interface BlogPostData {
   id: string;
-  Title: string;
-  Date: string;
-  Description: string;
-  Category: string;
-  Author: string;
+  title: string;
+  date: string;
+  description: string;
+  category: string;
+  author: string;
   image: string;
   path: string;
   schema: string;
@@ -23,11 +23,11 @@ interface BlogPostData {
 const blogPosts = blogPostsRaw as BlogPostData[];
 
 const getCategoryIcon = (category: string) => {
-  switch (category) {
-    case 'Agentic Workflows': return Workflow;
-    case 'Video Marketing': return Video;
-    case 'Hardware Nodes': return Server;
-    case 'Agentic Nodes': return Brain;
+  switch (category?.toLowerCase()) {
+    case 'agentic workflows': return Workflow;
+    case 'video marketing': return Video;
+    case 'hardware nodes': return Server;
+    case 'agentic nodes': return Brain;
     default: return Workflow;
   }
 };
@@ -39,8 +39,7 @@ export default function BlogPost() {
 
   useEffect(() => {
     if (post) {
-      // Add basename if it exists in the environment or project config
-      // React Router is using basename="/AgenticRVR"
+      // Add basename if it exists
       const fetchPath = post.path.startsWith('/') ? `/AgenticRVR${post.path}` : `/AgenticRVR/${post.path}`;
       
       fetch(fetchPath)
@@ -53,14 +52,14 @@ export default function BlogPost() {
           setContent(displayContent);
         })
         .catch(err => {
-          console.error(err);
-          // Fallback if the path is not found with basename
+          console.error('Initial fetch failed, trying root path:', err);
           fetch(post.path)
             .then(r => r.text())
             .then(text => {
               const displayContent = text.replace(/^---\s*[\s\S]*?\s*---/, '').trim();
               setContent(displayContent);
-            });
+            })
+            .catch(e => console.error('Final fallback failed:', e));
         });
     }
   }, [post]);
@@ -81,7 +80,7 @@ export default function BlogPost() {
           fetch(post.schema).then(r => r.json()).then(data => {
             script.text = JSON.stringify(data);
             document.head.appendChild(script);
-          });
+          }).catch(e => console.error('Schema fetch failed:', e));
         });
         
       return () => {
@@ -97,8 +96,8 @@ export default function BlogPost() {
     return <Navigate to="/blog" replace />;
   }
 
-  useSEO(post.Title, post.Description);
-  const Icon = getCategoryIcon(post.Category);
+  useSEO(post.title, post.description);
+  const Icon = getCategoryIcon(post.category);
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen">
@@ -115,11 +114,11 @@ export default function BlogPost() {
           <div className="flex items-center gap-4 text-sm mb-6">
             <div className="flex items-center gap-2 text-orange-500 font-medium bg-[#141414] border border-white/5 px-3 py-1.5 rounded-full">
               <Icon className="w-4 h-4" />
-              {post.Category}
+              {post.category}
             </div>
             <div className="flex items-center gap-2 text-zinc-500">
               <Calendar className="w-4 h-4" />
-              {post.Date}
+              {post.date}
             </div>
           </div>
           <motion.h1 
@@ -127,18 +126,17 @@ export default function BlogPost() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight mb-8"
           >
-            {post.Title}
+            {post.title}
           </motion.h1>
           <p className="text-xl text-zinc-400 leading-relaxed mb-12">
-            {post.Description}
+            {post.description}
           </p>
           <div className="relative aspect-video rounded-3xl overflow-hidden border border-white/10">
             <img 
               src={post.image.startsWith('/') ? `/AgenticRVR${post.image}` : `/AgenticRVR/${post.image}`} 
-              alt={post.Title}
+              alt={post.title}
               className="w-full h-full object-cover"
               onError={(e) => {
-                // Fallback for dev environment or root deployment
                 const target = e.target as HTMLImageElement;
                 if (target.src.includes('/AgenticRVR')) {
                   target.src = post.image;

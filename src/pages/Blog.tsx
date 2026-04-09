@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 import blogPosts from '../data/blog-posts.json';
 
 const getCategoryIcon = (category: string) => {
-  switch (category) {
-    case 'Agentic Workflows': return Workflow;
-    case 'Video Marketing': return Video;
-    case 'Hardware Nodes': return Server;
-    case 'Agentic Nodes': return Brain;
+  switch (category?.toLowerCase()) {
+    case 'agentic workflows': return Workflow;
+    case 'video marketing': return Video;
+    case 'hardware nodes': return Server;
+    case 'agentic nodes': return Brain;
     default: return Workflow;
   }
 };
@@ -19,9 +19,9 @@ export default function Blog() {
   useSEO('Updates & Social', 'Latest news, case studies, and updates from RVR LLC.');
   const [filter, setFilter] = useState('All');
 
-  const filteredPosts = filter === 'All' ? blogPosts : blogPosts.filter(p => p.Category === filter);
+  const filteredPosts = filter === 'All' ? blogPosts : blogPosts.filter(p => p.category === filter);
 
-  const categories = ['All', ...new Set(blogPosts.map(p => p.Category))];
+  const categories = ['All', ...new Set(blogPosts.map(p => p.category))];
 
   return (
     <div className="pt-32 pb-24 px-6 min-h-screen">
@@ -81,22 +81,32 @@ export default function Blog() {
               >
                 <div className="h-48 relative overflow-hidden">
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10" />
-                  <img src={post.image} alt={post.Title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                  <img 
+                    src={post.image.startsWith('/') ? `/AgenticRVR${post.image}` : `/AgenticRVR/${post.image}`} 
+                    alt={post.title} 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      if (target.src.includes('/AgenticRVR')) {
+                        target.src = post.image;
+                      }
+                    }}
+                  />
                   <div className="absolute top-4 left-4 z-20 bg-black/60 backdrop-blur-md px-3 py-1.5 rounded-full flex items-center gap-2 text-xs font-medium text-white border border-white/10">
                     {(() => {
-                      const Icon = getCategoryIcon(post.Category);
+                      const Icon = getCategoryIcon(post.category);
                       return <Icon className="w-3.5 h-3.5 text-orange-500" />
                     })()}
-                    {post.Category}
+                    {post.category}
                   </div>
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
                   <div className="flex items-center gap-2 text-sm text-zinc-500 mb-4">
                     <Calendar className="w-4 h-4" />
-                    {post.Date}
+                    {post.date}
                   </div>
-                  <h3 className="text-xl font-medium mb-3 group-hover:text-orange-400 transition-colors line-clamp-2">{post.Title}</h3>
-                  <p className="text-zinc-400 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">{post.Description}</p>
+                  <h3 className="text-xl font-medium mb-3 group-hover:text-orange-400 transition-colors line-clamp-2">{post.title}</h3>
+                  <p className="text-zinc-400 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">{post.description}</p>
                   <div className="flex items-center gap-2 text-sm font-medium text-white group-hover:text-orange-500 transition-colors mt-auto">
                     Read Article <ArrowRight className="w-4 h-4" />
                   </div>

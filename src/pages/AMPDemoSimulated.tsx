@@ -70,7 +70,7 @@ const initPhases = (): Record<number, PhaseState> => ({
 
 const PHASE_META = [
   { n: 1, label: 'Secure Capture & Hashing',       icon: Camera,      color: 'orange'  },
-  { n: 2, label: 'World ID Identity Binding',       icon: Fingerprint, color: 'violet'  },
+  { n: 2, label: 'World ID (Proof of Humanity)',  icon: Fingerprint, color: 'violet'  },
   { n: 3, label: 'Device Key Registration',         icon: Key,         color: 'cyan'    },
   { n: 4, label: 'Verification Request',            icon: Shield,      color: 'blue'    },
   { n: 5, label: 'Chainlink Functions Callback',    icon: Zap,         color: 'yellow'  },
@@ -89,6 +89,88 @@ const C: Record<string, { text: string; bg: string; border: string; pulse: strin
 // ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
 // Compact Phase Card (no simulated label)
 // ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+// ─────────────────────────────────────────────
+// Components
+// ─────────────────────────────────────────────
+
+function WebcamModal({ onCapture, onClose }: { onCapture: (f: File) => void; onClose: () => void }) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [stream, setStream] = useState<MediaStream | null>(null);
+
+  const startCamera = async () => {
+    try {
+      const s = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' }, audio: false });
+      setStream(s);
+      if (videoRef.current) videoRef.current.srcObject = s;
+    } catch (err) {
+      console.error("Camera access error:", err);
+      alert("Could not access camera. Please check permissions.");
+      onClose();
+    }
+  };
+
+  const capture = () => {
+    if (!videoRef.current) return;
+    const canvas = document.createElement('canvas');
+    canvas.width = videoRef.current.videoWidth;
+    canvas.height = videoRef.current.videoHeight;
+    const ctx = canvas.getContext('2d');
+    if (ctx) {
+      ctx.drawImage(videoRef.current, 0, 0);
+      canvas.toBlob((blob) => {
+        if (blob) {
+          const file = new File([blob], `capture_${Date.now()}.png`, { type: 'image/png' });
+          onCapture(file);
+          stopCamera();
+          onClose();
+        }
+      }, 'image/png');
+    }
+  };
+
+  const stopCamera = () => {
+    if (stream) {
+      stream.getTracks().forEach(t => t.stop());
+    }
+  };
+
+  useState(() => { startCamera(); });
+
+  return (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/90 backdrop-blur-xl">
+      <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="relative w-full max-w-lg bg-[#111] border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
+        <div className="p-4 border-b border-white/5 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <Camera className="w-4 h-4 text-orange-400" />
+            <h3 className="text-sm font-bold uppercase tracking-widest text-zinc-300">Secure Capture</h3>
+          </div>
+          <button onClick={() => { stopCamera(); onClose(); }} className="p-2 hover:bg-white/5 rounded-full transition-colors">
+            <XCircle className="w-5 h-5 text-zinc-500" />
+          </button>
+        </div>
+        
+        <div className="aspect-video bg-black relative">
+          <video ref={videoRef} autoPlay playsInline className="w-full h-full object-cover" />
+          <div className="absolute inset-0 border-[20px] border-black/20 pointer-events-none" />
+        </div>
+
+        <div className="p-6 flex flex-col items-center gap-4">
+          <p className="text-[10px] text-zinc-500 text-center max-w-[200px]">
+            Position media within the frame. 
+            High-fidelity hashing will occur locally.
+          </p>
+          <button 
+            onClick={capture}
+            className="w-20 h-20 rounded-full border-4 border-white/20 flex items-center justify-center group hover:border-orange-500/50 transition-all active:scale-95"
+          >
+            <div className="w-14 h-14 rounded-full bg-white group-hover:bg-orange-400 transition-colors shadow-lg shadow-white/10" />
+          </button>
+        </div>
+      </motion.div>
+    </div>
+  );
+}
+
 function PhaseCard({ meta, state }: { meta: typeof PHASE_META[0]; state: PhaseState }) {
   const c = C[meta.color];
   const Icon = meta.icon;
@@ -185,6 +267,7 @@ export default function AMPDemoSimulated() {
   const [copied, setCopied]           = useState(false);
   const [running, setRunning]         = useState(false);
   const [done, setDone]               = useState(false);
+  const [showWebcam, setShowWebcam]   = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const setPhase = (n: number, u: Partial<PhaseState>) =>
@@ -343,10 +426,15 @@ export default function AMPDemoSimulated() {
     }
   }, [running]);
 
-  const onFile = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const f = e.target.files?.[0];
+  const onFile = (eOrFile: React.ChangeEvent<HTMLInputElement> | File) => {
+    let f: File | undefined;
+    if (eOrFile instanceof File) {
+      f = eOrFile;
+    } else {
+      f = eOrFile.target.files?.[0];
+      eOrFile.target.value = '';
+    }
     if (f) runPipeline(f);
-    e.target.value = '';
   };
 
   const reset = () => {
@@ -556,15 +644,22 @@ export default function AMPDemoSimulated() {
 
             {/* Button + Progress bar together */}
             <div className="px-4 pb-4 flex flex-col gap-2.5">
-              <input ref={fileInputRef} type="file" accept="image/*" capture="environment"
+              <input ref={fileInputRef} type="file" accept="image/*,video/*" capture="environment"
                 className="hidden" onChange={onFile} id="camera-input" />
 
               {!running && !done ? (
                 <motion.button whileTap={{ scale: 0.97 }}
-                  onClick={() => fileInputRef.current?.click()} id="capture-btn"
+                  onClick={() => {
+                    const isDesktop = !/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+                    if (isDesktop && navigator.mediaDevices) {
+                      setShowWebcam(true);
+                    } else {
+                      fileInputRef.current?.click();
+                    }
+                  }} id="capture-btn"
                   className="w-full py-3 rounded-xl bg-gradient-to-br from-violet-500 to-blue-600 text-white font-semibold text-sm flex items-center justify-center gap-2">
                   <Camera className="w-4 h-4" />
-                  Take Photo / Upload Image
+                  Take Photo/Video
                 </motion.button>
               ) : done ? (
                 <motion.button whileTap={{ scale: 0.97 }} onClick={reset} id="reset-btn"
@@ -736,6 +831,14 @@ export default function AMPDemoSimulated() {
           </a>
         </div>
       </div>
+      <AnimatePresence>
+        {showWebcam && (
+          <WebcamModal 
+            onCapture={(f) => onFile(f)} 
+            onClose={() => setShowWebcam(false)} 
+          />
+        )}
+      </AnimatePresence>
     </div>
   );
 }

@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-04-13",
+    "title": "How AI-Powered Review Response Automation Turns Every Customer Review Into a Growth Engine",
+    "date": "2026-04-13",
+    "description": "Discover how autonomous AI agents can handle customer reviews instantly, turning feedback into a revenue-generating asset and ensuring no customer feels ignored.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Discover how autonomous AI agents can handle customer reviews instantly, turning feedback into a revenue-generating asset and ensuring no customer feels ignored.",
+    "image": "/blog/2026-04-13/feature_image.png",
+    "path": "/blog/2026-04-13/final.md",
+    "schema": "/blog/2026-04-13/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-04-09",
     "title": "AI Agents: The 24/7 Workforce Small Businesses Can't Afford to Ignore",
     "date": "2026-04-09",
@@ -37,18 +50,5 @@
     "image": "/blog/2026-03-23/feature_image.png",
     "path": "/blog/2026-03-23/final.md",
     "schema": "/blog/2026-03-23/sdira_compliance_schema.json"
-  },
-  {
-    "id": "2026-04-13",
-    "title": "",
-    "date": "",
-    "description": "",
-    "category": "",
-    "author": "",
-    "tags": [],
-    "excerpt": "",
-    "image": "/blog/2026-04-13/feature_image.png",
-    "path": "/blog/2026-04-13/final.md",
-    "schema": "/blog/2026-04-13/sdira_compliance_schema.json"
   }
 ]

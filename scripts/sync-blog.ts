@@ -61,6 +61,13 @@ async function sync() {
     // Map meta_description or description to excerpt
     const excerpt = meta.meta_description || meta.description || "";
     
+    // Find any supported image file (png, jpg, jpeg)
+    const imageFiles = fs.readdirSync(path.join(blogDir, f))
+      .filter(file => /\.(png|jpe?g)$/i.test(file))
+      .filter(file => file.toLowerCase().includes('feature_image') || file.toLowerCase().includes('hero') || file.toLowerCase() === 'image.png');
+    
+    const imageName = imageFiles.length > 0 ? imageFiles[0] : 'feature_image.png';
+
     return { 
       id: f, 
       title: meta.title || "",
@@ -70,7 +77,7 @@ async function sync() {
       author: meta.author || "",
       tags: meta.tags || [],
       excerpt,
-      image: `/blog/${f}/feature_image.png`, 
+      image: `/blog/${f}/${imageName}`, 
       path: `/blog/${f}/final.md`, 
       schema: `/blog/${f}/sdira_compliance_schema.json` 
     };

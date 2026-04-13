@@ -37,5 +37,18 @@
     "image": "/blog/2026-03-23/feature_image.png",
     "path": "/blog/2026-03-23/final.md",
     "schema": "/blog/2026-03-23/sdira_compliance_schema.json"
+  },
+  {
+    "id": "2026-04-13",
+    "title": "",
+    "date": "",
+    "description": "",
+    "category": "",
+    "author": "",
+    "tags": [],
+    "excerpt": "",
+    "image": "/blog/2026-04-13/feature_image.png",
+    "path": "/blog/2026-04-13/final.md",
+    "schema": "/blog/2026-04-13/sdira_compliance_schema.json"
   }
 ]

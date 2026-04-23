@@ -1,0 +1,127 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-04-20-autonomous-workflow-lead-to-review#article",
+      "headline": "From Lead Capture to 5-Star Review: Building an Autonomous Workflow That Never Sleeps",
+      "description": "Discover how autonomous AI workflows connect every stage of the customer journey — from the first inbound lead to the final 5-star Google review — without a single manual step.",
+      "datePublished": "2026-04-20",
+      "dateModified": "2026-04-20",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-04-20-autonomous-workflow-lead-to-review"
+      },
+      "keywords": [
+        "small business workflow automation",
+        "autonomous lead management",
+        "AI workflow automation",
+        "speed to lead",
+        "automated customer journey",
+        "review response automation"
+      ],
+      "articleSection": "Agentic Workflows"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-04-20-autonomous-workflow-lead-to-review#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an autonomous business workflow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An autonomous business workflow is a connected system of AI agents that handles every stage of the customer journey — from the moment a lead comes in to the final 5-star review — without manual intervention."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast should a small business respond to leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Research from Harvard Business Review shows that responding within 5 minutes makes you 9 times more likely to convert a lead. Most small businesses take hours or never respond at all."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can AI really automate the entire customer journey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Modern AI agents can capture leads, send instant responses, book appointments, request reviews, and even reply to those reviews — all autonomously and 24/7."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does workflow automation cost for a small business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costs vary by business size and complexity, but the ROI is clear: businesses using AI automation save 10+ hours per week and see 30-40% improvement in lead conversion rates."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR#organization",
+      "name": "Agentic",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "AI-driven workflow automation, autonomous Speed to Lead agents, and cinematic FPV drone/real estate media production.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County, Michigan"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County, Michigan"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County, Michigan"
+        }
+      ],
+      "serviceType": [
+        "AI Workflow Automation",
+        "Speed to Lead Agent Deployment",
+        "Autonomous Review Management",
+        "FPV Drone Real Estate Media"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-04-20-autonomous-workflow-lead-to-review#service",
+      "name": "Autonomous Workflow Automation",
+      "description": "Complete end-to-end autonomous business workflow from lead capture to 5-star review — powered by AI agents that work 24/7.",
+      "provider": {
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR#organization"
+      },
+      "areaServed": "Metro Detroit, Michigan",
+      "serviceType": "Business Process Automation",
+      "audience": {
+        "@type": "BusinessAudience",
+        "name": "Small business owners, real estate professionals, service-based companies"
+      }
+    }
+  ]
+}

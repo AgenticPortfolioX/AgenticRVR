@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-04-20",
+    "title": "From Lead Capture to 5-Star Review: Building an Autonomous Workflow That Never Sleeps",
+    "date": "2026-04-20",
+    "description": "Discover how autonomous AI workflows connect every stage of the customer journey — from the first inbound lead to the final 5-star Google review — without a single manual step.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Discover how autonomous AI workflows connect every stage of the customer journey — from the first inbound lead to the final 5-star Google review — without a single manual step.",
+    "image": "/blog/2026-04-20/feature_image.png",
+    "path": "/blog/2026-04-20/final.md",
+    "schema": "/blog/2026-04-20/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-04-13",
     "title": "How AI-Powered Review Response Automation Turns Every Customer Review Into a Growth Engine",
     "date": "2026-04-13",

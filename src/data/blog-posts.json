@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-04-28",
+    "title": "The Future of Autonomous AI Agents in Enterprise Architecture",
+    "date": "2026-04-28",
+    "description": "Discover how multi-agent systems are fundamentally reshaping enterprise architecture, from autonomous orchestration to self-healing infrastructure.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Discover how multi-agent systems are fundamentally reshaping enterprise architecture, from autonomous orchestration to self-healing infrastructure.",
+    "image": "/blog/2026-04-28/feature_image.png",
+    "path": "/blog/2026-04-28/final.md",
+    "schema": "/blog/2026-04-28/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-04-20",
     "title": "From Lead Capture to 5-Star Review: Building an Autonomous Workflow That Never Sleeps",
     "date": "2026-04-20",

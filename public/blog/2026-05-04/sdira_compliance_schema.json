@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "The AI-Powered Visual Revolution: Why Cinematic Drone Walkthroughs + Autonomous Agents Are the Unfair Advantage in Metro Detroit Real Estate",
+      "description": "Discover how combining cinematic FPV drone walkthroughs with AI autonomous agents creates an unfair advantage in Metro Detroit real estate — selling properties 68% faster while capturing every lead 24/7.",
+      "datePublished": "2026-05-04",
+      "dateModified": "2026-05-04",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "legalName": "Renowned Value Restoration LLC",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-05-04"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-05-04/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "AI-powered real estate marketing with cinematic drone walkthroughs and autonomous lead capture agents"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do drone walkthroughs really help sell properties faster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. According to the National Association of Realtors, listings with aerial photography and video sell 68% faster and command up to 47% higher price per square foot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a cinematic drone walkthrough?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A cinematic drone walkthrough is a professionally produced video tour that uses FPV (First Person View) drone footage to showcase a property's layout, scale, and surroundings in an immersive, movie-quality format."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can AI agents help real estate agents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI agents can respond to new leads within 5 minutes (even after hours), autonomously manage online reviews, and handle initial buyer qualification — freeing agents to focus on showings and closings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Speed to Lead for real estate agents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Speed to Lead is the practice of responding to a new inquiry within 5 minutes. Leads contacted within 5 minutes are 21x more likely to convert, yet most real estate agents take 30+ minutes to respond."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much time can AI automation save a real estate agent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI automation saves 10+ hours per week on review management, lead routing, and initial follow-up — time that can be reinvested into showings, prospecting, and client relationships."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Agentic",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "AI-driven workflow automation, autonomous Speed to Lead agents, and cinematic FPV drone/real estate media production for Metro Detroit small businesses and real estate professionals.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248)313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "Service",
+      "name": "Cinematic FPV Drone Walkthroughs + AI Autonomous Agents for Real Estate",
+      "provider": {
+        "@type": "Organization",
+        "name": "Agentic"
+      },
+      "serviceType": "AI-Powered Real Estate Marketing Automation",
+      "description": "Integrated cinematic FPV drone property walkthroughs with autonomous speed-to-lead AI agents that capture, qualify, and convert real estate inquiries 24/7.",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Metro Detroit"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Real Estate Agents and Brokerages"
+      }
+    }
+  ]
+}

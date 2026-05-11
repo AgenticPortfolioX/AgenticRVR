@@ -1,7 +1,0 @@
-{
-  "callback": "https://[MY-CLOUDFLARE-URL]/lnurlp/api/v1/lnurl/cb/[WALLET-ID]",
-  "maxSendable": 10000000,
-  "minSendable": 1000,
-  "metadata": "[[\"text/plain\", \"Sats for AgenticRVR\"]]",
-  "tag": "payRequest"
-}

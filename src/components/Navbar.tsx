@@ -12,14 +12,14 @@ export default function Navbar() {
           </div>
           <span className="font-semibold text-xl tracking-tight">RVR LLC<span className="text-orange-500">.</span></span>
         </Link>
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400 mr-8">
-          <Link to="/workflows" className="hover:text-white transition-colors">Automated Workflows</Link>
+        <div className="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-400 mr-8">
+          <Link to="/digital-launchpad" className="hover:text-white transition-colors text-orange-400 font-semibold">Digital Launchpad</Link>
+          <Link to="/automation-consultation" className="hover:text-white transition-colors text-orange-400 font-semibold">Automation Consultation</Link>
+          <Link to="/workflows" className="hover:text-white transition-colors">Workflows</Link>
           <Link to="/speed-to-lead" className="hover:text-white transition-colors">Speed-to-Lead</Link>
           <Link to="/replies" className="hover:text-white transition-colors">Respond Agent</Link>
-          <Link to="/video" className="hover:text-white transition-colors">Video Marketing</Link>
-          <Link to="/nodes" className="hover:text-white transition-colors">Hardware Nodes</Link>
+          <Link to="/nodes" className="hover:text-white transition-colors">Nodes</Link>
           <Link to="/blog" className="hover:text-white transition-colors">Updates</Link>
-          <Link to="/AMP" className="hover:text-white transition-colors text-violet-400 hover:text-violet-300">AMP Protocol</Link>
         </div>
         <Link to="/contact" className="bg-white text-black px-6 py-2.5 rounded-full text-sm font-medium hover:bg-zinc-200 transition-colors inline-flex items-center justify-center">
           Get Started

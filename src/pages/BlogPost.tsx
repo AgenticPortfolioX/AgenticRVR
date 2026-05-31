@@ -3,7 +3,7 @@ import { useParams, Navigate, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { motion } from 'motion/react';
-import { ArrowLeft, Calendar, Workflow, Video, Server, Brain } from 'lucide-react';
+import { ArrowLeft, Calendar, Workflow, Video, Server, Brain, ArrowRight } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
 import blogPostsRaw from '../data/blog-posts.json';
 

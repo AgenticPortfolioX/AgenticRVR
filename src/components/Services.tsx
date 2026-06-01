@@ -33,17 +33,29 @@ export default function Services() {
                 <Laptop className="w-7 h-7 text-black" />
               </div>
               
-              <div className="mt-8">
+              <div className="mt-6">
                 <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-black/10 text-xs font-semibold text-black/85 mb-3">
                   <span className="w-1.5 h-1.5 rounded-full bg-black animate-pulse" />
                   Most Popular
                 </div>
-                <h3 className="text-3xl font-bold tracking-tight mb-2">Digital Launchpad</h3>
-                <p className="text-black/80 font-medium mb-6 text-sm leading-relaxed">
-                  Stop losing jobs to the competition. We build your high-converting online presence and map direct leads to your phone on autopilot.
-                </p>
+                <h3 className="text-3xl font-bold tracking-tight mb-3">Digital Launchpad</h3>
+                <p className="text-black/75 font-semibold text-xs uppercase tracking-wider mb-3">3-Part System</p>
+                <ul className="space-y-2 mb-6">
+                  <li className="flex items-start gap-2 text-sm font-medium text-black/90">
+                    <span className="shrink-0 w-4 h-4 rounded-full bg-black/15 flex items-center justify-center text-[9px] font-black mt-0.5">1</span>
+                    <span><strong>The Website</strong> — A stunning site that converts visitors into quote requests.</span>
+                  </li>
+                  <li className="flex items-start gap-2 text-sm font-medium text-black/90">
+                    <span className="shrink-0 w-4 h-4 rounded-full bg-black/15 flex items-center justify-center text-[9px] font-black mt-0.5">2</span>
+                    <span><strong>The Funnel</strong> — Instant SMS lead routing straight to your phone.</span>
+                  </li>
+                  <li className="flex items-start gap-2 text-sm font-medium text-black/90">
+                    <span className="shrink-0 w-4 h-4 rounded-full bg-black/15 flex items-center justify-center text-[9px] font-black mt-0.5">3</span>
+                    <span><strong>The Efficiencies</strong> — Backend automations that run your business.</span>
+                  </li>
+                </ul>
                 <Link to="/digital-launchpad" className="flex items-center gap-2 text-sm font-bold text-black hover:text-black/80 transition-colors">
-                  Get Launched <ArrowUpRight className="w-4 h-4" />
+                  See The Full Package <ArrowUpRight className="w-4 h-4" />
                 </Link>
               </div>
             </div>

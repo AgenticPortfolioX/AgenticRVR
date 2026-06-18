@@ -1,0 +1,164 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-06-18-beyond-birds-eye-fpv-drone-cinematography-luxury-listings",
+      "headline": "Beyond the Bird's-Eye View: Why FPV Drone Cinematography Is the Secret Weapon for Metro Detroit Luxury Listings",
+      "description": "Discover how FPV drone cinematography transforms Metro Detroit luxury listings — selling 68% faster with cinematic walkthroughs that create 403% more inquiries and a 4.5% price premium. FPV vs traditional drones, cost breakdown, and ROI data.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-06-18",
+      "dateModified": "2026-06-18",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-06-18-beyond-birds-eye-fpv-drone-cinematography-luxury-listings"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-06-18-beyond-birds-eye-fpv-drone-cinematography-luxury-listings/feature_image.png"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-06-18-beyond-birds-eye-fpv-drone-cinematography-luxury-listings#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is FPV drone cinematography for real estate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FPV (First Person View) drone cinematography is a method of capturing property footage where the pilot wears video goggles and flies the drone as if they're moving through the space themselves. This creates one continuous, cinematic camera pass through interiors and exteriors, producing an immersive viewing experience far beyond standard drone photography."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is FPV drone filming different from regular drone photography?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard drones operate from a distance — they hover at altitude, capture broad establishing shots, and return to the pilot. FPV drones fly through the property — through rooms, down hallways, out onto patios, and across the yard. Standard drone footage is a view of the property. FPV footage is a journey through the property."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can FPV drones film indoor walkthroughs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — this is one of FPV's primary advantages. FPV drones are small enough (typically 250-500g with a stabilized camera) to navigate through standard doorways, up staircases, and between furniture. Standard camera drones are too large, too loud, and lack the manual control for safe indoor flight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much faster do drone-listings sell?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Listings with aerial drone photography sell 68% faster than those without — that's the National Association of Realtors benchmark from 2024. When video walkthroughs including FPV are added, listings sell up to 31% faster than photo-only properties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of properties benefit most from FPV drone cinematography?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Luxury properties benefit most — especially lakefront estates, new construction spec homes, historic properties, and homes on large lots where the land itself is a selling point. For properties under $300,000 in dense urban settings, the ROI may not justify the investment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does FPV drone cinematography increase property value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comprehensive research shows that drone photography specifically adds a 4.5% price premium, professional video marketing adds 6% on average, and luxury listings with full professional visual media sell for 11% more than comparable properties without. On a $750,000 Metro Detroit listing, that translates to $33,000 to $82,500 in additional sale price."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why should Metro Detroit agents invest in FPV now?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only 26% of real estate agents consistently use video for every listing. The agents who invest in FPV cinematography in 2026 gain a immediate competitive advantage — more listing appointments, stronger seller confidence, higher engagement on social media, and measurably better outcomes for their luxury clients."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a professional FPV cinematography shoot take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A typical luxury listing shoot takes 2-4 hours on-site, including setup, exterior, interior, and transition shots. Deliverables including edited video, vertical cuts, stills, and any requested segments require 4-7 days of post-production. Expedited 48-hour turnaround is available for time-sensitive listings."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "AI-driven workflow automation, autonomous Speed to Lead agents, FPV drone cinematography, AI review response automation, and cinematic media production serving Metro Detroit luxury real estate and small businesses.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "description": "AI agents operate 24/7. Human support available during business hours."
+      },
+      "sameAs": [
+        "https://agenticportfoliox.github.io/AgenticRVR"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR#fpv-drone-cinematography",
+      "name": "FPV Drone Cinematography for Luxury Real Estate Listings",
+      "description": "Professional FPV (First Person View) drone cinematography services for Metro Detroit luxury real estate listings. Includes cinematic property walkthroughs, vertical social media cuts, drone establishing packages, lifestyle highlight clips, and virtual tour integration. FAA-certified pilots with commercial-grade equipment.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceRange": "$$$",
+        "description": "Custom pricing per property. Includes on-site FPV cinematography shoot, video editing, vertical social media cuts, drone establishing shots, and virtual tour integration. Contact for a quote based on property size and requirements."
+      }
+    }
+  ]
+}

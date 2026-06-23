@@ -536,8 +536,25 @@ export default function AutomationConsultation() {
             </div>
 
           </div>
-        </section>
 
+          <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-20 p-8 rounded-[2rem] bg-orange-500/10 border border-orange-500/20 text-center flex flex-col items-center max-w-4xl mx-auto"
+          >
+            <h3 className="text-2xl font-bold text-white mb-4">Looking for more automations?</h3>
+            <p className="text-zinc-400 mb-8 max-w-2xl">
+              From automated review engines to intelligent payment follow-ups, we offer a full catalog of 10 stackable managed AI services designed to support your core operations.
+            </p>
+            <Link 
+              to="/managed-services"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 text-white font-bold hover:bg-white/10 transition-colors"
+            >
+              Explore Our Full Managed Services Catalog <ArrowRight className="w-4 h-4" />
+            </Link>
+          </motion.div>
+        </section>
 
         {/* ==================== HIGH CONVERTING BOOKING MODULE ==================== */}
         <section className="py-12 border-t border-white/5">

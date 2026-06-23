@@ -3,21 +3,21 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "The agentic workflow they built saved us 40 hours a week. It's literally like having a tireless employee who never makes mistakes.",
-    author: "Sarah Jenkins",
-    role: "Operations Director, TechFlow",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop"
+    quote: "The operational audit alone paid for itself in the first month. They found 3 manual processes we didn't even realize were killing us. Now those run on autopilot every morning.",
+    author: "Mike Callahan",
+    role: "Owner, Callahan Roofing & Exteriors",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop"
   },
   {
-    quote: "Their real estate flythroughs look like they were shot with a $10k drone setup, but all we gave them were iPhone photos. Incredible ROI.",
-    author: "Mark Thompson",
-    role: "Principal Broker, Elevate Realty",
+    quote: "I went from answering every lead call manually to getting a text notification when a new lead books themselves. My website actually works now. Best investment I made this year.",
+    author: "Danny Ferrara",
+    role: "Owner, Ferrara HVAC & Mechanical",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&auto=format&fit=crop"
   },
   {
-    quote: "The custom video ads dropped our CPA by 30%. The visuals are stunning, perfectly on-brand, and delivered faster than any agency we've used.",
-    author: "Elena Rodriguez",
-    role: "CMO, Lumina Brands",
+    quote: "They showed up, watched how we actually work, and came back with 12 things we could automate immediately. No fluff, just real operational improvements that we implemented in two weeks.",
+    author: "Linda Chen",
+    role: "Operations Manager, Metro Property Services",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=150&auto=format&fit=crop"
   }
 ];

@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import AgenticWorkflows from './pages/AgenticWorkflows';
-import SpeedToLead from './pages/SpeedToLead';
 import VideoMarketing from './pages/VideoMarketing';
 import CustomVideoAds from './pages/CustomVideoAds';
 import CinematicRealEstate from './pages/CinematicRealEstate';
@@ -18,7 +17,6 @@ import Connect from './pages/Connect';
 import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import OrderNode from './pages/OrderNode';
-import AgenticReplies from './pages/AgenticReplies';
 import OptInStory from './pages/OptInStory';
 import BlogPost from './pages/BlogPost';
 import AuthenticatedMediaProtocol from './pages/AuthenticatedMediaProtocol';
@@ -28,6 +26,7 @@ import AutomationConsultation from './pages/AutomationConsultation';
 import CREBackendConsulting from './pages/CREBackendConsulting';
 import StrixPrivacyBox from './pages/StrixPrivacyBox';
 import BusinessPlan from './pages/BusinessPlan';
+import ManagedServices from './pages/ManagedServices';
 
 export default function App() {
   return (
@@ -42,9 +41,8 @@ export default function App() {
             <Route path="/automation-consultation" element={<AutomationConsultation />} />
             <Route path="/cre-backend-consulting" element={<CREBackendConsulting />} />
             <Route path="/strix-privacy-box" element={<StrixPrivacyBox />} />
+            <Route path="/managed-services" element={<ManagedServices />} />
             <Route path="/workflows" element={<AgenticWorkflows />} />
-            <Route path="/speed-to-lead" element={<SpeedToLead />} />
-            <Route path="/replies" element={<AgenticReplies />} />
             <Route path="/video" element={<VideoMarketing />} />
             <Route path="/video/custom-ads" element={<CustomVideoAds />} />
             <Route path="/video/real-estate" element={<CinematicRealEstate />} />

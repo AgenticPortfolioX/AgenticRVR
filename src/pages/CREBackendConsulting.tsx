@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'motion/react';
 import {
   Link as ChainIcon,
@@ -22,7 +22,6 @@ export default function CREBackendConsulting() {
     'Replace fragile cloud cron jobs with Chainlink CRE workflows that run across a decentralized oracle network. Immutable logs, multi-source consensus, zero single-point-of-failure for high-liability business logic.'
   );
 
-  const [auditRequested, setAuditRequested] = useState(false);
 
   const battleRows = [
     {
@@ -81,12 +80,12 @@ export default function CREBackendConsulting() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button
-              onClick={() => setAuditRequested(true)}
+            <Link
+              to="/contact"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 text-black font-bold hover:opacity-90 transition-all shadow-lg"
             >
               Schedule a Backend Risk Audit <ArrowRight className="w-4 h-4" />
-            </button>
+            </Link>
             <a
               href="#the-battle"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-white/5 border border-white/10 text-white font-bold hover:bg-white/10 transition-colors"
@@ -341,19 +340,12 @@ export default function CREBackendConsulting() {
             ))}
           </div>
 
-          {!auditRequested ? (
-            <button
-              onClick={() => setAuditRequested(true)}
-              className="inline-flex items-center gap-2 px-10 py-5 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 text-black font-extrabold hover:opacity-90 transition-all shadow-2xl shadow-orange-500/20 text-lg"
-            >
-              Secure My Automation <ArrowRight className="w-5 h-5" />
-            </button>
-          ) : (
-            <div className="inline-block p-6 rounded-2xl bg-orange-500/10 border border-orange-500/20 text-orange-400 font-bold max-w-md mx-auto">
-              <CheckCircle2 className="w-8 h-8 mx-auto mb-3 text-green-500" />
-              <p className="text-sm">Audit request received. Our CRE infrastructure specialist will reach out within one business day to schedule your discovery session.</p>
-            </div>
-          )}
+          <Link
+            to="/contact"
+            className="inline-flex items-center gap-2 px-10 py-5 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 text-black font-extrabold hover:opacity-90 transition-all shadow-2xl shadow-orange-500/20 text-lg"
+          >
+            Secure My Automation <ArrowRight className="w-5 h-5" />
+          </Link>
           <p className="text-xs text-zinc-600 mt-4">We'll reach back out within one business day.</p>
         </motion.section>
 

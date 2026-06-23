@@ -126,8 +126,22 @@ export default function Contact() {
                 <input id="phone" name="phone" type="tel" disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50" placeholder="(555) 123-4567" />
               </div>
               <div className="space-y-2">
-                <label htmlFor="message" className="text-sm text-zinc-400">Message</label>
-                <textarea id="message" name="message" required rows={4} disabled={isSubmitting} className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors resize-none disabled:opacity-50" placeholder="How can we help you?"></textarea>
+                <label htmlFor="service" className="text-sm text-zinc-400">What can we help you with?</label>
+                <select
+                  id="service"
+                  name="service"
+                  required
+                  disabled={isSubmitting}
+                  className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-orange-500 transition-colors disabled:opacity-50 appearance-none cursor-pointer"
+                >
+                  <option value="" disabled selected>Select a service...</option>
+                  <option value="Automation Consultation ($500 Audit)">Automation Consultation — $500 Operational Audit</option>
+                  <option value="Digital Launch Pad (Website + Funnel)">Digital Launch Pad — Website + Automated Lead Funnel</option>
+                  <option value="CRE Backend Consulting">CRE Decentralized Backend Consulting</option>
+                  <option value="Strix Privacy Box (Air-Gapped AI Demo)">Strix Privacy Box — Request a Free Air-Gapped Demo</option>
+                  <option value="Managed / Ancillary Services">Managed AI Services (Recurring Add-On)</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                </select>
               </div>
 
 

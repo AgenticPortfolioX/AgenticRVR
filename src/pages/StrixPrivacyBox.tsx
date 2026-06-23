@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'motion/react';
 import {
   Shield,
@@ -22,7 +22,6 @@ export default function StrixPrivacyBox() {
     'An on-site AI appliance that answers questions from your sensitive documents without ever connecting to the internet. Full HIPAA compliance, attorney-client privilege protection, zero data leaks. Hardware, installation, and maintenance included.'
   );
 
-  const [demoRequested, setDemoRequested] = useState(false);
 
   const capabilities = [
     {
@@ -97,16 +96,16 @@ export default function StrixPrivacyBox() {
             An on-site AI appliance that ingests, analyzes, and answers questions from your sensitive documents — without ever connecting to the internet.
           </p>
           <p className="text-base text-zinc-500 leading-relaxed mb-10 max-w-2xl mx-auto">
-            Full regulatory compliance (HIPAA, attorney-client privilege). Zero data leaks. Hardware, installation, and monthly maintenance all included. Client funds the hardware — you pay nothing upfront.
+            We come to your office and run AI on your actual documents before you spend a dollar on hardware. Full HIPAA compliance, attorney-client privilege protection, zero data leaks.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button
-              onClick={() => setDemoRequested(true)}
+            <Link
+              to="/contact"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 text-black font-bold hover:opacity-90 transition-all shadow-lg"
             >
               Request a Live Air-Gapped Demo <ArrowRight className="w-4 h-4" />
-            </button>
+            </Link>
             <a
               href="#how-it-works"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-white/5 border border-white/10 text-white font-bold hover:bg-white/10 transition-colors"
@@ -238,7 +237,7 @@ export default function StrixPrivacyBox() {
                   <div className="p-5 rounded-2xl bg-white/35 shadow-md">
                     <p className="text-xs uppercase text-orange-950 font-bold mb-1">One-Time Setup</p>
                     <p className="text-4xl font-black text-black">$9,995</p>
-                    <p className="text-sm text-black/70 mt-1">Hardware + installation + document ingestion + training</p>
+                    <p className="text-sm text-black/70 mt-1">Hardware + installation + document ingestion + training (client-funded — 50% deposit triggers the hardware order, balance due at installation)</p>
                   </div>
                   <div className="p-5 rounded-2xl bg-black/10 border border-black/10">
                     <p className="text-xs uppercase text-black/60 font-bold mb-1">Monthly Maintenance</p>
@@ -330,19 +329,12 @@ export default function StrixPrivacyBox() {
             ))}
           </div>
 
-          {!demoRequested ? (
-            <button
-              onClick={() => setDemoRequested(true)}
-              className="inline-flex items-center gap-2 px-10 py-5 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 text-black font-extrabold hover:opacity-90 transition-all shadow-2xl shadow-orange-500/20 text-lg"
-            >
-              Get the Audit-Proof AI <ArrowRight className="w-5 h-5" />
-            </button>
-          ) : (
-            <div className="inline-block p-6 rounded-2xl bg-orange-500/10 border border-orange-500/20 text-orange-400 font-bold max-w-md mx-auto">
-              <CheckCircle2 className="w-8 h-8 mx-auto mb-3 text-green-500" />
-              <p className="text-sm">Demo request received. Our team will reach out within one business day to schedule a time to come to your office.</p>
-            </div>
-          )}
+          <Link
+            to="/contact"
+            className="inline-flex items-center gap-2 px-10 py-5 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 text-black font-extrabold hover:opacity-90 transition-all shadow-2xl shadow-orange-500/20 text-lg"
+          >
+            Get the Audit-Proof AI <ArrowRight className="w-5 h-5" />
+          </Link>
           <p className="text-xs text-zinc-600 mt-4">We'll reach back out within one business day.</p>
         </motion.section>
 

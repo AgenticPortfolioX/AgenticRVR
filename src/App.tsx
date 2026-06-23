@@ -27,6 +27,7 @@ import DigitalLaunchpad from './pages/DigitalLaunchpad';
 import AutomationConsultation from './pages/AutomationConsultation';
 import CREBackendConsulting from './pages/CREBackendConsulting';
 import StrixPrivacyBox from './pages/StrixPrivacyBox';
+import BusinessPlan from './pages/BusinessPlan';
 
 export default function App() {
   return (
@@ -55,6 +56,7 @@ export default function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/connect" element={<Connect />} />
             <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/business-plan" element={<BusinessPlan />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/opt-in" element={<OptInStory />} />
             <Route path="/blog/:slug" element={<BlogPost />} />

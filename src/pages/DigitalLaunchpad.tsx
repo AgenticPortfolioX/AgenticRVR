@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Laptop, Zap, Settings2, ArrowRight, CheckCircle2, MessageSquare, Star, ArrowUpRight, Globe, Phone, RefreshCw, TrendingUp, MousePointerClick } from 'lucide-react';
+import { Laptop, Zap, Settings2, ArrowRight, CheckCircle2, MessageSquare, Star, ArrowUpRight, Globe, Phone, RefreshCw, TrendingUp, MousePointerClick, Sparkles } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
 import { Link } from 'react-router-dom';
 
@@ -541,6 +541,103 @@ export default function DigitalLaunchpad() {
             <span className="text-sm text-zinc-400 font-semibold">Flat monthly hosting & support available</span>
           </div>
         </motion.section>
+
+
+        {/* ==================== ADD-ON MODULES ==================== */}
+        <section className="mb-16">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-xs text-orange-400 font-semibold mb-4 uppercase tracking-wider">
+              High-Margin Add-Ons
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Automated Agent Modules</h2>
+            <p className="text-zinc-400 max-w-xl mx-auto">
+              Supercharge your Digital Launch Pad with battle-tested AI agents that run 24/7 without any extra lift on your part.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Module 1: Speed 2 Lead */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="bg-[#141414] border border-white/5 rounded-[2rem] p-10 flex flex-col justify-between group hover:border-orange-500/25 transition-all duration-300 relative overflow-hidden"
+            >
+              <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/5 rounded-full blur-[60px] -translate-y-1/2 translate-x-1/2 group-hover:bg-orange-500/10 transition-colors duration-500 pointer-events-none" />
+              <div className="relative z-10">
+                <div className="w-14 h-14 rounded-2xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center mb-6 shrink-0">
+                  <Zap className="w-7 h-7 text-orange-400" />
+                </div>
+                <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-orange-500/10 border border-orange-500/20 text-xs font-semibold text-orange-400 mb-4">
+                  Add-On Module 01
+                </div>
+                <h3 className="text-2xl font-bold tracking-tight mb-3">Speed 2 Lead</h3>
+                <p className="text-zinc-400 text-sm leading-relaxed mb-6">
+                  Instant lead capture, auto-SMS to owner, and 24-hour booking nudges. The moment someone submits a form, your phone lights up and an automated follow-up sequence begins — qualifying the lead before your competitor even checks their email.
+                </p>
+                <div className="space-y-3 mb-8">
+                  {[
+                    'Sub-1-second SMS delivery to owner',
+                    'Automated 24h follow-up nudge sequence',
+                    'Lead qualification without manual effort',
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-2 text-sm text-zinc-300">
+                      <CheckCircle2 className="w-4 h-4 text-orange-500 shrink-0" />
+                      {item}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <Link
+                to="/speed-to-lead"
+                className="relative z-10 self-start inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 text-sm font-semibold text-orange-400 hover:bg-orange-500/10 hover:border-orange-500/30 transition-all"
+              >
+                Learn More <ArrowUpRight className="w-4 h-4" />
+              </Link>
+            </motion.div>
+
+            {/* Module 2: Review Response Agent */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="bg-[#141414] border border-white/5 rounded-[2rem] p-10 flex flex-col justify-between group hover:border-orange-500/25 transition-all duration-300 relative overflow-hidden"
+            >
+              <div className="absolute bottom-0 left-0 w-64 h-64 bg-orange-500/5 rounded-full blur-[60px] translate-y-1/2 -translate-x-1/2 group-hover:bg-orange-500/10 transition-colors duration-500 pointer-events-none" />
+              <div className="relative z-10">
+                <div className="w-14 h-14 rounded-2xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center mb-6 shrink-0">
+                  <Sparkles className="w-7 h-7 text-orange-400" />
+                </div>
+                <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-orange-500/10 border border-orange-500/20 text-xs font-semibold text-orange-400 mb-4">
+                  Add-On Module 02
+                </div>
+                <h3 className="text-2xl font-bold tracking-tight mb-3">Review Response Agent</h3>
+                <p className="text-zinc-400 text-sm leading-relaxed mb-6">
+                  Automated Google Review requests triggered 24 hours after a job completes, with a monitoring dashboard. Your star rating climbs on autopilot — no manual follow-up, no awkward ask, just a steady stream of 5-star credibility.
+                </p>
+                <div className="space-y-3 mb-8">
+                  {[
+                    'Auto-triggered 24h post-job review request',
+                    'Google Business Profile reputation monitoring',
+                    'Dashboard showing rating trends & competitor activity',
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-2 text-sm text-zinc-300">
+                      <CheckCircle2 className="w-4 h-4 text-orange-500 shrink-0" />
+                      {item}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <Link
+                to="/replies"
+                className="relative z-10 self-start inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 text-sm font-semibold text-orange-400 hover:bg-orange-500/10 hover:border-orange-500/30 transition-all"
+              >
+                Learn More <ArrowUpRight className="w-4 h-4" />
+              </Link>
+            </motion.div>
+          </div>
+        </section>
 
 
         {/* ==================== CTA ==================== */}

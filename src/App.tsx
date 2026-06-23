@@ -25,6 +25,8 @@ import AuthenticatedMediaProtocol from './pages/AuthenticatedMediaProtocol';
 import AMPDemo from './pages/AMPDemo';
 import DigitalLaunchpad from './pages/DigitalLaunchpad';
 import AutomationConsultation from './pages/AutomationConsultation';
+import CREBackendConsulting from './pages/CREBackendConsulting';
+import StrixPrivacyBox from './pages/StrixPrivacyBox';
 
 export default function App() {
   return (
@@ -37,6 +39,8 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/digital-launchpad" element={<DigitalLaunchpad />} />
             <Route path="/automation-consultation" element={<AutomationConsultation />} />
+            <Route path="/cre-backend-consulting" element={<CREBackendConsulting />} />
+            <Route path="/strix-privacy-box" element={<StrixPrivacyBox />} />
             <Route path="/workflows" element={<AgenticWorkflows />} />
             <Route path="/speed-to-lead" element={<SpeedToLead />} />
             <Route path="/replies" element={<AgenticReplies />} />

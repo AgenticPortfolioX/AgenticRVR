@@ -14,24 +14,20 @@ export default function Footer() {
               <span className="font-semibold text-xl tracking-tight">RVR LLC<span className="text-orange-500">.</span></span>
             </Link>
             <p className="text-zinc-400 max-w-sm mb-4">
-              Building the future of automated workflows, high-converting video marketing assets, and sovereign hardware nodes.
+              Premium automation consulting, high-converting digital systems, decentralized backend infrastructure, and private on-site AI for local businesses.
             </p>
           </div>
-          
+
           <div>
             <h4 className="font-medium mb-4">Services</h4>
             <ul className="space-y-3 text-zinc-400 text-sm">
-              <li><Link to="/digital-launchpad" className="text-orange-400 hover:text-orange-300 font-semibold transition-colors">Digital Launchpad</Link></li>
               <li><Link to="/automation-consultation" className="text-orange-400 hover:text-orange-300 font-semibold transition-colors">Automation Consultation</Link></li>
-              <li><Link to="/workflows" className="hover:text-orange-500 transition-colors">Automated Workflows</Link></li>
-              <li><Link to="/speed-to-lead" className="hover:text-orange-500 transition-colors">Speed-to-Lead</Link></li>
-              <li><Link to="/replies" className="hover:text-orange-500 transition-colors">Respond Agent</Link></li>
-              <li><Link to="/video" className="hover:text-orange-500 transition-colors">Video Marketing</Link></li>
-              <li><Link to="/nodes" className="hover:text-orange-500 transition-colors">Hardware Nodes</Link></li>
-              <li><Link to="/AMP" className="text-violet-400 hover:text-violet-300 font-medium transition-colors">Deep Fake Video Solutions</Link></li>
+              <li><Link to="/digital-launchpad" className="text-orange-400 hover:text-orange-300 font-semibold transition-colors">Digital Launch Pad</Link></li>
+              <li><Link to="/cre-backend-consulting" className="hover:text-orange-500 transition-colors">CRE Backend Consulting</Link></li>
+              <li><Link to="/strix-privacy-box" className="hover:text-orange-500 transition-colors">Strix Privacy Box</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="font-medium mb-4">Company</h4>
             <ul className="space-y-3 text-zinc-400 text-sm">
@@ -44,7 +40,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        
+
         <div className="pt-8 border-t border-white/5 text-sm text-zinc-500 flex flex-col items-center text-center gap-1.5">
           <p>2711 Williamsburg Cir, Auburn Hills, Michigan 48326</p>
           <p>Automating Small Business with Agentic AI in Metro Detroit, Wayne, Oakland & Genesee Counties.</p>

@@ -5,7 +5,7 @@ import Testimonials from '../components/Testimonials';
 import { useSEO } from '../hooks/useSEO';
 
 export default function Home() {
-  useSEO('RVR LLC | AI Workflows, Video Marketing & Sovereign Nodes', 'RVR LLC provides custom AI agent workflows, high-converting video marketing assets, and sovereign Bitcoin, Lightning, and NOSTR hardware nodes.');
+  useSEO('RVR LLC | Automation Consulting, Digital Launch Pad & Private AI', 'RVR LLC builds operational automation systems, high-converting contractor websites, decentralized Chainlink CRE backend infrastructure, and private on-site AI appliances for local businesses in Metro Detroit.');
 
   return (
     <>

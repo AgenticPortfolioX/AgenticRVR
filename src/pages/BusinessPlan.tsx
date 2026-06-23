@@ -41,7 +41,7 @@ export default function BusinessPlan() {
               </div>
               <h2 className="text-2xl font-bold tracking-tight mb-4">Automation Consultation</h2>
               <p className="text-zinc-400 text-sm leading-relaxed mb-8 flex-grow">
-                We audit and re‑engineer your manual, repetitive workflows into custom automations that save 15–30 hours per week. From CRM integrations to complex multi‑step approval pipelines, we design, build, and maintain the invisible machine that runs your back office. Our engagements are fixed‑fee and come with a 30‑day optimisation guarantee, ensuring you get immediate, measurable ROI.
+                Your service helps service-based businesses (trades, contractors, property management) eliminate manual admin drag through custom AI-powered automations. We personally sit down with owners, record their actual operations, analyze them deeply with an MBA operations lens, run everything through Claude, and deliver an exhaustive list of automation opportunities. The low-barrier $500 Operational Audit gets clients in the door. From there, they subscribe to stackable managed ancillary AI services priced monthly. Core Promise: Get your weekends back.
               </p>
               <a href="#automation-full-plan" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 text-sm font-semibold text-orange-400 hover:bg-orange-500/10 hover:border-orange-500/30 transition-all self-start">
                 View Full Business Plan <ArrowDown className="w-4 h-4" />
@@ -131,62 +131,95 @@ export default function BusinessPlan() {
               <div className="mt-6 text-zinc-400 text-sm space-y-6 cursor-text">
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Overview</h3>
-                  <p className="leading-relaxed">Automation Consultation is a high‑trust advisory and implementation service that dissects a client’s existing manual processes, identifies automation opportunities, and delivers a fully custom, integrated solution. Every engagement is fixed‑price, milestone‑based, and includes a post‑launch optimisation period. The service is technology‑agnostic: we leverage Make.com, n8n, Zapier, custom Python scripts, and API integrations to stitch together the client’s existing software stack.</p>
+                  <p className="leading-relaxed mb-2">Your service helps service-based businesses (trades, contractors, property management, etc.) eliminate manual admin drag through custom AI-powered automations. You personally sit down with owners (remote or on-site), record their actual operations (screen shares, Loom videos, walkthroughs), analyze them deeply with your MBA operations lens, run everything through Claude, and deliver an exhaustive list of automation opportunities + prioritized process improvements.</p>
+                  <p className="leading-relaxed mb-2">The low-barrier $500 Operational Audit gets clients in the door. From there, they subscribe to stackable managed ancillary AI services (agents/workflows) priced monthly based on complexity and number of automations. You handle building, hosting, monitoring, and continuous improvement.</p>
+                  <p className="leading-relaxed"><strong className="text-white">Core Promise:</strong> "Get your weekends back. We listen to your real operations, turn chaos into reliable autopilot systems using Claude AI agents + smart integrations."</p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Target Market</h3>
-                  <p className="leading-relaxed mb-2">Mid‑sized service businesses (10–50 employees) drowning in administrative overhead: commercial contractors, property management firms, independent insurance agencies, and niche logistics companies.</p>
-                  <p className="leading-relaxed">Decision‑maker: Owner, Operations Manager, or COO who feels the pain of repetitive data entry and error‑prone manual handoffs.</p>
+                  <ul className="list-disc pl-5 space-y-2 leading-relaxed mb-2">
+                    <li>Service businesses: $1M–$10M revenue, 5–50 employees (HVAC, plumbing, electrical, general contractors, property management, insurance agencies, field services).</li>
+                    <li>Pain points: Manual scheduling/dispatch, data entry between apps, follow-ups, document chaos, missed leads, admin overload.</li>
+                    <li>Buyer: Owner or Operations Manager tired of being the bottleneck.</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-2">Differentiator</h3>
+                  <p className="leading-relaxed">Your hands-on recording + operational expertise + Claude implementation. Not generic Zapier setups—custom, intelligent agents that reason, personalize, and adapt.</p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Value Proposition</h3>
-                  <p className="leading-relaxed italic border-l-2 border-orange-500 pl-4 py-1">“You didn’t start your business to copy‑paste data between apps. We build the invisible machine that does it for you, cuts your admin time in half, and pays for itself in 90 days.”</p>
+                  <p className="leading-relaxed italic border-l-2 border-orange-500 pl-4 py-1">"We don’t just automate tasks. We map your entire operation, identify every friction point, and build a layered system of Claude-powered agents that run your business smoother while you focus on growth."</p>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Pricing & Packaging</h3>
+                  <h3 className="text-xl font-bold text-white mb-2">Pricing & Packaging (Stackable & Simple)</h3>
                   <ul className="list-disc pl-5 space-y-2 leading-relaxed">
-                    <li><strong className="text-white">Process Audit & Automation Blueprint:</strong> $1,500 (flat) – 1‑day on‑site/remote deep dive, documented workflow map, ROI projection, and a prioritised implementation roadmap.</li>
-                    <li><strong className="text-white">Custom Automation Build:</strong> $6,000–$12,000 (fixed fee per project) – design, build, test, and deploy up to 3 core automations. Includes 30 days of post‑launch monitoring and 1 revision cycle.</li>
-                    <li><strong className="text-white">Ongoing Optimisation Retainer:</strong> $300/month – monthly health check, minor modifications, and access to new automation recipes.</li>
+                    <li><strong className="text-white">Operational Audit: $500 (one-time)</strong>
+                      <ul className="list-disc pl-5 mt-2 space-y-1">
+                        <li>1–2+ hour deep-dive session(s) where you record/listen to their workflows.</li>
+                        <li>You analyze recordings + notes with Claude.</li>
+                        <li>Deliverable: Comprehensive report/roadmap with exhaustive list of automatable processes, prioritized recommendations with estimated time/cost savings and ROI, process improvement suggestions, and a phased implementation plan.</li>
+                        <li>High intent: Designed to convert 40–60%+ to retainers.</li>
+                      </ul>
+                    </li>
+                    <li className="mt-4"><strong className="text-white">Managed AI Automation Retainers (Ancillary Services)</strong>
+                      <ul className="list-disc pl-5 mt-2 space-y-1">
+                        <li><strong className="text-white">Base Retainer:</strong> $500/month – Covers hosting, monitoring, one core agent/workflow, monthly optimization check-in, and minor tweaks.</li>
+                        <li><strong className="text-white">Stackable Add-ons:</strong> $250–$400 per additional agent/workflow per month (tiered by complexity).</li>
+                        <li>More automations = higher monthly fee (e.g., 1 agent: $500; 3 agents: $1,000–$1,400).</li>
+                        <li>Includes: Ongoing improvements, uptime on Anthropic infrastructure, training (Loom videos), and expansion as their business grows.</li>
+                        <li>30-day performance guarantee on new agents.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p className="leading-relaxed mt-4">This model creates strong recurring revenue with natural upsells. Clients start small and stack as they see results.</p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-2">Financial Snapshot</h3>
+                  <ul className="list-disc pl-5 space-y-2 leading-relaxed">
+                    <li>High margins (~90%+ after Claude API + minor tool costs).</li>
+                    <li>Goal: 4–6 audits/month → 2–4 new retainers.</li>
+                    <li>At 10 clients averaging $900–$1,200/mo: $9k–$12k+ stable monthly recurring revenue.</li>
                   </ul>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Sales & Marketing</h3>
                   <ul className="list-disc pl-5 space-y-2 leading-relaxed">
-                    <li><strong className="text-white">Lead magnet:</strong> “The 10‑Minute Admin Audit” PDF checklist.</li>
-                    <li><strong className="text-white">Outreach:</strong> Warm email sequences to local business groups (BNI chapters, chamber of commerce).</li>
-                    <li><strong className="text-white">Workshops:</strong> Free 30‑minute “Automation AMA” webinars co‑hosted with local accounting firms or business coaches.</li>
-                    <li><strong className="text-white">Referral incentive:</strong> 10% finder’s fee for any closed project referred by a past client.</li>
+                    <li><strong className="text-white">Lead magnet:</strong> Updated “10-Minute Admin Audit” checklist + testimonials.</li>
+                    <li><strong className="text-white">Website:</strong> Keep strong “Get your weekends back” messaging. Add clear $500 audit CTA, service examples, and ROI stories.</li>
+                    <li><strong className="text-white">Outreach:</strong> LinkedIn, warm emails to trade groups/BNI/chambers, partnerships with accountants/bookkeepers.</li>
+                    <li><strong className="text-white">Workshops:</strong> Free “AI for Trades” sessions showing live demos.</li>
+                    <li><strong className="text-white">Referrals:</strong> Free month or discount for successful introductions.</li>
                   </ul>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Delivery & Operations</h3>
-                  <p className="leading-relaxed mb-2"><strong className="text-white">Process:</strong> Discovery call → Blueprint delivery (within 5 business days) → Build phase (2–4 weeks depending on complexity) → User acceptance testing → Launch & training → 30‑day optimisation window.</p>
-                  <p className="leading-relaxed mb-2"><strong className="text-white">Tools:</strong> Make.com, n8n, Python, Airtable, API connectors. All documentation delivered as a Loom video walkthrough and a written SOP.</p>
-                  <p className="leading-relaxed"><strong className="text-white">Solo delivery capacity:</strong> 2–3 concurrent builds, with 1 blueprint per week.</p>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Financial Snapshot (per project)</h3>
+                  <h3 className="text-xl font-bold text-white mb-2">Delivery Playbook</h3>
                   <ul className="list-disc pl-5 space-y-2 leading-relaxed">
-                    <li>Average project fee: $9,000</li>
-                    <li>Direct costs (software subscriptions, contract QA): ~$200</li>
-                    <li>Gross margin: ~98%</li>
-                    <li>Target: 1 new project per month initially, growing to 2–3 per month.</li>
+                    <li><strong className="text-white">Audit ($500):</strong> Book call → Record operations → Analyze with Claude → Deliver exhaustive roadmap (within 5–7 days).</li>
+                    <li><strong className="text-white">Onboarding to Retainer:</strong> Client picks top 1–2 priorities → You build/deploy.</li>
+                    <li><strong className="text-white">Ongoing:</strong> Monthly reviews, improvements, stacking new agents. Use recordings as reference for accuracy.</li>
+                    <li><strong className="text-white">Build Approach:</strong> Record real processes → Use Claude to design → Combine no-code routing + agent intelligence → Deploy and manage.</li>
+                    <li><strong className="text-white">Capacity:</strong> Solo, start with 3–5 concurrent clients. Productize patterns for faster delivery.</li>
                   </ul>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Key Milestones (First 90 Days)</h3>
-                  <ul className="list-disc pl-5 space-y-2 leading-relaxed">
-                    <li>Publish the “10‑Minute Admin Audit” lead magnet.</li>
-                    <li>Deliver 2 pro‑bono process audits to build case studies.</li>
-                    <li>Close first paid blueprint.</li>
+                  <h3 className="text-xl font-bold text-white mb-2">Simplest But Easiest-to-Sell Automation Services</h3>
+                  <ul className="list-disc pl-5 space-y-4 leading-relaxed">
+                    <li><strong className="text-white">Automated Crew Dispatch / Team Coordination (Top Seller)</strong><br />Pulls daily/weekly schedule from Jobber/Housecall Pro/Calendar → Claude formats and sends personalized SMS/voice alerts to crew the night before. Monthly Pricing: $500–$700.</li>
+                    <li><strong className="text-white">Speed-to-Lead / Instant Qualification</strong><br />New quote submission → Triggers Claude agent to call/text back within minutes, qualify budget, and book appointment directly into calendar. Monthly Pricing: $600–$800.</li>
+                    <li><strong className="text-white">Automated Review & Reputation Engine</strong><br />Job marked “Paid” → Claude generates personalized review request referencing job details. Tracks responses and follows up. Monthly Pricing: $400–$500.</li>
+                    <li><strong className="text-white">Document & Onboarding Processor</strong><br />Client submits docs → Claude extracts key data, organizes in CRM/Drive, sends reminders, and notifies team. Monthly Pricing: $550–$750.</li>
+                    <li><strong className="text-white">Invoice & Payment Follow-Up</strong><br />Auto-generates invoices → Claude sends polite, personalized reminders for late payments. Logs everything. Monthly Pricing: $450–$650.</li>
+                    <li><strong className="text-white">Competitive Intel Agent</strong><br />Monitors 3–5 competitors daily/weekly. Claude compiles into a clean morning executive brief. Monthly Pricing: $500–$700.</li>
+                    <li><strong className="text-white">Report Generator / Executive Summary</strong><br />Pulls data from multiple sources → Claude analyzes and creates weekly executive summaries (revenue trends, bottlenecks). Monthly Pricing: $450–$600.</li>
                   </ul>
                 </div>
               </div>

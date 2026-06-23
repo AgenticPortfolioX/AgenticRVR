@@ -154,7 +154,7 @@ export default function AutomationConsultation() {
               </div>
 
               <div className="mt-8 pt-6 border-t border-white/5 flex flex-wrap gap-4 items-center justify-between text-zinc-500 text-xs">
-                <span>Fee: $999 (One-Time)</span>
+                <span>Fee: $500 (One-Time)</span>
                 <span className="font-mono text-orange-400">10+ Office Hours Saved Weekly</span>
               </div>
             </motion.div>
@@ -186,8 +186,8 @@ export default function AutomationConsultation() {
                     <p className="text-black text-xs">We deploy it on high-security cloud infrastructure for high stability and fast execution.</p>
                   </div>
                   <div className="p-4 rounded-xl bg-black/10 border border-black/10">
-                    <p className="text-xs uppercase text-black/60 font-bold mb-1">3. flat Retainer</p>
-                    <p className="text-black text-xs">A flat <strong>$500/month retainer</strong> covers all uptime updates and server maintenance so it never breaks.</p>
+                    <p className="text-xs uppercase text-black/60 font-bold mb-1">3. Stackable Retainer</p>
+                    <p className="text-black text-xs">A base <strong>$500/month retainer</strong> covers hosting, monitoring, one core agent/workflow, and optimization. Additional agents stack as needed.</p>
                   </div>
                 </div>
               </div>
@@ -561,7 +561,7 @@ export default function AutomationConsultation() {
               </div>
               <div className="hidden sm:block text-zinc-600">•</div>
               <div className="flex items-center gap-2 text-zinc-300 text-sm font-semibold">
-                <CheckCircle2 className="w-4 h-4 text-green-500" /> flat $500/mo Cloud Retainer
+                <CheckCircle2 className="w-4 h-4 text-green-500" /> Stackable $500/mo Base Retainer
               </div>
               <div className="hidden sm:block text-zinc-600">•</div>
               <div className="flex items-center gap-2 text-zinc-300 text-sm font-semibold">
@@ -581,7 +581,7 @@ export default function AutomationConsultation() {
                     onClick={() => setAuditSignedUp(true)}
                     className="w-full sm:w-auto px-8 py-4 rounded-full bg-white text-black font-extrabold hover:bg-zinc-200 transition-colors inline-flex items-center justify-center gap-2 shadow-xl"
                   >
-                    Schedule $999 Operational Audit <ArrowRight className="w-4 h-4" />
+                    Schedule $500 Operational Audit <ArrowRight className="w-4 h-4" />
                   </button>
                 </motion.div>
               ) : (

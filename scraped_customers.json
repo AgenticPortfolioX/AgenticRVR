@@ -1034,11 +1034,6 @@
     "email": "UNKNOWN",
     "address": "890 10th St N Ste 110, Kalamazoo, MI 49009"
   },
-  "Blue Line Investigative Services": {
-    "phone": "(954) 960-6900",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
-  },
   "Blue Shield Investigations": {
     "phone": "(586) 822-2120",
     "email": "contact@blueshield-investigations.com",
@@ -1073,16 +1068,6 @@
     "phone": "1-877-808-7575",
     "email": "UNKNOWN",
     "address": "4630 N Beach St, Haltom City, TX 76137"
-  },
-  "Confidential Investigative Services": {
-    "phone": "+1 403-481-9736",
-    "email": "tom@cisphilly.com",
-    "address": "UNKNOWN"
-  },
-  "D\u2019Anconia Defense Contractors": {
-    "phone": "UNKNOWN",
-    "email": "UNKNOWN",
-    "address": "1557 W Hamlin Rd, Rochester Hills, MI 48309"
   },
   "D-M Fabrication Inc": {
     "phone": "(586) 726-8390",
@@ -1154,11 +1139,6 @@
     "email": "UNKNOWN",
     "address": "133 W Main St suite 155, Northville, MI 48167"
   },
-  "Justice Investigations Inc.": {
-    "phone": "(800) 385-0609",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
-  },
   "Moog Inc. (Space & Defense Group)": {
     "phone": "(716) 652-2000",
     "email": "UNKNOWN",
@@ -1173,11 +1153,6 @@
     "phone": "(248) 841-8380",
     "email": "UNKNOWN",
     "address": "901 Wilshire Dr #540, Troy, MI 48084"
-  },
-  "Perpetual Talent Solutions": {
-    "phone": "(866) 380-9978 ext. 2",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
   },
   "Paramount Investigative Services": {
     "phone": "(213) 733-3333",
@@ -1229,25 +1204,10 @@
     "email": "inquiries@saicusa.com",
     "address": "901 Wilshire Dr, Troy, MI 48084"
   },
-  "Security Title & Guarantee Agency": {
-    "phone": "(601) 966-3593",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
-  },
-  "On Time Investigations Inc.": {
-    "phone": "(410) 920-3211",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
-  },
   "Shield Title Agency Inc": {
     "phone": "(248) 712-6157",
     "email": "UNKNOWN",
     "address": "30400 Telegraph Rd #118, Bingham Farms, MI 48025"
-  },
-  "The Hunter Group": {
-    "phone": "(248) 645-1551",
-    "email": "huntergroup@huntergroup.com",
-    "address": "UNKNOWN"
   },
   "Stanton Chase Detroit": {
     "phone": "(586) 489-1340",
@@ -1318,11 +1278,6 @@
     "phone": "(313) 234-7100",
     "email": "UNKNOWN",
     "address": "500 Woodward Ave Ste 2700, Detroit, MI 48226"
-  },
-  "Ghesquiere Law PLC": {
-    "phone": "(586) 215-3155",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
   },
   "Grosse Pointe Law Center": {
     "phone": "(313) 331-2282",
@@ -1583,11 +1538,6 @@
     "phone": "(269) 469-2200",
     "email": "UNKNOWN",
     "address": "7 E Clay St, New Buffalo, MI 49117"
-  },
-  "Jorgensen Wilder & Associates PC": {
-    "phone": "(989) 339-5743",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
   },
   "Heximer Financial Group LLC": {
     "phone": "(614) 760-9100",
@@ -1934,11 +1884,6 @@
     "email": "UNKNOWN",
     "address": "UNKNOWN"
   },
-  "AIM Investigations LLC": {
-    "phone": "(619) 876-9710",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
-  },
   "Michigan Diagnostic Center": {
     "phone": "(313) 438-7701",
     "email": "UNKNOWN",
@@ -1966,11 +1911,6 @@
   },
   "Beacon International Group": {
     "phone": "(586) 690-4277",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
-  },
-  "Complete Investigative Services": {
-    "phone": "(888) 554-5401",
     "email": "UNKNOWN",
     "address": "UNKNOWN"
   },
@@ -2010,9 +1950,9 @@
     "address": "14891 Farmington Rd, Livonia, MI 48154"
   },
   "General Motors Defense / GM Defense": {
-    "phone": "UNKNOWN",
+    "phone": "(925) 425-0856",
     "email": "gmdefense@gm.com",
-    "address": "1240 Woodward Ave, Detroit, MI 48226"
+    "address": "100 Renaissance Center, Detroit, MI 48265"
   },
   "First Centennial Title": {
     "phone": "734-425-1776",
@@ -2063,11 +2003,6 @@
     "phone": "(248) 740-1512",
     "email": "UNKNOWN",
     "address": "300 E Big Beaver Rd #100, Troy, MI 48083"
-  },
-  "Shield Investigations Inc.": {
-    "phone": "(586) 822-2120",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
   },
   "Pratt & Miller Engineering": {
     "phone": "(248) 446-9800",
@@ -2169,11 +2104,6 @@
     "email": "UNKNOWN",
     "address": "328 Saginaw St #8, Flint, MI 48502"
   },
-  "Insight Mediation & Counseling": {
-    "phone": "UNKNOWN",
-    "email": "UNKNOWN",
-    "address": "180 Little Lake Dr STE 1, Ann Arbor, MI 48103"
-  },
   "Justin Henry": {
     "phone": "(810) 694-1211",
     "email": "UNKNOWN",
@@ -2268,11 +2198,6 @@
     "phone": "(651) 453-0336",
     "email": "UNKNOWN",
     "address": "4647 White Bear Pkwy, White Bear Lake, MN 55110"
-  },
-  "Comstock & Gagnon CPAs PLLC": {
-    "phone": "(802) 230-7827",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
   },
   "Davison & Associates (forensic)": {
     "phone": "(810) 653-4373",
@@ -2405,9 +2330,9 @@
     "address": "14132 Schroeder Rd, Houston, TX 77070"
   },
   "Advanced Behavioral Health": {
-    "phone": "(810) 374-0228",
+    "phone": "(810) 288-3991",
     "email": "advbehavioralhealth@gmail.com",
-    "address": "UNKNOWN"
+    "address": "7563 Paradise Dr, Grand Blanc, MI 48439"
   },
   "Advanced Aesthetics Medical Spa": {
     "phone": "(810) 659-8898",
@@ -2674,24 +2599,9 @@
     "email": "UNKNOWN",
     "address": "15530 Middlebelt Rd Ste 1, Livonia, MI 48154"
   },
-  "Tri-County Investigations LLC": {
-    "phone": "(720) 219-9354",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
-  },
-  "Mid-Michigan Investigative Group": {
-    "phone": "(517) 669-9696",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
-  },
   "Paramount Title Agency of Genesee": {
     "phone": "(303) 414-3500",
     "email": "UNKNOWN",
     "address": "5299 DTC Blvd #1300, Greenwood Village, CO 80111"
-  },
-  "S.O.S. Investigative Services / Spies Private Investigators": {
-    "phone": "(616) 780-5765",
-    "email": "UNKNOWN",
-    "address": "UNKNOWN"
   }
 }

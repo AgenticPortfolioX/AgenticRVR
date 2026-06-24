@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="font-semibold text-xl tracking-tight">RVR LLC<span className="text-orange-500">.</span></span>
             </Link>
             <p className="text-zinc-400 max-w-sm mb-4">
-              Premium automation consulting, high-converting digital systems, decentralized backend infrastructure, and private on-site AI for local businesses.
+              Professional website builds, managed AI services, decentralized backend infrastructure, and private on-site AI for local businesses.
             </p>
           </div>
 

@@ -63,12 +63,19 @@ export default function Services() {
                   Most Popular
                 </div>
                 <h3 className="text-3xl font-bold tracking-tight mb-2">Digital Launch Pad</h3>
-                <p className="text-black/75 font-semibold text-xs uppercase tracking-wider mb-3">High-Converting Websites &amp; Automated Lead Machines</p>
+                <p className="text-black/75 font-semibold text-xs uppercase tracking-wider mb-3">Website Build &amp; Managed Hosting</p>
                 <p className="text-black/85 text-sm leading-relaxed mb-6">
-                  Mobile-first sites with automated intake funnels, 24/7 follow-up, review generation, and AI-powered reactivation of dead leads — built for contractors who can't afford to miss another call.
+                  Fast-loading, optimized templates (React or Webflow), contact form routing to email/Slack, local SEO &amp; Google Business Profile setup, managed hosting, and up to 1 hour of monthly content edits — all for one flat monthly rate.
                 </p>
+                <div className="flex items-center gap-4 mb-5">
+                  <span className="text-2xl font-extrabold text-black">$1,500</span>
+                  <span className="text-black/60 text-xs font-semibold">setup</span>
+                  <span className="text-black/30">|</span>
+                  <span className="text-lg font-bold text-black">$100</span>
+                  <span className="text-black/60 text-xs font-semibold">/mo</span>
+                </div>
                 <Link to="/digital-launchpad" className="flex items-center gap-2 text-sm font-bold text-black hover:text-black/80 transition-colors">
-                  See Packages <ArrowUpRight className="w-4 h-4" />
+                  See Details <ArrowUpRight className="w-4 h-4" />
                 </Link>
               </div>
             </div>

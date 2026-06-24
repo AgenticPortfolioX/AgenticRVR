@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ArrowRight, Laptop, Zap, Terminal } from 'lucide-react';
+import { ArrowRight, Laptop, Mail, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Hero() {
@@ -19,7 +19,7 @@ export default function Hero() {
               className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-sm text-orange-400 mb-8"
             >
               <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse" />
-              Digital Foundations &amp; Operational Workflows
+              Website Build &amp; Managed AI Services
             </motion.div>
             
             <motion.h1
@@ -37,7 +37,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-xl text-zinc-400 mb-10 max-w-2xl leading-relaxed"
             >
-              We build fast local digital foundations to capture high-intent leads on autopilot and design intelligent automated workflows to streamline your small business operations.
+              We build fast, professional websites to establish your online presence and offer managed AI services to automate your operations — all for flat, predictable monthly pricing.
             </motion.p>
             
             <motion.div
@@ -49,8 +49,8 @@ export default function Hero() {
               <Link to="/digital-launchpad" className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 text-black font-semibold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
                 Digital Launchpad <ArrowRight className="w-4 h-4" />
               </Link>
-              <Link to="/workflows" className="w-full sm:w-auto px-8 py-4 rounded-full bg-white/5 border border-white/10 font-semibold flex items-center justify-center gap-2 hover:bg-white/10 transition-colors">
-                Explore Workflows
+              <Link to="/managed-services" className="w-full sm:w-auto px-8 py-4 rounded-full bg-white/5 border border-white/10 font-semibold flex items-center justify-center gap-2 hover:bg-white/10 transition-colors">
+                Explore AI Services
               </Link>
             </motion.div>
           </div>
@@ -80,32 +80,32 @@ export default function Hero() {
                     <Laptop className="w-5 h-5 text-orange-400" />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-white">Local SEO Funnel</p>
-                    <p className="text-xs text-zinc-400">High-converting online presence</p>
+                    <p className="text-sm font-semibold text-white">Optimized Website</p>
+                    <p className="text-xs text-zinc-400">Fast React/Webflow template</p>
                   </div>
-                  <div className="ml-auto text-xs font-mono text-green-400 font-bold bg-green-400/10 px-2 py-0.5 rounded">98% SEO</div>
+                  <div className="ml-auto text-xs font-mono text-green-400 font-bold bg-green-400/10 px-2 py-0.5 rounded">Live</div>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white/5 border border-white/5 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-lg bg-orange-500/15 flex items-center justify-center border border-orange-500/20 shrink-0">
-                    <Zap className="w-5 h-5 text-orange-400" />
+                    <Mail className="w-5 h-5 text-orange-400" />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-white">Instant Lead Router</p>
-                    <p className="text-xs text-zinc-400">Forms direct to phone SMS</p>
+                    <p className="text-sm font-semibold text-white">Contact Form Routing</p>
+                    <p className="text-xs text-zinc-400">Forms to email &amp; Slack</p>
                   </div>
-                  <div className="ml-auto text-xs font-mono text-orange-400 font-bold bg-orange-400/10 px-2 py-0.5 rounded">&lt;1s alert</div>
+                  <div className="ml-auto text-xs font-mono text-orange-400 font-bold bg-orange-400/10 px-2 py-0.5 rounded">Instant</div>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white/5 border border-white/5 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-lg bg-orange-500/15 flex items-center justify-center border border-orange-500/20 shrink-0">
-                    <Terminal className="w-5 h-5 text-orange-400" />
+                    <Globe className="w-5 h-5 text-orange-400" />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-white">Operations Engine</p>
-                    <p className="text-xs text-zinc-400">Contracts, CRM & invoicing</p>
+                    <p className="text-sm font-semibold text-white">Local SEO Active</p>
+                    <p className="text-xs text-zinc-400">Google Business Profile</p>
                   </div>
-                  <div className="ml-auto text-xs font-mono text-zinc-400 bg-white/5 px-2 py-0.5 rounded">Autonomous</div>
+                  <div className="ml-auto text-xs font-mono text-green-400 font-bold bg-green-400/10 px-2 py-0.5 rounded">Optimized</div>
                 </div>
               </div>
 

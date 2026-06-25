@@ -1,0 +1,217 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-06-25-after-hours-leads-worth-more",
+      "headline": "After-Hours Leads Are Worth 2x More: Why Your Metro Detroit Business Is Leaving Money on the Table Every Night",
+      "description": "Discover why 52% of all leads arrive after business hours, convert at 2.5x the daytime rate, and how autonomous AI agents can capture them with 85% contact rates — saving Metro Detroit businesses thousands every month.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-06-25",
+      "dateModified": "2026-06-25",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-06-25-after-hours-leads-worth-more"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-06-25-after-hours-leads-worth-more/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "After-Hours Lead Response Automation"
+      },
+      "keywords": [
+        "after-hours lead response automation",
+        "24/7 lead capture for small business",
+        "AI voice agent after hours",
+        "late night lead conversion",
+        "speed to lead after hours",
+        "missed call recovery automation",
+        "autonomous lead response Michigan"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-06-25-after-hours-leads-worth-more#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What percentage of leads arrive after business hours?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "52% of all sales leads arrive outside standard business hours (GreetNow, 2026). For phone calls specifically, 38-47% of total inbound calls come in after hours, depending on the industry. In home services — HVAC, plumbing, electrical, roofing — that number reaches 52%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much more valuable are after-hours leads compared to daytime leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "After-hours leads convert at up to 2.5x the rate of business-hours leads. This is because after-hours callers have higher intent (they're solving an active problem), face less competition (62% of businesses don't answer), and spend 2.3x longer on calls since there's no time pressure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do missed after-hours calls cost small businesses annually?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average small business loses approximately $126,000 annually to missed calls across all hours. Nationwide, SMBs lose $81.2 billion per year to missed after-hours calls alone. Monthly losses range from $2,010 (auto services) to $7,040 (legal services) depending on industry and call volume."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the contact rate difference between same-night and next-morning response?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Same-night response achieves 85% contact rates. Waiting until the next business morning drops that to 35% — a 50-point collapse. Immediate AI answer recovers 67% of leads, while next-day callback recovers only 9%. The first business to respond captures the lead 78% of the time in competitive markets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do AI voice agents help with after-hours lead capture?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI voice agents answer every call instantly, qualify leads by service area and urgency, book appointments directly into scheduling systems, and send SMS confirmations. They reduce after-hours miss rates from 62% to under 4% and recover 61-67% of after-hours leads — 2.9x more than traditional message-only answering services."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Metro Detroit industries lose the most to missed after-hours calls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Based on 2026 data, legal services lose the most at $7,040/month, followed by solar/roofing ($4,870/month), healthcare ($4,280/month), financial services ($4,200/month), HVAC/plumbing/electrical ($3,170/month), insurance ($3,440/month), and real estate ($2,660/month). Any service business with after-hours demand is affected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast should a business respond to an after-hours lead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Within 5 minutes is optimal, even during after-hours. Each minute of delay in the first five reduces qualification probability by 10% (MIT/Harvard Oldroyd study). Responding within 1 minute increases conversions by 391% compared to a 2-minute delay. Autonomous AI agents are the only practical solution for achieving sub-5-minute after-hours response."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between an AI voice agent and a traditional answering service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traditional answering services operate at $200-600/month but are message-only — they take notes and promise a callback, recovering only 23% of leads. AI voice agents complete the transaction during the call: they book appointments, qualify leads, and send SMS confirmations. AI systems recover 61-67% of after-hours leads — 2.9x more than answering services — and cost less over time."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "AI-driven workflow automation, autonomous Speed to Lead agents, FPV drone cinematography, AI review response automation, and 24/7 after-hours lead capture solutions serving Metro Detroit small businesses and real estate professionals.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "description": "AI agents operate 24/7. Human support available during business hours."
+      },
+      "sameAs": [
+        "https://agenticportfoliox.github.io/AgenticRVR"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR#autonomous-lead-capture",
+      "name": "Autonomous AI After-Hours Lead Capture and Response Services",
+      "description": "24/7 autonomous AI voice agents for after-hours lead capture serving Metro Detroit small businesses. Includes instant call answering, lead qualification by service area and urgency, direct scheduling and booking, SMS confirmation and reminders, integration with existing phone systems and CRMs, and real-time performance analytics. Reduces after-hours miss rates from 62% to under 4%.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "serviceType": "AI-Powered After-Hours Lead Response and Automation",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Metro Detroit Small Business Owners",
+          "HVAC and Plumbing Contractors",
+          "Real Estate Agents and Brokerages",
+          "Healthcare and Dental Practices",
+          "Legal Services Firms",
+          "Home Services Contractors"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Lead Capture Service Categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Voice Agent — After-Hours Call Answering"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Autonomous Lead Qualification and Scheduling"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "24/7 Review Response Agent"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Speed to Lead Automation System"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

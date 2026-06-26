@@ -16,9 +16,9 @@ import {
 import { useSEO } from '../hooks/useSEO';
 import { Link } from 'react-router-dom';
 
-export default function StrixPrivacyBox() {
+export default function LocalLLMDevice() {
   useSEO(
-    'Strix Privacy Box — Local AI Appliance for CPAs, Law Firms & Medical Offices | RVR LLC',
+    'Local LLM Device — Local AI Appliance for CPAs, Law Firms & Medical Offices | RVR LLC',
     'An on-site AI appliance that answers questions from your sensitive documents without ever connecting to the internet. Full HIPAA compliance, attorney-client privilege protection, zero data leaks. Hardware, installation, and maintenance included.'
   );
 
@@ -88,7 +88,7 @@ export default function StrixPrivacyBox() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 leading-[1.1]">
-            The Local AI Privacy Box.<br />
+            The Local LLM Device.<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">All Intelligence, Zero Exposure.</span>
           </h1>
 
@@ -112,6 +112,15 @@ export default function StrixPrivacyBox() {
             >
               See How It Works
             </a>
+          </div>
+          
+          <div className="mt-8 flex justify-center">
+            <Link
+              to="/business-plan#local-llm-full-plan"
+              className="inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-orange-400 transition-colors"
+            >
+              <FileText className="w-4 h-4" /> View Full Business Plan
+            </Link>
           </div>
         </motion.div>
 
@@ -143,7 +152,7 @@ export default function StrixPrivacyBox() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-xs text-orange-400 font-semibold mb-4 uppercase tracking-wider">
               Core Capabilities
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">What the Strix Box Does</h2>
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">What the Local LLM Device Does</h2>
             <p className="text-zinc-400 max-w-2xl mx-auto">
               Every capability runs on-premise. Nothing crosses the network boundary.
             </p>
@@ -293,7 +302,7 @@ export default function StrixPrivacyBox() {
 
               <div className="mt-8 pt-6 border-t border-white/5 bg-orange-500/5 border border-orange-500/15 rounded-2xl p-4">
                 <p className="text-xs text-orange-400/80 leading-relaxed font-medium">
-                  <strong className="text-orange-400">Privacy Compliance Note:</strong> The Strix Box is designed from first principles for regulated industries. The air-gapped inference architecture means there is no data pathway to any external server, satisfying the technical safeguard requirements of HIPAA §164.312, SOC 2 Type II data residency controls, and attorney-client privilege confidentiality obligations.
+                  <strong className="text-orange-400">Privacy Compliance Note:</strong> The Local LLM Device is designed from first principles for regulated industries. The air-gapped inference architecture means there is no data pathway to any external server, satisfying the technical safeguard requirements of HIPAA §164.312, SOC 2 Type II data residency controls, and attorney-client privilege confidentiality obligations.
                 </p>
               </div>
             </motion.div>

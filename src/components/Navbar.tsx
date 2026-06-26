@@ -16,7 +16,7 @@ export default function Navbar() {
           <Link to="/automation-consultation" className="hover:text-white transition-colors text-orange-400 font-semibold">Automation Consultation</Link>
           <Link to="/digital-launchpad" className="hover:text-white transition-colors text-orange-400 font-semibold">Digital Launch Pad</Link>
           <Link to="/cre-backend-consulting" className="hover:text-white transition-colors">CRE Backend</Link>
-          <Link to="/strix-privacy-box" className="hover:text-white transition-colors">Strix Box</Link>
+          <Link to="/local-llm-device" className="hover:text-white transition-colors">Local LLM Device</Link>
           <Link to="/blog" className="hover:text-white transition-colors">Updates</Link>
         </div>
         <Link to="/contact" className="bg-white text-black px-6 py-2.5 rounded-full text-sm font-medium hover:bg-zinc-200 transition-colors inline-flex items-center justify-center">

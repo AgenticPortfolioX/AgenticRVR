@@ -65,7 +65,7 @@ export default function Services() {
                 <h3 className="text-3xl font-bold tracking-tight mb-2">Digital Launch Pad</h3>
                 <p className="text-black/75 font-semibold text-xs uppercase tracking-wider mb-3">Website Build &amp; Managed Hosting</p>
                 <p className="text-black/85 text-sm leading-relaxed mb-6">
-                  Fast-loading, optimized templates (React or Webflow), contact form routing to email/Slack, local SEO &amp; Google Business Profile setup, managed hosting, and up to 1 hour of monthly content edits — all for one flat monthly rate.
+                  Purpose-built websites engineered exclusively for blue-collar businesses. We deploy intelligent AI automation to drastically reduce overhead, reclaim wasted man-hours, and maximize operational efficiency—transforming your web presence into a cost-saving machine for one flat monthly rate.
                 </p>
                 <div className="flex items-center gap-4 mb-5">
                   <span className="text-2xl font-extrabold text-black">$1,500</span>
@@ -109,7 +109,7 @@ export default function Services() {
             </div>
           </motion.div>
 
-          {/* ====== 4. Strix Privacy Box ====== */}
+          {/* ====== 4. Local LLM Device ====== */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -122,14 +122,14 @@ export default function Services() {
                 <Shield className="w-7 h-7 text-orange-500" />
               </div>
               <div className="mt-8">
-                <h3 className="text-3xl font-medium tracking-tight mb-3">Strix Privacy Box</h3>
+                <h3 className="text-3xl font-medium tracking-tight mb-3">Local LLM Device</h3>
                 <p className="text-orange-400/80 font-semibold text-sm mb-2">
                   Private AI for CPAs, Law Firms &amp; Medical Offices
                 </p>
                 <p className="text-zinc-400 text-sm mb-6 leading-relaxed">
                   An on-site AI appliance that ingests, analyzes, and answers questions from your sensitive documents — without ever connecting to the internet. Full regulatory compliance (HIPAA, attorney-client privilege), zero data leaks. We demo on a laptop at your office before you spend a dollar.
                 </p>
-                <Link to="/strix-privacy-box" className="flex items-center gap-2 text-sm font-medium text-orange-500 hover:text-orange-400 transition-colors">
+                <Link to="/local-llm-device" className="flex items-center gap-2 text-sm font-medium text-orange-500 hover:text-orange-400 transition-colors">
                   Request a Free Demo <ArrowUpRight className="w-4 h-4" />
                 </Link>
               </div>

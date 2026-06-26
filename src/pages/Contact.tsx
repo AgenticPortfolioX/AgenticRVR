@@ -138,7 +138,7 @@ export default function Contact() {
                   <option value="Automation Consultation ($500 Audit)">Automation Consultation — $500 Operational Audit</option>
                   <option value="Digital Launch Pad (Website + Funnel)">Digital Launch Pad — Website + Automated Lead Funnel</option>
                   <option value="CRE Backend Consulting">CRE Decentralized Backend Consulting</option>
-                  <option value="Strix Privacy Box (Air-Gapped AI Demo)">Strix Privacy Box — Request a Free Air-Gapped Demo</option>
+                  <option value="Local LLM Device (Air-Gapped AI Demo)">Local LLM Device — Request a Free Air-Gapped Demo</option>
                   <option value="Managed / Ancillary Services">Managed AI Services (Recurring Add-On)</option>
                   <option value="General Inquiry">General Inquiry</option>
                 </select>

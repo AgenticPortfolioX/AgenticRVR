@@ -4,7 +4,7 @@ import { useSEO } from '../hooks/useSEO';
 import { Link as ChainIcon, Shield, Compass, Laptop, ArrowDown } from 'lucide-react';
 
 export default function BusinessPlan() {
-  useSEO('Business Plans | AgenticRVR', 'Our service business plans for Automation Consultation, Digital Launch Pad, CRE Backend Consulting, and the Strix Box.');
+  useSEO('Business Plans | AgenticRVR', 'Our service business plans for Automation Consultation, Digital Launch Pad, CRE Backend Consulting, and the Local LLM Device.');
 
   return (
     <div className="pt-24 pb-16 px-6 min-h-screen bg-[#050505] selection:bg-orange-500/30">
@@ -93,7 +93,7 @@ export default function BusinessPlan() {
             </div>
           </motion.div>
 
-          {/* Strix Box */}
+          {/* Local LLM Device */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -105,12 +105,12 @@ export default function BusinessPlan() {
               <div className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10 shrink-0 mb-6">
                 <Shield className="w-7 h-7 text-orange-500" />
               </div>
-              <h2 className="text-2xl font-bold tracking-tight mb-4">Local AI Privacy Box (Strix Box)</h2>
+              <h2 className="text-2xl font-bold tracking-tight mb-4">Local LLM Device</h2>
               <p className="text-zinc-400 text-sm leading-relaxed mb-8 flex-grow">
                 An on‑premises AI appliance that reads, indexes, and answers questions from your sensitive documents—without sending a single byte to the cloud. Built on an AMD Strix Halo workstation with 128GB unified memory, it runs large language models entirely air‑gapped. Perfect for CPA firms, law practices, and medical offices that must maintain HIPAA or attorney‑client privilege. A flat $9,995 setup and $600/month retainer puts the power of private AI directly in your office.
               </p>
-              <a href="#strix-full-plan" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 text-sm font-semibold text-orange-400 hover:bg-orange-500/10 hover:border-orange-500/30 transition-all self-start">
-                View Full Business Plan <ArrowDown className="w-4 h-4" />
+              <a href="#local-llm-full-plan" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 text-sm font-semibold text-orange-400 hover:bg-orange-500/10 hover:border-orange-500/30 transition-all self-start">
+                View Full Business Plan <ArrowRight className="w-4 h-4" />
               </a>
             </div>
           </motion.div>
@@ -377,17 +377,17 @@ export default function BusinessPlan() {
 
           <hr className="border-white/10" />
 
-          {/* Strix Box Full Plan */}
-          <div id="strix-full-plan" className="scroll-mt-32">
-            <h2 className="text-3xl font-bold mb-6">Local AI Privacy Box (Strix Box) – Full Business Plan</h2>
+          {/* Local LLM Device Full Plan */}
+          <div id="local-llm-full-plan" className="scroll-mt-32">
+            <h2 className="text-3xl font-bold mb-6">Local LLM Device – Full Business Plan</h2>
             <details className="bg-[#141414] border border-white/5 rounded-2xl p-6 group cursor-pointer marker:text-orange-500">
               <summary className="text-lg font-semibold text-white group-hover:text-orange-400 transition-colors focus:outline-none">
-                Click to view full business plan for Strix Privacy Box
+                Click to view full business plan for the Local LLM Device
               </summary>
               <div className="mt-6 text-zinc-400 text-sm space-y-6 cursor-text">
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Overview</h3>
-                  <p className="leading-relaxed">The Strix Privacy Box is a turnkey on‑premises AI appliance for professional service firms that cannot risk sending client data to the cloud. It combines a powerful AMD Strix Halo mini‑workstation (128GB unified memory) with our proprietary Strix AI Core software stack. The system OCRs, embeds, and indexes all the firm’s sensitive documents into a local vector database. Users then query the data in plain English via a secure chat interface—without a single internet connection required for inference. The hardware is purchased only after a client signs a contract and pays a 50% deposit, making the model completely capital‑efficient.</p>
+                  <p className="leading-relaxed">The Local LLM Device is a turnkey on‑premises AI appliance for professional service firms that cannot risk sending client data to the cloud. It combines a powerful AMD Strix Halo mini‑workstation (128GB unified memory) with our proprietary Local LLM software stack. The system OCRs, embeds, and indexes all the firm’s sensitive documents into a local vector database. Users then query the data in plain English via a secure chat interface—without a single internet connection required for inference. The hardware is purchased only after a client signs a contract and pays a 50% deposit, making the model completely capital‑efficient.</p>
                 </div>
 
                 <div>
@@ -439,7 +439,7 @@ export default function BusinessPlan() {
                   <ul className="list-disc pl-5 space-y-2 leading-relaxed">
                     <li>One‑time revenue: $9,995; hardware cost: ~$3,300; gross profit on setup: ~$6,695.</li>
                     <li>MRR: $600 at near‑zero variable cost.</li>
-                    <li>Target: 1–2 new Strix Box deployments per quarter. After 12 months, 4 clients yield $2,400/month in recurring revenue.</li>
+                    <li>Target: 1–2 new Local LLM Device deployments per quarter. After 12 months, 4 clients yield $2,400/month in recurring revenue.</li>
                   </ul>
                 </div>
 

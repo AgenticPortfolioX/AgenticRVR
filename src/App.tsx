@@ -24,7 +24,7 @@ import AMPDemo from './pages/AMPDemo';
 import DigitalLaunchpad from './pages/DigitalLaunchpad';
 import AutomationConsultation from './pages/AutomationConsultation';
 import CREBackendConsulting from './pages/CREBackendConsulting';
-import StrixPrivacyBox from './pages/StrixPrivacyBox';
+import LocalLLMDevice from './pages/LocalLLMDevice';
 import BusinessPlan from './pages/BusinessPlan';
 import ManagedServices from './pages/ManagedServices';
 
@@ -40,7 +40,7 @@ export default function App() {
             <Route path="/digital-launchpad" element={<DigitalLaunchpad />} />
             <Route path="/automation-consultation" element={<AutomationConsultation />} />
             <Route path="/cre-backend-consulting" element={<CREBackendConsulting />} />
-            <Route path="/strix-privacy-box" element={<StrixPrivacyBox />} />
+            <Route path="/local-llm-device" element={<LocalLLMDevice />} />
             <Route path="/managed-services" element={<ManagedServices />} />
             <Route path="/workflows" element={<AgenticWorkflows />} />
             <Route path="/video" element={<VideoMarketing />} />

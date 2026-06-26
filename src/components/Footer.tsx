@@ -24,7 +24,7 @@ export default function Footer() {
               <li><Link to="/automation-consultation" className="text-orange-400 hover:text-orange-300 font-semibold transition-colors">Automation Consultation</Link></li>
               <li><Link to="/digital-launchpad" className="text-orange-400 hover:text-orange-300 font-semibold transition-colors">Digital Launch Pad</Link></li>
               <li><Link to="/cre-backend-consulting" className="hover:text-orange-500 transition-colors">CRE Backend Consulting</Link></li>
-              <li><Link to="/strix-privacy-box" className="hover:text-orange-500 transition-colors">Strix Privacy Box</Link></li>
+              <li><Link to="/local-llm-device" className="hover:text-orange-500 transition-colors">Local LLM Device</Link></li>
             </ul>
           </div>
 

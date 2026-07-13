@@ -1,0 +1,218 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-07-13-ai-phone-agent-lead-intake",
+      "headline": "Never Miss a Call Again: How AI Phone Agents Are Transforming Lead Intake for Metro Detroit Small Businesses",
+      "description": "Discover how AI phone agents are transforming lead intake for Metro Detroit small businesses — capturing 67% of after-hours leads, booking appointments instantly, and saving $126K/year in missed-call revenue. With cost data, recovery rates, and industry benchmarks.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-07-13",
+      "dateModified": "2026-07-13",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-07-13-ai-phone-agent-lead-intake"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-07-13-ai-phone-agent-lead-intake/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "AI Phone Agent Lead Intake and After-Hours Call Response"
+      },
+      "keywords": [
+        "AI phone agent for small business Metro Detroit",
+        "automated lead intake AI",
+        "24/7 call answering for contractors Michigan",
+        "AI voice agent for home services Detroit",
+        "small business missed call recovery",
+        "AI answering service after hours",
+        "autonomous lead qualification Michigan"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-07-13-ai-phone-agent-lead-intake#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What percentage of business calls go unanswered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "62.2% of business calls go unanswered — 37.8% go to voicemail and 24.3% receive no response at all. Only 37.8% of inbound calls are answered by a live person (411 Locals, 2024; Getaira, 2026)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much money do small businesses lose to missed calls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average small business loses $126,000 per year to missed calls. Industry-specific losses range from $35,000 per year (salons) to $150,000+ per year (dental practices, law firms). Home services businesses lose $45,000–$120,000 annually (Getaira, Novacall, 2026)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does an AI phone agent compare to a traditional answering service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traditional answering services ($200–$600/month plus per-minute fees) are message-only — they take notes and promise a callback, recovering about 23% of leads. AI phone agents ($50–$400/month flat-rate) answer instantly, qualify leads, book appointments, and send SMS confirmations, recovering 61–67% of leads — roughly 3x more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an AI phone agent book appointments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. AI phone agents integrate directly with Google Calendar, Calendly, HubSpot, and most scheduling platforms. They can check availability, book appointments, and send SMS confirmations with reminders. Booking calls average 15 conversational exchanges (NextPhone, 2026)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What industries lose the most to missed calls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legal services lose the most per business ($7,040/month), followed by dental/healthcare ($8,330/month), home services like HVAC and plumbing ($3,170/month), real estate ($2,660/month per agent), and insurance ($3,440/month). Any business where the phone is a primary revenue channel is affected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do customers mind talking to an AI phone agent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Data from 1.4 million calls across 2,074 businesses shows 99% positive or neutral sentiment toward AI receptionists (NextPhone, 2026). Customer satisfaction rates for AI receptionists (85–92%) actually exceed traditional call centers (80–85%). About 64% of customers say they prefer no AI in surveys, but actual usage data contradicts stated preferences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast should a business respond to an after-hours lead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Within 5 minutes. The MIT/Harvard Oldroyd study found leads contacted within 5 minutes are 21x more likely to qualify than those contacted after 30 minutes. Same-night response achieves 85% contact rates; next-day callback recovers just 9%. AI phone agents respond in under 2 seconds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost of an AI phone agent versus a human receptionist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AI phone agent costs $600–$4,800 per year. A human receptionist costs $30,000–$60,000 per year plus benefits. The AI operates 24/7/365 with unlimited simultaneous calls. The human works 40 hours per week and handles one call at a time."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "AI-driven workflow automation, autonomous Speed to Lead agents, AI phone agent lead intake, AI review response automation, and 24/7 after-hours lead capture solutions serving Metro Detroit small businesses and real estate professionals.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "description": "AI agents operate 24/7. Human support available during business hours."
+      },
+      "sameAs": [
+        "https://agenticportfoliox.github.io/AgenticRVR"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR#ai-phone-agent-lead-intake",
+      "name": "Autonomous AI Phone Agent Lead Intake and After-Hours Call Response",
+      "description": "24/7 autonomous AI phone agents for lead intake and after-hours call answering serving Metro Detroit small businesses. Includes instant call answering under 2 seconds, lead qualification by service area and urgency, direct appointment booking into scheduling systems, SMS confirmation and reminders, integration with existing phone systems and CRMs, intelligent escalation for complex calls, and real-time call analytics. Reduces after-hours miss rates from 62% to under 4%.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "serviceType": "AI-Powered Lead Intake and After-Hours Phone Agent",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Metro Detroit Small Business Owners",
+          "HVAC and Plumbing Contractors",
+          "Real Estate Agents and Brokerages",
+          "Healthcare and Dental Practices",
+          "Legal Services Firms",
+          "Home Services Contractors",
+          "Auto Service and Repair Shops"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Phone Agent Service Categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Phone Agent — Lead Intake and After-Hours Call Answering"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Autonomous Lead Qualification and Appointment Scheduling"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "24/7 Review Response Agent"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Speed to Lead Automation System"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

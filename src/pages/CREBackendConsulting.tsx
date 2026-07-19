@@ -1,8 +1,9 @@
-import React from 'react';
-import { motion } from 'motion/react';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
 import {
   Link as ChainIcon,
   Shield,
+  ShieldAlert,
   ArrowRight,
   CheckCircle2,
   AlertTriangle,
@@ -12,9 +13,18 @@ import {
   Zap,
   BarChart3,
   PhoneCall,
+  FileText,
+  Activity,
+  ChevronDown,
+  ChevronRight,
+  Database,
+  Cpu,
+  Radio,
+  ExternalLink,
 } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
 import { Link } from 'react-router-dom';
+import { CRE_WORKFLOWS, type CREWorkflow } from '../data/cre-workflows';
 
 export default function CREBackendConsulting() {
   useSEO(
@@ -49,6 +59,59 @@ export default function CREBackendConsulting() {
       icon: BarChart3,
     },
   ];
+
+  // ── Portfolio state ──────────────────────────────────────────────────────
+  const [activeWorkflow, setActiveWorkflow] = useState<string | null>(null);
+  const [expandedPanel, setExpandedPanel] = useState<'problem' | 'solution' | 'architecture' | null>(null);
+
+  // Accent colour maps (Tailwind-safe static strings)
+  const accentBg: Record<string, string> = {
+    blue: 'bg-blue-500/10',
+    red: 'bg-red-500/10',
+    green: 'bg-emerald-500/10',
+    amber: 'bg-amber-500/10',
+    purple: 'bg-purple-500/10',
+  };
+  const accentBorder: Record<string, string> = {
+    blue: 'border-blue-500/30',
+    red: 'border-red-500/30',
+    green: 'border-emerald-500/30',
+    amber: 'border-amber-500/30',
+    purple: 'border-purple-500/30',
+  };
+  const accentText: Record<string, string> = {
+    blue: 'text-blue-400',
+    red: 'text-red-400',
+    green: 'text-emerald-400',
+    amber: 'text-amber-400',
+    purple: 'text-purple-400',
+  };
+  const accentGlow: Record<string, string> = {
+    blue: 'shadow-blue-500/20',
+    red: 'shadow-red-500/20',
+    green: 'shadow-emerald-500/20',
+    amber: 'shadow-amber-500/20',
+    purple: 'shadow-purple-500/20',
+  };
+
+  // Icon resolver
+  const iconFor = (wf: CREWorkflow) => {
+    const map: Record<string, React.ElementType> = {
+      'ccid-synchronizer': GitBranch,
+      'ofac-circuit-breaker': ShieldAlert,
+      'compliance-reporting-gateway': FileText,
+      'progressive-aml-monitor': Activity,
+      'fatf-travel-rule-router': Lock,
+    };
+    return map[wf.id] ?? Shield;
+  };
+
+  const zoneIcon = (zone: string) => {
+    if (zone.includes('Zone 1')) return Cpu;
+    if (zone.includes('Zone 2')) return Radio;
+    if (zone.includes('Zone 3')) return Database;
+    return Server;
+  };
 
   return (
     <div className="pt-24 pb-16 px-6 min-h-screen bg-[#050505] selection:bg-orange-500/30">
@@ -250,6 +313,285 @@ export default function CREBackendConsulting() {
               </div>
             </motion.div>
           </div>
+        </section>
+
+
+        {/* ==================== PRODUCTION WORKFLOW PORTFOLIO ==================== */}
+        <section className="mb-28" id="production-workflows">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-xs text-orange-400 font-semibold mb-4 uppercase tracking-wider">
+              <Zap className="w-3.5 h-3.5" />
+              Production Workflows as a Service
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
+              5 Enterprise-Grade CRE Workflows
+            </h2>
+            <p className="text-zinc-400 max-w-2xl mx-auto leading-relaxed">
+              Real production workflows built on the Chainlink Runtime Environment — each solving a distinct blockchain compliance, data-latency, or cross-chain automation bottleneck for financial institutions and regulated protocols.
+            </p>
+          </div>
+
+          {/* ── Selector Grid ── */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 mb-8">
+            {CRE_WORKFLOWS.map((wf, i) => {
+              const Icon = iconFor(wf);
+              const isActive = activeWorkflow === wf.id;
+              return (
+                <motion.button
+                  key={wf.id}
+                  id={`workflow-tab-${wf.id}`}
+                  onClick={() => {
+                    setActiveWorkflow(isActive ? null : wf.id);
+                    setExpandedPanel(null);
+                  }}
+                  initial={{ opacity: 0, y: 12 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.06 }}
+                  className={`relative text-left rounded-2xl p-5 border transition-all duration-300 group cursor-pointer ${
+                    isActive
+                      ? `${accentBg[wf.accentVariant]} ${accentBorder[wf.accentVariant]} shadow-xl ${accentGlow[wf.accentVariant]}`
+                      : 'bg-[#141414] border-white/5 hover:border-white/15'
+                  }`}
+                >
+                  <div className={`w-10 h-10 rounded-xl flex items-center justify-center mb-4 transition-colors ${
+                    isActive ? `${accentBg[wf.accentVariant]} ${accentBorder[wf.accentVariant]} border` : 'bg-white/5 border border-white/10'
+                  }`}>
+                    <Icon className={`w-5 h-5 ${isActive ? accentText[wf.accentVariant] : 'text-zinc-400'}`} />
+                  </div>
+                  <div className={`text-[10px] font-bold uppercase tracking-widest mb-1 ${
+                    isActive ? accentText[wf.accentVariant] : 'text-zinc-600'
+                  }`}>{wf.index}</div>
+                  <p className={`text-sm font-bold leading-tight mb-2 ${
+                    isActive ? 'text-white' : 'text-zinc-300 group-hover:text-white'
+                  }`}>{wf.solutionName}</p>
+                  <span className={`inline-flex items-center text-[10px] font-semibold px-2 py-0.5 rounded-full ${
+                    isActive
+                      ? `${accentBg[wf.accentVariant]} ${accentText[wf.accentVariant]}`
+                      : 'bg-white/5 text-zinc-500'
+                  }`}>
+                    {wf.category}
+                  </span>
+                  {isActive && (
+                    <div className={`absolute bottom-3 right-3 w-2 h-2 rounded-full ${accentText[wf.accentVariant].replace('text-', 'bg-')} animate-pulse`} />
+                  )}
+                </motion.button>
+              );
+            })}
+          </div>
+
+          {/* ── Expanded Detail Panel ── */}
+          <AnimatePresence mode="wait">
+            {activeWorkflow && (() => {
+              const wf = CRE_WORKFLOWS.find(w => w.id === activeWorkflow)!;
+              const Icon = iconFor(wf);
+              return (
+                <motion.div
+                  key={wf.id}
+                  initial={{ opacity: 0, y: 16 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -8 }}
+                  transition={{ duration: 0.3 }}
+                  className={`rounded-[2rem] border p-8 md:p-10 ${accentBg[wf.accentVariant]} ${accentBorder[wf.accentVariant]}`}
+                >
+                  {/* Header */}
+                  <div className="flex flex-col md:flex-row md:items-start gap-6 mb-10">
+                    <div className={`w-16 h-16 rounded-2xl flex items-center justify-center shrink-0 bg-black/30 border ${accentBorder[wf.accentVariant]}`}>
+                      <Icon className={`w-8 h-8 ${accentText[wf.accentVariant]}`} />
+                    </div>
+                    <div className="flex-1">
+                      <div className={`text-xs font-bold uppercase tracking-widest mb-2 ${accentText[wf.accentVariant]}`}>
+                        Workflow {wf.index} · {wf.category}
+                      </div>
+                      <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-white mb-2">{wf.solutionName}</h3>
+                      <p className="text-zinc-400 leading-relaxed">{wf.tagline}</p>
+                    </div>
+                    {/* Compliance Badges */}
+                    <div className="flex flex-wrap gap-2 md:justify-end shrink-0 max-w-xs">
+                      {wf.complianceFrameworks.map(f => (
+                        <span key={f} className={`text-[10px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full bg-black/30 border ${accentBorder[wf.accentVariant]} ${accentText[wf.accentVariant]}`}>
+                          {f}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Three collapsible panels */}
+                  <div className="space-y-3 mb-10">
+                    {([
+                      { key: 'problem', label: 'The Problem', content: wf.problem, icon: AlertTriangle },
+                      { key: 'solution', label: 'The Solution', content: wf.solution, icon: Zap },
+                    ] as const).map(({ key, label, content, icon: PanelIcon }) => (
+                      <button
+                        key={key}
+                        id={`panel-${wf.id}-${key}`}
+                        onClick={() => setExpandedPanel(expandedPanel === key ? null : key)}
+                        className="w-full text-left"
+                      >
+                        <div className={`rounded-xl border p-5 transition-all duration-200 ${
+                          expandedPanel === key
+                            ? `bg-black/30 ${accentBorder[wf.accentVariant]}`
+                            : 'bg-black/20 border-white/5 hover:border-white/15'
+                        }`}>
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-3">
+                              <PanelIcon className={`w-4 h-4 ${expandedPanel === key ? accentText[wf.accentVariant] : 'text-zinc-500'}`} />
+                              <span className={`text-sm font-bold ${expandedPanel === key ? 'text-white' : 'text-zinc-300'}`}>{label}</span>
+                            </div>
+                            <ChevronDown className={`w-4 h-4 text-zinc-500 transition-transform duration-200 ${expandedPanel === key ? 'rotate-180' : ''}`} />
+                          </div>
+                          <AnimatePresence>
+                            {expandedPanel === key && (
+                              <motion.p
+                                initial={{ opacity: 0, height: 0 }}
+                                animate={{ opacity: 1, height: 'auto' }}
+                                exit={{ opacity: 0, height: 0 }}
+                                transition={{ duration: 0.2 }}
+                                className="text-sm text-zinc-400 leading-relaxed mt-4 overflow-hidden"
+                              >
+                                {content}
+                              </motion.p>
+                            )}
+                          </AnimatePresence>
+                        </div>
+                      </button>
+                    ))}
+
+                    {/* Architecture panel */}
+                    <button
+                      id={`panel-${wf.id}-architecture`}
+                      onClick={() => setExpandedPanel(expandedPanel === 'architecture' ? null : 'architecture')}
+                      className="w-full text-left"
+                    >
+                      <div className={`rounded-xl border p-5 transition-all duration-200 ${
+                        expandedPanel === 'architecture'
+                          ? `bg-black/30 ${accentBorder[wf.accentVariant]}`
+                          : 'bg-black/20 border-white/5 hover:border-white/15'
+                      }`}>
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-3">
+                            <Server className={`w-4 h-4 ${expandedPanel === 'architecture' ? accentText[wf.accentVariant] : 'text-zinc-500'}`} />
+                            <span className={`text-sm font-bold ${expandedPanel === 'architecture' ? 'text-white' : 'text-zinc-300'}`}>Technical Architecture (High-Level)</span>
+                          </div>
+                          <ChevronDown className={`w-4 h-4 text-zinc-500 transition-transform duration-200 ${expandedPanel === 'architecture' ? 'rotate-180' : ''}`} />
+                        </div>
+                        <AnimatePresence>
+                          {expandedPanel === 'architecture' && (
+                            <motion.div
+                              initial={{ opacity: 0, height: 0 }}
+                              animate={{ opacity: 1, height: 'auto' }}
+                              exit={{ opacity: 0, height: 0 }}
+                              transition={{ duration: 0.2 }}
+                              className="mt-5 overflow-hidden"
+                            >
+                              {/* Input → Processing → Output flow */}
+                              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                                {/* Inputs */}
+                                <div className="bg-black/30 rounded-xl p-4 border border-white/5">
+                                  <div className="flex items-center gap-2 mb-3">
+                                    <div className={`w-6 h-6 rounded-lg flex items-center justify-center ${accentBg[wf.accentVariant]} border ${accentBorder[wf.accentVariant]}`}>
+                                      <ChevronRight className={`w-3.5 h-3.5 ${accentText[wf.accentVariant]}`} />
+                                    </div>
+                                    <span className="text-xs font-bold text-zinc-400 uppercase tracking-wider">Inputs</span>
+                                  </div>
+                                  <ul className="space-y-2">
+                                    {wf.architecture.inputs.map((inp, i) => (
+                                      <li key={i} className="text-xs text-zinc-400 leading-snug flex gap-2">
+                                        <span className={`mt-1 w-1.5 h-1.5 rounded-full shrink-0 ${accentText[wf.accentVariant].replace('text-', 'bg-')}`} />
+                                        {inp}
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                                {/* Processing */}
+                                <div className="bg-black/30 rounded-xl p-4 border border-white/5">
+                                  <div className="flex items-center gap-2 mb-3">
+                                    <div className={`w-6 h-6 rounded-lg flex items-center justify-center ${accentBg[wf.accentVariant]} border ${accentBorder[wf.accentVariant]}`}>
+                                      <Cpu className={`w-3.5 h-3.5 ${accentText[wf.accentVariant]}`} />
+                                    </div>
+                                    <span className="text-xs font-bold text-zinc-400 uppercase tracking-wider">Processing</span>
+                                  </div>
+                                  <p className="text-xs text-zinc-400 leading-relaxed">{wf.architecture.processing}</p>
+                                </div>
+                                {/* Outputs */}
+                                <div className="bg-black/30 rounded-xl p-4 border border-white/5">
+                                  <div className="flex items-center gap-2 mb-3">
+                                    <div className={`w-6 h-6 rounded-lg flex items-center justify-center ${accentBg[wf.accentVariant]} border ${accentBorder[wf.accentVariant]}`}>
+                                      <CheckCircle2 className={`w-3.5 h-3.5 ${accentText[wf.accentVariant]}`} />
+                                    </div>
+                                    <span className="text-xs font-bold text-zinc-400 uppercase tracking-wider">Outputs</span>
+                                  </div>
+                                  <ul className="space-y-2">
+                                    {wf.architecture.outputs.map((out, i) => (
+                                      <li key={i} className="text-xs text-zinc-400 leading-snug flex gap-2">
+                                        <span className={`mt-1 w-1.5 h-1.5 rounded-full shrink-0 ${accentText[wf.accentVariant].replace('text-', 'bg-')}`} />
+                                        {out}
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              </div>
+
+                              {/* Security Zones */}
+                              <div>
+                                <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-600 mb-3">Security Zone Architecture</p>
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                                  {wf.architecture.layers.map((layer) => {
+                                    const ZoneIcon = zoneIcon(layer.zone);
+                                    return (
+                                      <div key={layer.zone} className={`rounded-xl p-4 border ${accentBorder[wf.accentVariant]} bg-black/20`}>
+                                        <div className="flex items-center gap-2 mb-2">
+                                          <ZoneIcon className={`w-4 h-4 ${accentText[wf.accentVariant]}`} />
+                                          <span className={`text-[10px] font-bold uppercase tracking-wider ${accentText[wf.accentVariant]}`}>{layer.zone}</span>
+                                        </div>
+                                        <p className="text-xs font-bold text-white mb-1">{layer.label}</p>
+                                        <p className="text-xs text-zinc-500 leading-snug">{layer.description}</p>
+                                      </div>
+                                    );
+                                  })}
+                                </div>
+                              </div>
+                            </motion.div>
+                          )}
+                        </AnimatePresence>
+                      </div>
+                    </button>
+                  </div>
+
+                  {/* Value Proposition */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-8">
+                    {wf.valueProposition.map((vp, i) => (
+                      <div key={i} className="flex items-start gap-3 bg-black/20 rounded-xl p-4 border border-white/5">
+                        <CheckCircle2 className={`w-4 h-4 shrink-0 mt-0.5 ${accentText[wf.accentVariant]}`} />
+                        <p className="text-sm text-zinc-300 leading-relaxed">{vp}</p>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Ideal For */}
+                  <div className={`rounded-xl p-5 border ${accentBorder[wf.accentVariant]} bg-black/20 flex items-start gap-3`}>
+                    <ExternalLink className={`w-4 h-4 shrink-0 mt-0.5 ${accentText[wf.accentVariant]}`} />
+                    <div>
+                      <p className={`text-xs font-bold uppercase tracking-wider mb-1 ${accentText[wf.accentVariant]}`}>Ideal For</p>
+                      <p className="text-sm text-zinc-400 leading-relaxed">{wf.idealFor}</p>
+                    </div>
+                  </div>
+                </motion.div>
+              );
+            })()}
+          </AnimatePresence>
+
+          {/* No-selection prompt */}
+          {!activeWorkflow && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="text-center py-10 text-zinc-600 text-sm"
+            >
+              <Shield className="w-8 h-8 mx-auto mb-3 opacity-30" />
+              Select a workflow above to explore its architecture, value proposition, and compliance scope.
+            </motion.div>
+          )}
         </section>
 
 

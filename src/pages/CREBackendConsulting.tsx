@@ -16,15 +16,12 @@ import {
   FileText,
   Activity,
   ChevronDown,
-  ChevronRight,
-  Database,
-  Cpu,
-  Radio,
   ExternalLink,
 } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
 import { Link } from 'react-router-dom';
 import { CRE_WORKFLOWS, type CREWorkflow } from '../data/cre-workflows';
+import ArchitectureFlow from '../components/ArchitectureFlow';
 
 export default function CREBackendConsulting() {
   useSEO(
@@ -104,13 +101,6 @@ export default function CREBackendConsulting() {
       'fatf-travel-rule-router': Lock,
     };
     return map[wf.id] ?? Shield;
-  };
-
-  const zoneIcon = (zone: string) => {
-    if (zone.includes('Zone 1')) return Cpu;
-    if (zone.includes('Zone 2')) return Radio;
-    if (zone.includes('Zone 3')) return Database;
-    return Server;
   };
 
   return (
@@ -484,73 +474,13 @@ export default function CREBackendConsulting() {
                               transition={{ duration: 0.2 }}
                               className="mt-5 overflow-hidden"
                             >
-                              {/* Input → Processing → Output flow */}
-                              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                                {/* Inputs */}
-                                <div className="bg-black/30 rounded-xl p-4 border border-white/5">
-                                  <div className="flex items-center gap-2 mb-3">
-                                    <div className={`w-6 h-6 rounded-lg flex items-center justify-center ${accentBg[wf.accentVariant]} border ${accentBorder[wf.accentVariant]}`}>
-                                      <ChevronRight className={`w-3.5 h-3.5 ${accentText[wf.accentVariant]}`} />
-                                    </div>
-                                    <span className="text-xs font-bold text-zinc-400 uppercase tracking-wider">Inputs</span>
-                                  </div>
-                                  <ul className="space-y-2">
-                                    {wf.architecture.inputs.map((inp, i) => (
-                                      <li key={i} className="text-xs text-zinc-400 leading-snug flex gap-2">
-                                        <span className={`mt-1 w-1.5 h-1.5 rounded-full shrink-0 ${accentText[wf.accentVariant].replace('text-', 'bg-')}`} />
-                                        {inp}
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                                {/* Processing */}
-                                <div className="bg-black/30 rounded-xl p-4 border border-white/5">
-                                  <div className="flex items-center gap-2 mb-3">
-                                    <div className={`w-6 h-6 rounded-lg flex items-center justify-center ${accentBg[wf.accentVariant]} border ${accentBorder[wf.accentVariant]}`}>
-                                      <Cpu className={`w-3.5 h-3.5 ${accentText[wf.accentVariant]}`} />
-                                    </div>
-                                    <span className="text-xs font-bold text-zinc-400 uppercase tracking-wider">Processing</span>
-                                  </div>
-                                  <p className="text-xs text-zinc-400 leading-relaxed">{wf.architecture.processing}</p>
-                                </div>
-                                {/* Outputs */}
-                                <div className="bg-black/30 rounded-xl p-4 border border-white/5">
-                                  <div className="flex items-center gap-2 mb-3">
-                                    <div className={`w-6 h-6 rounded-lg flex items-center justify-center ${accentBg[wf.accentVariant]} border ${accentBorder[wf.accentVariant]}`}>
-                                      <CheckCircle2 className={`w-3.5 h-3.5 ${accentText[wf.accentVariant]}`} />
-                                    </div>
-                                    <span className="text-xs font-bold text-zinc-400 uppercase tracking-wider">Outputs</span>
-                                  </div>
-                                  <ul className="space-y-2">
-                                    {wf.architecture.outputs.map((out, i) => (
-                                      <li key={i} className="text-xs text-zinc-400 leading-snug flex gap-2">
-                                        <span className={`mt-1 w-1.5 h-1.5 rounded-full shrink-0 ${accentText[wf.accentVariant].replace('text-', 'bg-')}`} />
-                                        {out}
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              </div>
-
-                              {/* Security Zones */}
-                              <div>
-                                <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-600 mb-3">Security Zone Architecture</p>
-                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                                  {wf.architecture.layers.map((layer) => {
-                                    const ZoneIcon = zoneIcon(layer.zone);
-                                    return (
-                                      <div key={layer.zone} className={`rounded-xl p-4 border ${accentBorder[wf.accentVariant]} bg-black/20`}>
-                                        <div className="flex items-center gap-2 mb-2">
-                                          <ZoneIcon className={`w-4 h-4 ${accentText[wf.accentVariant]}`} />
-                                          <span className={`text-[10px] font-bold uppercase tracking-wider ${accentText[wf.accentVariant]}`}>{layer.zone}</span>
-                                        </div>
-                                        <p className="text-xs font-bold text-white mb-1">{layer.label}</p>
-                                        <p className="text-xs text-zinc-500 leading-snug">{layer.description}</p>
-                                      </div>
-                                    );
-                                  })}
-                                </div>
-                              </div>
+                              <ArchitectureFlow
+                                inputs={wf.architecture.inputs}
+                                processing={wf.architecture.processing}
+                                outputs={wf.architecture.outputs}
+                                layers={wf.architecture.layers}
+                                accentVariant={wf.accentVariant}
+                              />
                             </motion.div>
                           )}
                         </AnimatePresence>

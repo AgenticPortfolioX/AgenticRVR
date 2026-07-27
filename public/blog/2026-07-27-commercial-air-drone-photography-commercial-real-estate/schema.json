@@ -1,0 +1,219 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-07-27-commercial-air-drone-photography-commercial-real-estate",
+      "headline": "Commercial Air: How Cinematic Drone Photography Is Transforming Metro Detroit Commercial Real Estate Listings",
+      "description": "Only 9% of commercial real estate brokers use video, yet drone-photographed listings sell 68% faster. Discover how cinematic aerial photography is transforming Metro Detroit commercial property marketing — and why early adopters are winning.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-07-27",
+      "dateModified": "2026-07-27",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-07-27-commercial-air-drone-photography-commercial-real-estate"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-07-27-commercial-air-drone-photography-commercial-real-estate/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Commercial Drone Photography for Real Estate Marketing"
+      },
+      "keywords": [
+        "Commercial drone photography Metro Detroit",
+        "Commercial real estate aerial photography Michigan",
+        "Cinematic commercial property listing photography",
+        "Drone photography for commercial real estate",
+        "Commercial property walkthrough video Michigan",
+        "Aerial photography for business listings Metro Detroit",
+        "Commercial real estate visual marketing",
+        "Industrial property drone photography Oakland County"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-07-27-commercial-air-drone-photography-commercial-real-estate#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does drone photography help sell commercial real estate faster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. According to the National Association of Realtors, listings featuring aerial drone footage sell 68% faster than those without. Commercial properties with professional visual media also average 5-8% higher closing prices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does commercial real estate drone photography cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Professional commercial drone shoots typically range from $400-$1,500 depending on property size, number of buildings, and whether video or FPV walkthroughs are included. For a typical single-building commercial listing, expect $500-$800 for a complete aerial photography plus video package."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between residential and commercial drone photography?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residential drone photography focuses on curb appeal — lawns, pools, and neighborhood charm. Commercial drone photography focuses on functional assets — parking ratios, roof condition, traffic visibility, building scale, tenant access, and surrounding infrastructure. The visual priorities are entirely different."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do commercial real estate listings need video or just photos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both. Aerial photos provide the visual anchor for online listings, search results, and brochures. Video, especially FPV walkthroughs, provides the immersive experience that generates 403% more inquiries. Commercial listings with both photos and video outperform photo-only listings by every measurable metric."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of commercial properties benefit most from aerial photography?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All types benefit, but the highest ROI is for industrial warehouses (scale and site layout), retail and restaurant (traffic visibility and parking), medical suites (accessibility and signage), land development (boundary and topography), and multi-tenant office parks (campus context and amenities)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is drone photography worth it for commercial real estate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A 5-8% closing price premium on a $2M property equals $100K-$160K in additional sale price. Against a $500-$1,500 production cost, that's a 7,000%+ ROI. For leasing properties, faster lease-up means less carrying cost and fewer months of vacancy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do drones help sell commercial property in Metro Detroit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Metro Detroit commercial properties — office parks in Troy, retail centers in Rochester Hills, industrial warehouses in Auburn Hills, medical suites in Bloomfield — each require different visual treatments. Drone photography captures parking capacity, traffic visibility, roof condition, building scale, and neighborhood context in ways ground photography cannot. In a competitive market like Metro Detroit, aerial visuals are a structural advantage over the 91% of listings that lack them."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "AI-driven workflow automation, autonomous Speed to Lead agents, and cinematic FPV drone photography and real estate media production serving Metro Detroit small businesses, real estate professionals, and commercial property owners.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "description": "AI agents operate 24/7. Human support available during business hours."
+      },
+      "sameAs": [
+        "https://agenticportfoliox.github.io/AgenticRVR"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR#commercial-drone-photography",
+      "name": "Commercial Drone Photography and Cinematic Real Estate Media",
+      "description": "Professional cinematic drone photography, aerial videography, FPV walkthroughs, and visual media production for commercial real estate listings in Metro Detroit. Services include exterior campus aerials at golden hour, parking and traffic pattern documentation, roof and HVAC visual assessment, signage visibility analysis, FPV walkthroughs for office and medical suites, retail storefront context aerials, industrial warehouse site coverage, land development parcel boundary documentation, and AI-enhanced visual marketing for property listing acceleration. Listings with aerial drone footage sell 68% faster and command 5-8% higher closing prices.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "serviceType": "Commercial Real Estate Drone Photography and Cinematic Visual Media",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Commercial Real Estate Brokers and Agents",
+          "Property Owners and Landlords",
+          "Commercial Property Developers",
+          "Office and Medical Suite Owners",
+          "Retail and Restaurant Property Managers",
+          "Industrial and Warehouse Facility Owners",
+          "Land Development and Investment Firms",
+          "Property Marketing and Listing Services"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Commercial Drone Photography Service Categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Commercial Property Aerial Photography and Videography"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "FPV Walkthroughs for Office, Retail, and Medical Spaces"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Industrial and Warehouse Site Documentation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Land Development Parcel and Topography Aerials"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI-Enhanced Visual Marketing for Property Listings"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-03-ai-text-agents-text-first",
+      "headline": "Your Customers Text. Does Your Business Text Back? How Autonomous AI Text Agents Win Metro Detroit's Speed-to-Lead Race",
+      "description": "Customers read texts within minutes but wait 47 hours for your reply. SMS open rates hit 98% while calls go unanswered. Here's how autonomous AI text agents turn the text thread into your fastest revenue channel.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-08-03",
+      "dateModified": "2026-08-03",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-03-ai-text-agents-text-first"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-03-ai-text-agents-text-first/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Autonomous AI Text Agents and Text-First Lead Response"
+      },
+      "keywords": [
+        "AI text agent small business",
+        "Two-way SMS automation Metro Detroit",
+        "Business text message response time",
+        "AI SMS assistant 24/7",
+        "Text-first customer communication",
+        "Speed to lead texting",
+        "Autonomous text follow-up",
+        "AI conversational SMS Michigan",
+        "SMS open rate vs email",
+        "Zero latency growth small business"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-03-ai-text-agents-text-first#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an AI text agent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AI text agent is an autonomous conversational system that receives, understands, and replies to customer text messages on your business's behalf. Unlike an autoresponder, it holds multi-turn conversations, remembers context, qualifies leads, and books appointments — in seconds, around the clock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast should a business respond to a text message?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Within minutes — ideally under five. MIT/Harvard research shows leads contacted within 5 minutes are 21x more likely to be qualified than those contacted after 30 minutes. The average business takes 47 hours, which is effectively a forfeit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do customers really prefer texting over calling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Roughly 90% of consumers say they'd rather text a business than call, and 53% call SMS their preferred communication channel. Meanwhile, about 80% of people don't answer calls from unknown numbers — the channels most businesses rely on are the ones customers avoid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an AI text agent actually book appointments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. It checks your live calendar, offers available slots, books the appointment, and sends confirmations and reminders. SMS reminders alone reduce missed appointments by roughly 80%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do AI text agents work after hours?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That's their whole point. AI text agents run 24/7, and 52% of all sales leads arrive outside business hours. Businesses using AI capture dramatically more of those after-hours conversations than voicemail-reliant competitors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a missed text message cost a small business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At a $300–$900 average ticket, every unanswered textable inquiry is a conversation handed to a competitor. With 1,000+ textable inquiries a year at typical volumes, slow or missing text response quietly costs Metro Detroit businesses tens of thousands of dollars annually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will an AI text agent replace my team?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — it handles the routine 80%: first response, qualification, FAQs, booking. Complex or sensitive conversations escalate to your team mid-thread with full context. Your people do the high-value work; the agent does the repetition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do AI text agents integrate with existing systems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They plug into your CRM, calendar, and dispatch workflows. Every conversation is logged to the contact record, triggers automations, and updates deal stages — no fragmented threads, no lost details."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "AI-driven workflow automation, autonomous Speed to Lead agents, and cinematic FPV drone photography and real estate media production serving Metro Detroit small businesses, real estate professionals, and commercial property owners.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "description": "AI agents operate 24/7. Human support available during business hours."
+      },
+      "sameAs": ["https://agenticportfoliox.github.io/AgenticRVR"]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR#text-first-lead-automation",
+      "name": "AI-Powered Text-First Lead Response for Metro Detroit Businesses",
+      "description": "Autonomous AI text agents that answer, qualify, and book customer conversations over SMS in under 5 seconds, 24/7. Services include two-way conversational SMS, AI lead qualification via text, autonomous appointment booking, after-hours text recovery, voice-to-SMS handoff, and CRM integration. AI-equipped businesses cut after-hours miss rates from 62% to under 4%.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "serviceType": "AI-Powered Text-First Lead Response Automation",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Home Service Businesses",
+          "HVAC, Plumbing, and Electrical Contractors",
+          "Real Estate Professionals",
+          "Metro Detroit Small Business Owners",
+          "Service-Based Companies",
+          "Property Maintenance Companies"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Text-First Automation Service Categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "24/7 Autonomous AI Text Agent"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Two-Way Conversational SMS"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Lead Qualification via Text"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Autonomous Text Appointment Booking"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Voice-to-SMS Handoff"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "CRM and Dispatch Integration"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

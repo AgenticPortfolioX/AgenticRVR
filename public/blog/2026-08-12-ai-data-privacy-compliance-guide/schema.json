@@ -1,0 +1,150 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-12-ai-data-privacy-compliance-guide",
+      "headline": "What Every Metro Detroit Business Should Know Before Putting Customer Data Into AI",
+      "description": "Shadow AI is quietly exposing customer data across Metro Detroit businesses. HIPAA, attorney-client privilege, and trade secrets are all at risk. Here's the compliance checklist — and why a local LLM device may be the safest answer.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-08-12",
+      "dateModified": "2026-08-12",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-12-ai-data-privacy-compliance-guide"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-12-ai-data-privacy-compliance-guide/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "AI Data Privacy and Compliance for Businesses"
+      },
+      "keywords": [
+        "AI data privacy business",
+        "HIPAA AI compliance",
+        "attorney-client privilege AI",
+        "local LLM privacy",
+        "on-premises AI",
+        "AI compliance Michigan",
+        "shadow AI risk",
+        "Business Associate Agreement AI",
+        "private AI small business",
+        "sovereign technology"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-12-ai-data-privacy-compliance-guide#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is shadow AI and why is it risky?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shadow AI is the use of AI tools by employees without company approval or awareness. It's risky because sensitive data — customer information, PHI, privileged communications, trade secrets — can be sent to third-party tools that may train on it, creating compliance violations and data exposure the business never authorized."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What data should never be entered into AI tools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Social Security numbers and personal identifiers, protected health information (PHI) covered by HIPAA, attorney-client privileged communications, and proprietary business information such as pricing, processes, and trade secrets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a business use AI with patient data and stay HIPAA compliant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — but only with HIPAA-compliant AI that includes a signed Business Associate Agreement (BAA), encryption at rest and in transit, and documented breach notification procedures. The safest option is on-premises AI where patient data never leaves the business."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does using public AI tools risk attorney-client privilege?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sharing client information or case details with a third-party AI tool can waive attorney-client privilege, because the client's expectation of confidentiality is compromised the moment the data is disclosed to an outside provider without adequate protections."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a local LLM device?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A local LLM device is a self-contained AI system that runs on hardware you own, on your premises. Models execute locally and your data never leaves the building — eliminating the third-party exposure, training-data, and BAA dependency of cloud AI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does on-premises AI require a Business Associate Agreement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In most cases, no. A BAA is required when a vendor handles PHI on your behalf. When your own AI runs entirely on your own hardware with no vendor processing your data, the BAA requirement drops away — which is precisely why local LLM devices simplify compliance."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building, CRE (Chainlink Runtime Environment) workflow consulting, and local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "AI Privacy and Compliance Consulting",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Healthcare practices", "Law firms", "Businesses with proprietary data"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

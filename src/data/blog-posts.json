@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-12-ai-data-privacy-compliance-guide",
+    "title": "What Every Metro Detroit Business Should Know Before Putting Customer Data Into AI",
+    "date": "2026-08-12",
+    "description": "Shadow AI is quietly exposing customer data across Metro Detroit businesses. HIPAA, attorney-client privilege, and trade secrets are all at risk. Here's the compliance checklist — and why a local LLM device may be the safest answer.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Shadow AI is quietly exposing customer data across Metro Detroit businesses. HIPAA, attorney-client privilege, and trade secrets are all at risk. Here's the compliance checklist — and why a local LLM device may be the safest answer.",
+    "image": "/blog/2026-08-12-ai-data-privacy-compliance-guide/feature_image.png",
+    "path": "/blog/2026-08-12-ai-data-privacy-compliance-guide/final.md",
+    "schema": "/blog/2026-08-12-ai-data-privacy-compliance-guide/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-08-03-ai-text-agents-text-first",
     "title": "Your Customers Text. Does Your Business Text Back? How Autonomous AI Text Agents Win Metro Detroit's Speed-to-Lead Race",
     "date": "2026-08-03",

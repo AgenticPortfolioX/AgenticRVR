@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-13-hipaa-local-llm-private-ai",
+      "headline": "Why Cloud AI Is a Non-Starter for Your Medical Practice (And What to Do Instead)",
+      "description": "Consumer cloud AI violates HIPAA when it touches patient data. OCR's 2026 enforcement pattern makes the risk unmissable. Here's what a HIPAA-compliant local LLM deployment looks like for a Metro Detroit practice — and why on-premises AI is the architecture that actually answers.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-08-13",
+      "dateModified": "2026-08-13",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-13-hipaa-local-llm-private-ai"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-13-hipaa-local-llm-private-ai/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "HIPAA-Compliant Local LLM for Medical Practices"
+      },
+      "keywords": [
+        "HIPAA-compliant local AI",
+        "on-premises AI for healthcare",
+        "local LLM medical practice",
+        "private LLM for medical practice",
+        "local LLM HIPAA",
+        "healthcare AI data privacy",
+        "HIPAA AI compliance Michigan",
+        "on-premises AI Michigan",
+        "local LLM device",
+        "sovereign technology"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-13-hipaa-local-llm-private-ai#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is it legal to use AI with patient data under HIPAA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — with the right architecture. Consumer cloud AI with PHI is a violation. On-premises AI where data never leaves your control is compliant by design. The difference is the architecture, not the tool."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a local LLM device?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A self-contained AI appliance that runs on hardware your practice owns, on your premises. Models run locally, so patient data never leaves the building — no third-party processing, no training-data absorption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a BAA make cloud AI HIPAA compliant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A BAA makes a vendor contractually responsible for PHI they handle, and it's required for cloud AI that touches PHI. But it doesn't prevent the data from leaving your building — it just governs what happens after. On-premises AI removes the question entirely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What hardware does a local LLM for a medical practice need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A modern workstation or small server with a GPU — typically one machine for most practices, racked on-premises and configured for encrypted, access-controlled use. Sizing depends on staff volume and workloads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a HIPAA-compliant local LLM setup cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hardware, deployment, and configuration are a fraction of what enterprise cloud AI contracts cost over time — and you own the hardware outright. Quotes are practice-specific because every build is sized differently."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a local LLM handle medical documentation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — for drafting, summarizing, and documentation workflows, local open-weight models (including medical-tuned models) perform at the level staff are already used to. They are not licensed medical devices and should never make clinical decisions — same as any LLM."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does OCR actually penalize in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Missing risk analysis. OCR's 2026 enforcement pattern consistently punishes the absent risk assessment underneath a breach — not the breach itself. Documented risk analysis and controls are the difference between a defensible posture and a settlement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who in Metro Detroit installs on-premises AI for medical practices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agentic builds and supports local LLM deployments for Metro Detroit practices — hardware, configuration, access controls, audit logging, and the risk-analysis documentation that makes it defensible."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building, CRE (Chainlink Runtime Environment) workflow consulting, and local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "HIPAA-Compliant Local AI Deployment",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Healthcare practices", "Law firms", "Businesses with proprietary data"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-13-hipaa-local-llm-private-ai",
+    "title": "Why Cloud AI Is a Non-Starter for Your Medical Practice (And What to Do Instead)",
+    "date": "2026-08-13",
+    "description": "Consumer cloud AI violates HIPAA when it touches patient data. OCR's 2026 enforcement pattern makes the risk unmissable. Here's what a HIPAA-compliant local LLM deployment looks like for a Metro Detroit practice — and why on-premises AI is the architecture that actually answers.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Consumer cloud AI violates HIPAA when it touches patient data. OCR's 2026 enforcement pattern makes the risk unmissable. Here's what a HIPAA-compliant local LLM deployment looks like for a Metro Detroit practice — and why on-premises AI is the architecture that actually answers.",
+    "image": "/blog/2026-08-13-hipaa-local-llm-private-ai/feature_image.png",
+    "path": "/blog/2026-08-13-hipaa-local-llm-private-ai/final.md",
+    "schema": "/blog/2026-08-13-hipaa-local-llm-private-ai/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-08-12-ai-data-privacy-compliance-guide",
     "title": "What Every Metro Detroit Business Should Know Before Putting Customer Data Into AI",
     "date": "2026-08-12",

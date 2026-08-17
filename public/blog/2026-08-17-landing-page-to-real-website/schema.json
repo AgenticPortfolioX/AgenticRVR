@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-17-landing-page-to-real-website",
+      "headline": "Your Website Is Your Proof: Why Landing Pages Cost Established Businesses Credibility (and What a Real Website Does About It)",
+      "description": "A landing page is a conversion tool. A real website is proof. Here's why established Metro Detroit businesses lose credibility, leads, and revenue on a landing page — and what a professional web presence actually includes.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-08-17",
+      "dateModified": "2026-08-17",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-17-landing-page-to-real-website"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-17-landing-page-to-real-website/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Professional Website Building for Established Businesses"
+      },
+      "keywords": [
+        "professional website builder Metro Detroit",
+        "business website vs landing page",
+        "landing page not enough",
+        "professional web presence",
+        "website design for established business",
+        "why your business needs a real website",
+        "web presence credibility",
+        "small business website conversion",
+        "professional website Metro Detroit",
+        "landing page credibility"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-17-landing-page-to-real-website#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between a landing page and a real website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A landing page is a single page built to convert one campaign. A real website is a multi-page proof system — services, proof, contact, trust signals, and content — built to represent an established business. One is a tool; the other is your business online."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do established businesses lose credibility with only a landing page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prospects judge credibility in about 50 milliseconds, and 75% of consumers judge a company's credibility based on website design alone. A thin page signals that the business hasn't invested in its presence — regardless of how good its reputation actually is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a professional business website include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Specific services, visible proof (work, testimonials, licensing), a real contact path, trust signals, content that answers prospect questions, proper local SEO, and fast mobile-first performance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a professional website for a small business cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It varies with scope, but a real, proof-focused site is a fraction of what one lost high-value client is worth — and unlike template subscriptions, you own the result. Agentic quotes honestly per business because every site is scoped to what the business actually sells."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to build a professional website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A focused build typically takes a few weeks — discovery, structure, copy, design, and launch. The speed isn't the point; the proof is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a real website if my business already gets leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If those leads come from referrals that get checked online, yes. A thin web presence can quietly convert your best referral into a competitor's client before you ever hear about it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a landing page be converted into a full website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — that's exactly the project. Agentic starts from the landing page's offer and builds out the services, proof, and trust structure around it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who builds professional websites for Metro Detroit businesses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agentic builds professional web presence for established businesses in Metro Detroit — the site, the structure, and the proof that makes it convert."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building, CRE (Chainlink Runtime Environment) workflow consulting, and local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Professional Website Building",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Contractors", "Professional services", "Healthcare practices", "Law firms"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

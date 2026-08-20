@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-20-chainlink-runtime-environment-cre-workflows",
+      "headline": "Automation You Can Prove: How Chainlink Runtime Environment (CRE) Workflows Give Businesses Tamper-Proof Automation",
+      "description": "Most business automation is a black box. Chainlink Runtime Environment (CRE) workflows change that: every step cryptographically verified by consensus and externally auditable. Here's what tamper-proof automation means for high-liability business processes — and what CRE consulting looks like for a Metro Detroit business.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-08-20",
+      "dateModified": "2026-08-20",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-20-chainlink-runtime-environment-cre-workflows"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-20-chainlink-runtime-environment-cre-workflows/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "CRE (Chainlink Runtime Environment) Workflow Consulting for High-Liability Business Processes"
+      },
+      "keywords": [
+        "Chainlink Runtime Environment consulting",
+        "CRE workflow automation",
+        "blockchain-verified automation",
+        "tamper-proof workflows",
+        "verifiable automation",
+        "verifiable workflows for business",
+        "Chainlink Runtime Environment what is it",
+        "tamper-proof automation",
+        "Chainlink consulting Metro Detroit",
+        "verifiable workflow consulting"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-20-chainlink-runtime-environment-cre-workflows#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Chainlink Runtime Environment (CRE)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Chainlink Runtime Environment is the orchestration layer of the Chainlink Platform. It runs automated workflows across Decentralized Oracle Networks (DONs), where independent nodes execute each step and results are verified by cryptographic consensus. Live on mainnet since November 2025, it gives businesses automation that is tamper-proof and externally auditable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does tamper-proof automation actually mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No single party — including the vendor — can silently alter what ran. Each step is executed independently by multiple nodes, and results must agree under BFT consensus. Changing a record means breaking consensus across independent operators — detectable and impractical."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does CRE verify that a workflow ran correctly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every node in a Decentralized Oracle Network performs each task independently. Results are cryptographically verified and aggregated through Byzantine Fault Tolerant consensus, producing one agreed outcome per step. Anyone with the proof can re-verify the workflow off-chain — no trust in the vendor's dashboard required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What kinds of business processes should use CRE workflows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Processes where a wrong run is expensive or a provable record is required: reconciliation, compliance records, payments, contractual triggers, multi-party workflows. If you'd have to defend a process to a regulator, partner, or client, it's a candidate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to be a blockchain company to use CRE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. CRE is infrastructure. Most businesses we build for are suppliers, financial services, logistics, and professional services using it for auditable automation — not because they're crypto-native. The blockchain is the verification layer; your business logic stays yours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does CRE workflow consulting cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It varies with the process, and we quote honestly per candidate. The scope is usually 2-3 high-liability workflows per business, and the build is a fraction of what one unprovable compliance or payment failure can cost. If verification isn't worth the price for a given process, we'll tell you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to build a CRE workflow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A focused workflow typically takes a few weeks: assessment, design, build with the CRE SDK, simulation against live APIs, then deployment through the approval process. Simulation is what keeps production launches clean."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who provides Chainlink Runtime Environment consulting in Metro Detroit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agentic designs, builds, and deploys CRE workflows for businesses in Metro Detroit — Oakland, Wayne, and Genesee counties. We handle the full lifecycle: assessment, workflow design, build, simulation, deployment, and monitoring."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "CRE (Chainlink Runtime Environment) workflow consulting, professional website building, and local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "CRE (Chainlink Runtime Environment) Workflow Consulting",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Contractors", "Professional services", "Healthcare practices", "Law firms"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-20-chainlink-runtime-environment-cre-workflows",
+    "title": "Automation You Can Prove: How Chainlink Runtime Environment (CRE) Workflows Give Businesses Tamper-Proof Automation",
+    "date": "2026-08-20",
+    "description": "Most business automation is a black box. Chainlink Runtime Environment (CRE) workflows change that: every step cryptographically verified by consensus and externally auditable. Here's what tamper-proof automation means for high-liability business processes — and what CRE consulting looks like for a Metro Detroit business.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Most business automation is a black box. Chainlink Runtime Environment (CRE) workflows change that: every step cryptographically verified by consensus and externally auditable. Here's what tamper-proof automation means for high-liability business processes — and what CRE consulting looks like for a Metro Detroit business.",
+    "image": "/blog/2026-08-20-chainlink-runtime-environment-cre-workflows/feature_image.png",
+    "path": "/blog/2026-08-20-chainlink-runtime-environment-cre-workflows/final.md",
+    "schema": "/blog/2026-08-20-chainlink-runtime-environment-cre-workflows/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-08-17-landing-page-to-real-website",
     "title": "Your Website Is Your Proof: Why Landing Pages Cost Established Businesses Credibility (and What a Real Website Does About It)",
     "date": "2026-08-17",

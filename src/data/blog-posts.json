@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-08-24-sovereign-technology-data-ownership",
+    "title": "Own Your Stack: Why Sovereign Technology and Data Ownership Are the Next Competitive Advantage for Metro Detroit Businesses",
+    "date": "2026-08-24",
+    "description": "Sovereign technology isn't just for enterprises anymore. Owning your infrastructure, models, and data is becoming a business advantage — and it's more affordable than you think. Here's what Metro Detroit businesses need to know about data ownership, local LLMs, and verifiable workflows.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Sovereign technology isn't just for enterprises anymore. Owning your infrastructure, models, and data is becoming a business advantage — and it's more affordable than you think. Here's what Metro Detroit businesses need to know about data ownership, local LLMs, and verifiable workflows.",
+    "image": "/blog/2026-08-24-sovereign-technology-data-ownership/feature_image.png",
+    "path": "/blog/2026-08-24-sovereign-technology-data-ownership/final.md",
+    "schema": "/blog/2026-08-24-sovereign-technology-data-ownership/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-08-20-chainlink-runtime-environment-cre-workflows",
     "title": "Automation You Can Prove: How Chainlink Runtime Environment (CRE) Workflows Give Businesses Tamper-Proof Automation",
     "date": "2026-08-20",

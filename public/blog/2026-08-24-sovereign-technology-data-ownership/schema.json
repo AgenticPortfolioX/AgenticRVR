@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-24-sovereign-technology-data-ownership",
+      "headline": "Own Your Stack: Why Sovereign Technology and Data Ownership Are the Next Competitive Advantage for Metro Detroit Businesses",
+      "description": "Sovereign technology isn't just for enterprises anymore. Owning your infrastructure, models, and data is becoming a business advantage — and it's more affordable than you think. Here's what Metro Detroit businesses need to know about data ownership, local LLMs, and verifiable workflows.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-08-24",
+      "dateModified": "2026-08-24",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-24-sovereign-technology-data-ownership"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-24-sovereign-technology-data-ownership/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Sovereign Technology and Data Ownership for Small Businesses"
+      },
+      "keywords": [
+        "sovereign technology",
+        "data ownership",
+        "self-hosted AI",
+        "own your data",
+        "private infrastructure Michigan",
+        "cloud dependency risk",
+        "local LLM for business",
+        "on-premises AI Metro Detroit",
+        "sovereign technology what is it",
+        "data ownership for small business"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-24-sovereign-technology-data-ownership#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is sovereign technology in simple terms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sovereign technology means owning your digital infrastructure, your AI models, and your data instead of renting them. For a business, it means your website, your AI, and your automation run on systems you control, with data that never leaves your building unless you decide it does."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does data ownership matter for small businesses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because data is liability as much as asset. A US breach now averages $10.22 million, and healthcare runs even higher. When your data lives on a vendor's cloud, you've handed them your liability and hoped their terms cover you — which they often don't."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is self-hosted AI affordable for a small business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A local LLM device starts around $10,000–$15,000 in hardware and runs open-source models delivering 70–85% of frontier quality at zero marginal cost per request. For daily AI users, it can pay for itself in the first year versus cloud subscriptions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a non-technical business run a local LLM?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — with the right partner. Agentic builds, configures, and maintains local LLM devices for Metro Detroit businesses, so you get the productivity of AI without an in-house AI team. You use it like an appliance; we handle the engineering."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is cloud lock-in and why should I care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cloud lock-in is dependence on a vendor's platform, pricing, and terms — with your data and workflows inside it. When the vendor changes the rules, you absorb it. Owning your stack means you set the terms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a Chainlink Runtime Environment workflow relate to data ownership?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CRE workflows run automation across independent nodes with cryptographic consensus, so every step is verified and auditable. That's ownership applied to automation: you hold verifiable proof your processes ran correctly, instead of trusting a vendor's dashboard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Agentic build?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three things: professional websites for businesses stuck on landing pages, local LLM devices for privacy-required businesses (HIPAA, attorney–client privilege, proprietary data), and Chainlink Runtime Environment consulting and workflow building for verifiable automation. All three serve Metro Detroit — Oakland, Wayne, and Genesee counties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start moving toward owning my stack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with your highest-exposure piece: an owned website if you're on a landing page, a local LLM device if you handle protected data, or one verified workflow if you run high-stakes processes. Call Agentic at (248) 313-8955 for a no-pressure assessment."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building, local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses, and CRE (Chainlink Runtime Environment) workflow consulting for verifiable automation.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Sovereign Technology Consulting (Websites, Local LLM Devices, CRE Workflows)",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Healthcare practices", "Law firms", "Professional services", "Contractors"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-27-the-modern-business-stack",
+      "headline": "The Modern Business Stack: How Websites, Private AI, and Verified Workflows Compound for Metro Detroit Businesses",
+      "description": "Websites, private AI, and verified workflows aren't three separate purchases — they're one compounding stack. Here's how Metro Detroit businesses combine professional web presence, local LLMs, and Chainlink Runtime Environment automation into a single growth and privacy advantage.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-08-27",
+      "dateModified": "2026-08-27",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-27-the-modern-business-stack"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-27-the-modern-business-stack/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "The Modern Business Stack for Small Businesses"
+      },
+      "keywords": [
+        "modern business stack",
+        "business technology stack 2026",
+        "AI stack for small business",
+        "private AI for small business",
+        "local LLM for business",
+        "Chainlink Runtime Environment",
+        "verifiable workflows",
+        "SMB AI adoption Michigan"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-27-the-modern-business-stack#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the modern business stack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The modern business stack is three technology layers designed to work as one system: a professional web presence (the front door), private AI that stays on-premises (the brain), and verifiable workflows (the proof). Each layer answers a question every serious buyer asks: Are you legit? Can you handle my data? Can you prove the work happened?"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the three layers of a modern business stack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Layer one is the front door: a professional website that turns trust into pipeline. Layer two is the brain: a local LLM device that delivers AI productivity without data leaving your building. Layer three is the proof: Chainlink Runtime Environment workflows that leave time-stamped, tamper-proof audit trails."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why can't I just buy a website, an AI tool, and an automation platform separately?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because separately they're three vendors, three contracts, and three security postures that don't talk to each other. The average small company runs about 152 SaaS apps, and over half of those licenses go unused. Designed together, each layer feeds the next: the site captures, the AI qualifies, the workflows verify."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a local LLM device and who needs one?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A local LLM device is a private AI appliance that runs open-source models on-premises, in your building. Healthcare practices (HIPAA), law firms (attorney–client privilege), and businesses with proprietary data need one because cloud AI would expose protected information. A $10,000–$15,000 appliance delivers 70–85% of frontier-model quality at zero marginal cost per request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a Chainlink Runtime Environment (CRE) workflow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CRE is an execution environment where automation runs across independent nodes with cryptographic consensus. Every input, policy decision, and action leaves a time-stamped, tamper-proof trail. That turns automation from something you trust on faith into something you can verify and prove."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where should a Metro Detroit business start?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with the highest-exposure layer: a professional web presence if you're on a landing page, a local LLM if you handle protected data, or one verified CRE workflow if you run high-stakes processes you can't audit. Call Agentic at (248) 313-8955 for a stack assessment."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building, local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses, and CRE (Chainlink Runtime Environment) workflow consulting for verifiable automation.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Modern Business Stack Consulting (Websites, Local LLM Devices, CRE Workflows)",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Healthcare practices", "Law firms", "Professional services", "Contractors"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } }
+        ]
+      }
+    }
+  ]
+}

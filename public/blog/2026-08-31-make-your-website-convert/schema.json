@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-31-make-your-website-convert",
+      "headline": "Built Is Not Enough: How Metro Detroit Businesses Turn a Real Website Into Pipeline",
+      "description": "The median small business website converts at just 2.9% of visitors. Here's the conversion playbook Metro Detroit businesses need after they upgrade from a landing page — speed, above-the-fold design, form length, local SEO, and the AI search shift.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-08-31",
+      "dateModified": "2026-08-31",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-31-make-your-website-convert"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-31-make-your-website-convert/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Website Conversion Strategy for Small Businesses"
+      },
+      "keywords": [
+        "website conversion optimization",
+        "landing page vs website",
+        "local SEO Metro Detroit",
+        "professional website builder Metro Detroit",
+        "website lead generation small business",
+        "Google Business Profile optimization",
+        "website speed and conversion",
+        "small business website conversion rate"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-08-31-make-your-website-convert#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a good conversion rate for a small business website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The median small business website converts about 2.9% of visitors into leads. Landing pages built for paid campaigns average 6.6%, and top-quartile pages exceed 11.45%. A realistic near-term goal for a local business site is 5-8% — then keep climbing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a landing page better than a full website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the job. A landing page wins for paid traffic aimed at one specific offer — one page, one action. A full website wins for organic search, brand building, and AI search citations, because multi-page depth is what search engines and AI assistants rank and quote. Most growing businesses need both: a real site plus dedicated landing pages for ads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does page speed affect website conversions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every second of load time beyond about 2.5 seconds cuts conversions by roughly 7%. Pages that load in under 1.5 seconds convert 2.4x better than pages at 4 seconds, and bounce rates climb 32% between 1-second and 3-second loads. Speed is also a Google ranking factor, so it compounds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many fields should a website contact form have?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three. Three-field forms convert at 10.1% while nine-field forms drop to 3.6%. Collect only what you need to route the lead, and qualify further in the follow-up. Requiring a phone number as a field costs about 5% of conversions on average."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does local SEO help a Metro Detroit business get leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "87% of consumers use Google to evaluate local businesses, and a complete Google Business Profile makes them 2.7x more likely to consider you reputable and 70% more likely to visit. Consistent name, address, and phone across listings adds a 31% SEO boost, and 87% of consumers read online reviews before choosing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do AI search engines like ChatGPT affect small business websites?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI assistants build answers from pages with depth, structure, and authority. Multi-page sites with clear headings, FAQs, and schema markup get cited; single landing pages rarely do. Businesses that want to be recommended by AI search in 2026 need a real website, not a one-pager."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building, local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses, and CRE (Chainlink Runtime Environment) workflow consulting for verifiable automation.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Modern Business Stack Consulting (Websites, Local LLM Devices, CRE Workflows)",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Healthcare practices", "Law firms", "Professional services", "Contractors"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-07-blockchain-verified-business-processes",
+      "headline": "The Record Is the Arbiter: How Blockchain-Verified Business Processes End Disputes and Cut Risk for Metro Detroit Companies",
+      "description": "Disputes aren't won by the loudest side — they're won by the record. Here's where blockchain-verified business processes pay off for Metro Detroit suppliers, builders, clinics, and law firms.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-09-07",
+      "dateModified": "2026-09-07",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-07-blockchain-verified-business-processes"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-07-blockchain-verified-business-processes/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Blockchain-Verified Business Processes for Small and Mid-Size Businesses"
+      },
+      "keywords": [
+        "blockchain-verified business processes",
+        "verifiable data records business",
+        "tamper-proof audit trail small business",
+        "chain of custody software",
+        "supply chain traceability Michigan",
+        "blockchain use cases non-crypto",
+        "Chainlink Runtime Environment consulting",
+        "verifiable workflows Metro Detroit",
+        "construction dispute documentation",
+        "healthcare audit log integrity"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-07-blockchain-verified-business-processes#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a blockchain-verified business process?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An ordinary business process — delivery sign-off, change order, audit log, chain of custody — whose records are cryptographically fingerprinted and confirmed by independent network consensus, producing a tamper-evident, timestamped record both parties can verify without trusting each other's files."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to understand crypto to use verifiable records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Verification is infrastructure, not speculation. You interact with your existing systems while the workflow handles hashing, consensus, and oracle data underneath — a notary that never sleeps, not a trading desk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it legal to verify healthcare records on a blockchain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when done correctly — record hashes and pointers, never patient data. Protected health information stays inside your systems; only cryptographic fingerprints go to the ledger. That keeps you aligned with HIPAA obligations while giving you a tamper-evident audit trail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a verified record hold up in a construction dispute?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's evidence-grade in a way an email chain isn't: a timestamped, tamper-evident record shows exactly what happened and when, and it can't be quietly edited afterward. It doesn't replace a contract — it makes the facts of performance verifiable, which is where most disputes live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does verification cost a small business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It scales with scope. A single dispute-prone process is a consulting engagement, not an enterprise project. The typical payback is the first dispute or audit it resolves."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between a database audit log and a blockchain-verified record?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Control. A database audit log is written and maintained by one party, who can alter it. A blockchain-verified record is confirmed by independent consensus, so no single party — including you — can rewrite history undetected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need the Chainlink Runtime Environment for this?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CRE is the leading orchestration layer for building these workflows — it connects business events to verified records using decentralized oracle networks with cryptographic consensus. It's the implementation layer Agentic uses for local businesses, and the same infrastructure global financial institutions run in production."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building, local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses, and CRE (Chainlink Runtime Environment) workflow consulting for verifiable automation.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Modern Business Stack Consulting (Websites, Local LLM Devices, CRE Workflows)",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Healthcare practices", "Law firms", "Professional services", "Contractors", "Supply chain and manufacturing companies"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } }
+        ]
+      }
+    }
+  ]
+}

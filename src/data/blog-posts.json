@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-14-ai-compliance-paper-trail",
+    "title": "Prove It: The AI Paper Trail Metro Detroit Businesses Need Before Their Next Audit",
+    "date": "2026-09-14",
+    "description": "Regulators rarely punish the breach. They punish the missing document. Here are the five artifacts every Metro Detroit business using AI must be able to produce, what Michigan law actually requires, and the 60-minute test that tells you where you stand.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Regulators rarely punish the breach. They punish the missing document. Here are the five artifacts every Metro Detroit business using AI must be able to produce, what Michigan law actually requires, and the 60-minute test that tells you where you stand.",
+    "image": "/blog/2026-09-14-ai-compliance-paper-trail/feature_image.png",
+    "path": "/blog/2026-09-14-ai-compliance-paper-trail/final.md",
+    "schema": "/blog/2026-09-14-ai-compliance-paper-trail/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-09-10-agentic-shift-ai-agents-future-of-work",
     "title": "The Agentic Shift: What Metro Detroit Businesses Should Prepare For Between Now and 2027",
     "date": "2026-09-10",

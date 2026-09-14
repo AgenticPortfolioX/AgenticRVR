@@ -1,0 +1,173 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-14-ai-compliance-paper-trail",
+      "headline": "Prove It: The AI Paper Trail Metro Detroit Businesses Need Before Their Next Audit",
+      "description": "Regulators rarely punish the breach. They punish the missing document. Here are the five artifacts every Metro Detroit business using AI must be able to produce, what Michigan law actually requires, and the 60-minute test that tells you where you stand.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-09-14",
+      "dateModified": "2026-09-14",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-14-ai-compliance-paper-trail"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-14-ai-compliance-paper-trail/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "AI compliance documentation requirements for Michigan businesses, including HIPAA, attorney-client privilege, and state breach notification law"
+      },
+      "keywords": [
+        "AI compliance Michigan",
+        "AI paper trail",
+        "AI documentation requirements",
+        "Michigan data breach notification law",
+        "Michigan Identity Theft Protection Act",
+        "HIPAA AI documentation requirements",
+        "HIPAA breach notification 60 days",
+        "business associate agreement AI",
+        "AI use policy business",
+        "AI asset inventory requirement",
+        "attorney-client privilege AI",
+        "ABA Formal Opinion 512",
+        "HIPAA Security Rule proposed rule",
+        "private AI that stays on-premises",
+        "local LLM for law firms",
+        "verifiable workflows",
+        "Metro Detroit AI compliance"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-14-ai-compliance-paper-trail#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does Michigan have a fixed deadline to notify people after a data breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not today. MCL 445.72 requires notice without unreasonable delay, with no set day count. Pending SB 360 would impose a 45-day limit and require Attorney General notice for breaches affecting 100 or more residents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do we have to report a HIPAA breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Individuals must be notified within 60 days of discovery. Breaches affecting 500 or more people are reported to HHS within 60 days; breaches under 500 go on an annual log due 60 days after the year ends, typically by March 1."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents prove our AI use is compliant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Five: an AI use policy, an inventory of every AI tool in use, signed vendor agreements including a Business Associate Agreement where PHI is involved, a written risk analysis updated at least annually, and training records with retained access logs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is an AI policy by itself enough?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Policy without an inventory and a written risk analysis is precisely the deficiency OCR has cited in its 2026 settlements. The policy defines the boundary; the analysis proves you checked whether it holds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does using AI waive attorney-client privilege?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not by itself, but ABA Formal Opinion 512 requires lawyers to meet duties of competence, confidentiality, communication, supervision, and reasonable fees, and flags that some models lack the ethical walls protecting against conflicts under Rules 1.7 and 1.9."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the new HIPAA Security Rule in effect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The proposed rule was published December 27, 2024 and remains proposed as of 2026. Its documentation, asset-inventory, and risk-analysis expectations are worth adopting now regardless of when the final rule lands."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should we just ban AI instead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That usually makes it worse. Blocked tools move to personal devices and personal accounts, the pattern behind findings that roughly a quarter to a third of employees have entered confidential company data into public AI tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does on-premises AI reduce our compliance obligations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It changes them rather than removing them. Workflows that never send data outside your building eliminate third-party disclosure documentation for that workflow; policy, inventory, and risk analysis duties remain."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building, local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses, and CRE (Chainlink Runtime Environment) workflow consulting for verifiable automation.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "AI Compliance Documentation and Private AI Deployment (Local LLM Devices, CRE Workflows, Professional Websites)",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Healthcare practices", "Law firms", "Insurance licensees", "Professional services", "Businesses with proprietary data"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } }
+        ]
+      }
+    }
+  ]
+}

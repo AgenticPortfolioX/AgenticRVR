@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-17-local-llm-device-anatomy",
+    "title": "Unboxing Private AI: What a Local LLM Device Actually Does for Metro Detroit Law Firms and Medical Practices",
+    "date": "2026-09-17",
+    "description": "A local LLM device is not a subscription and not a cloud service — it is a computer you own that answers questions about your own documents without anything leaving the building. Here is what is inside one, what each hardware tier costs in 2026, what changes on day one, and the limits no vendor should hide.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "A local LLM device is not a subscription and not a cloud service — it is a computer you own that answers questions about your own documents without anything leaving the building. Here is what is inside one, what each hardware tier costs in 2026, what changes on day one, and the limits no vendor should hide.",
+    "image": "/blog/2026-09-17-local-llm-device-anatomy/feature_image.png",
+    "path": "/blog/2026-09-17-local-llm-device-anatomy/final.md",
+    "schema": "/blog/2026-09-17-local-llm-device-anatomy/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-09-14-ai-compliance-paper-trail",
     "title": "Prove It: The AI Paper Trail Metro Detroit Businesses Need Before Their Next Audit",
     "date": "2026-09-14",

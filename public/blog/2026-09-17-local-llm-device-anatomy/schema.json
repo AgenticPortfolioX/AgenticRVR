@@ -1,0 +1,173 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-17-local-llm-device-anatomy",
+      "headline": "Unboxing Private AI: What a Local LLM Device Actually Does for Metro Detroit Law Firms and Medical Practices",
+      "description": "A local LLM device is not a subscription and not a cloud service — it is a computer you own that answers questions about your own documents without anything leaving the building. Here is what is inside one, what each hardware tier costs in 2026, what changes on day one, and the limits no vendor should hide.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-09-17",
+      "dateModified": "2026-09-17",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-17-local-llm-device-anatomy"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-17-local-llm-device-anatomy/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Local LLM devices and on-premises private AI deployment for HIPAA-covered medical practices, law firms bound by attorney-client privilege, and businesses with proprietary data"
+      },
+      "keywords": [
+        "local LLM for law firms",
+        "HIPAA-compliant local AI",
+        "on-premises AI for healthcare",
+        "private AI for small business",
+        "attorney-client privilege AI",
+        "local LLM device Metro Detroit",
+        "on-premises LLM hardware requirements",
+        "VRAM requirements local LLM",
+        "local LLM hardware tiers 2026",
+        "RAG document search local",
+        "air-gapped AI medical practice",
+        "AI compliance Michigan",
+        "Michigan Rules of Professional Conduct 1.6",
+        "Mata v. Avianca AI sanctions",
+        "private AI that stays on-premises",
+        "local LLM",
+        "verified automation Metro Detroit"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-17-local-llm-device-anatomy#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a local LLM device?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A computer your business owns that runs an open-weight language model entirely inside your building. Documents you feed it are indexed locally and never transmitted externally. There is no per-seat subscription — you pay once for hardware and own the result."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a local LLM device cost for a small law firm or medical practice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hardware runs $2,460 to $5,000 one time depending on model class. A 24 GB GPU build with 64 GB of RAM and a 1 TB NVMe drive lands near $2,460; a 128 GB machine that comfortably runs a 70B model is roughly $4,000. Software is open source and maintenance runs about $2,000 per year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What hardware do I need to run a local LLM in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the 4-bit rule: VRAM in gigabytes is roughly parameters in billions multiplied by 0.6. A 7B model needs 4 to 5 GB (8 GB card recommended), a 14B model about 9 GB, a 32B model 16 to 24 GB, and a 70B model roughly 40 GB — meaning 128 GB of unified memory or dual high-end GPUs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can local AI be HIPAA compliant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — and it is easier to demonstrate than cloud AI because no third party sits in the data path. Run full-disk AES-256 encryption, network isolation, role-based access with MFA, per-query audit logging, defined retention, and an annual penetration test. Those controls map directly to 45 CFR 164.312."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does on-premises AI eliminate our HIPAA obligations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It removes third-party disclosure documentation for workflows that never leave your building. Duties around encryption, access control, audit controls, risk analysis, and workforce training remain yours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a local LLM slower than ChatGPT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Latency is slightly higher in isolation — roughly 200 milliseconds versus 50 for cloud — and throughput depends on your hardware tier. Local inference is comparable for document review, summarization, and drafting, which is where nearly all professional value sits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we cite cases an AI helped us find?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Never cite authority from AI output without verifying it in an authoritative research tool. Models fabricate plausible citations and courts have sanctioned firms for it — $5,000 in Mata v. Avianca and $2,000 in Park v. Kim. Use AI for leads and drafts; verify before you file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where does the audit trail come from if nothing leaves the building?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From the device itself. A properly configured deployment logs every query with timestamp, user identifier, document hash, response length, and model used, stored on separate encrypted storage. That log is your evidence of zero egress — stronger than a vendor's assurance, because you generate it on hardware you control."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building, local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses, and CRE (Chainlink Runtime Environment) workflow consulting for verified automation.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Private On-Premises AI Deployment (Local LLM Devices, CRE Workflows, Professional Websites)",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Law firms", "Healthcare practices", "Medical practices", "Established local businesses", "Professional services", "Businesses with proprietary data"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-24-website-build-quote-checklist",
+      "headline": "The Quote Tells You Everything: What a Professional Website Build Includes and What a Cheap One Skips",
+      "description": "Two quotes, one word in common — 'website.' The difference lives in six line items most quotes never name. Here is how to read a website build quote line by line, what a real build costs in 2026, and the seven questions to ask before you sign.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-09-24",
+      "dateModified": "2026-09-24",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-24-website-build-quote-checklist"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-24-website-build-quote-checklist/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Professional website builds for established Metro Detroit businesses — how to evaluate a website build quote, including information architecture, content, Core Web Vitals performance, WCAG 2.2 accessibility, ownership, and local plus AI-search visibility"
+      },
+      "keywords": [
+        "professional website builder Metro Detroit",
+        "what is included in a website build",
+        "website design cost Michigan 2026",
+        "custom website vs template",
+        "how to choose a web developer",
+        "who owns my website",
+        "agency lock-in",
+        "Core Web Vitals 2026 thresholds",
+        "WCAG 2.2 Level AA compliance",
+        "ADA website lawsuit risk",
+        "AI crawler JavaScript rendering",
+        "structured data business website",
+        "local SEO Metro Detroit",
+        "professional web presence",
+        "website ownership checklist"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-24-website-build-quote-checklist#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is included in a professional website build?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six things beyond the design: information architecture mapped to how customers search, written content, measured performance against the 2026 Core Web Vitals thresholds, WCAG 2.2 Level AA accessibility, full ownership of the domain, hosting, and content, and the local plus structured-data setup that makes the site findable in search and in AI answers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much should a professional website cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Freelancer builds typically run $500 to $5,000, premium freelance work $5,000 to $10,000, and agency builds $5,000 to $15,000 for a typical small-business site. Across the 2026 cost studies, a legitimate build for an established local business lands between $3,000 and $12,000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the Core Web Vitals thresholds in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LCP under 2.5 seconds, INP under 200 milliseconds, and CLS under 0.1. Google measures them at the 75th percentile of real user sessions in the Chrome UX Report, not from lab tools — which is why a site can score well in an audit and still fail in the field."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does my business website need to be accessible?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you take appointments, orders, or applications online, yes — practically and legally. WebAIM's 2026 analysis found detectable WCAG failures on 95.9% of the top one million home pages, and federal website-accessibility filings reached 3,117 in 2025, up 27% year over year. Accessibility overlays do not resolve it; about 20% of companies sued in 2026 were running one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who owns my website — me or the developer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the accounts and the contract. A domain is leased and renewed, so ownership means your business is the registrant of record. For the rest, you own the site when your business holds hosting, CMS admin, analytics, and ad data, and the contract states the code and content transfer on final payment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need server-side rendering for AI search?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the difference between being quoted and being invisible. AI answer engines including ChatGPT, Perplexity, and Google AI Overviews crawl with bots that do not execute JavaScript, so a client-side-rendered site returns an empty shell to them. Server-side rendering or static generation ensures the content those systems read is the content you published."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a professional website build take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically four to eight weeks for an established business site — architecture and copy in the first half, build and testing in the second. Timelines stretch when content is unfinished, which is the most common cause of a delayed launch."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses, and CRE (Chainlink Runtime Environment) workflow consulting for verified automation.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Professional Website Building for Established Local Businesses",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Professional services firms", "Contractors", "Healthcare practices", "Law firms", "Businesses with proprietary data"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting" } }
+        ]
+      }
+    }
+  ]
+}

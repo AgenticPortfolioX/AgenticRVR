@@ -17,9 +17,16 @@
 | `final.md` | `blog_posts/2026-09-28-cre-automation-functions-migration/blog_final/final.md` | Repo `/public/blog/2026-09-28-cre-automation-functions-migration/final.md` |
 | `feature_image.png` | `blog_posts/2026-09-28-cre-automation-functions-migration/blog_images/feature_image.png` | Repo `/public/blog/2026-09-28-cre-automation-functions-migration/feature_image.png` |
 | `sdira_compliance_schema.json` | `blog_posts/2026-09-28-cre-automation-functions-migration/sdira_compliance_schema/sdira_compliance_schema.json` | Repo `/public/blog/2026-09-28-cre-automation-functions-migration/schema.json` (renamed on deploy) |
+| `sdira_compliance_schema.json` (alias copy) | same source file | Repo `/public/blog/2026-09-28-cre-automation-functions-migration/sdira_compliance_schema.json` — same content, published under the filename the site registry records |
 | `publish_instructions.md` | `blog_posts/2026-09-28-cre-automation-functions-migration/publish_instructions/publish_instructions.md` | Repo `/public/blog/2026-09-28-cre-automation-functions-migration/publish_instructions.md` |
 
-Archived flat copies of all four live in `blogged/2026-09-28-cre-automation-functions-migration/` for the auto-deployment script. Folder name includes the slug — date-only folder names are not found by the deployment script.
+Archived flat copies of all four delivery files live in `blogged/2026-09-28-cre-automation-functions-migration/` for the auto-deployment script (the flat 4-file archive convention is unchanged; the schema alias exists only in the repo). Folder name includes the slug — date-only folder names are not found by the deployment script.
+
+### Schema filename: known site issue, worked around for this post
+
+`src/data/blog-posts.json` records `schema` for **every** Agentic post as `/blog/<slug>/sdira_compliance_schema.json`, but the deploy convention has always published the file as `schema.json`. Verified 2026-09-28: `.../sdira_compliance_schema.json` returned **404 for this post and for 2026-09-24**, while `.../schema.json` returned 200. This is pre-existing and brand-wide, not a deploy failure.
+
+For this post the dangling reference is closed by publishing the JSON-LD under **both** filenames, so registry consumers that read the recorded path receive valid JSON-LD (verified 200, `@graph` = Article, FAQPage, LocalBusiness, Service). The underlying mismatch is a repo-side fix that should be applied brand-wide (either change `sync-blog.ts` to record `schema.json`, or publish the alias for every post). **Do not rename `schema.json`** — the site builder expects that name.
 
 ## 2. Frontmatter (verified this run)
 

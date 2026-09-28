@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-28-cre-automation-functions-migration",
+      "headline": "The Deadline Already Passed: Migrating Chainlink Automation and Functions to CRE Before a Silent Failure Compounds",
+      "description": "Chainlink Automation v1.x, v2.1, and Functions have all passed their published sunset dates. Here is the five-minute check that tells you whether your workload stopped, the seven-step AutomationReceiver migration, and the two controls that decide whether it holds in production.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-09-28",
+      "dateModified": "2026-09-28",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-28-cre-automation-functions-migration"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-28-cre-automation-functions-migration/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "The Chainlink Automation and Chainlink Functions sunset and the migration of legacy upkeeps and subscriptions to the Chainlink Runtime Environment (CRE), including the AutomationReceiver bridge pattern, receiver authorization, workflow identity checks, and the CallNotAllowed failure modes"
+      },
+      "keywords": [
+        "Chainlink Automation sunset",
+        "Chainlink Automation deprecated",
+        "migrate upkeeps to CRE",
+        "Chainlink Functions sunset",
+        "Chainlink Runtime Environment",
+        "CRE migration guide",
+        "AutomationReceiver bridge pattern",
+        "setCallAllowed",
+        "CallNotAllowed error",
+        "KeystoneForwarder address",
+        "setExpectedWorkflowId",
+        "workflow identity checks",
+        "performUpkeep selector 0x4585e33b",
+        "verifiable automation",
+        "tamper-proof workflow",
+        "Chainlink Runtime Environment consulting",
+        "CRE workflow automation Michigan"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-09-28-cre-automation-functions-migration#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Has Chainlink Automation actually been shut down?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Chainlink publishes Automation v1.x sunsetting June 30, 2026 and v2.1 July 31, 2026, and the live dashboard now carries a deprecation notice directing users to CRE. Chainlink has not disclosed how many upkeeps remain un-migrated, so verify yours against the dashboard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to a smart contract whose upkeep stopped executing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nothing, which is the problem. The contract stays deployed and readable, but the service that simulated checkUpkeep() and submitted performUpkeep() is retired, so the action it performed stops occurring. No error is raised, and no alert fires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is CRE a replacement for Chainlink Functions as well as Automation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Functions documentation publishes a mainnet shutdown of June 30, 2026 and directs subscriptions to CRE, which chains off-chain computation to on-chain results. There is a separate CLF-to-CRE migration guide, and CRE supports every chain Automation supported."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does an Automation-to-CRE migration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The mechanical work is small — scaffold, deploy the bridge, configure, authorize, simulate, deploy, decommission — and mostly configuration. Timeline is set by the permission review: any contract checking msg.sender or gating on roles needs its boundary updated first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the AutomationReceiver bridge pattern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The migration route Chainlink ships in its automation-migration starter template. You deploy a generic AutomationReceiver.sol that accepts CRE reports and forwards approved calls to your existing contract, so you usually need not reimplement checkUpkeep, checkLog, or performUpkeep. Authorize each target-and-selector pair, then narrow the receiver with identity checks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does a migrated workflow fail with CallNotAllowed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Four causes: the selector in setCallAllowed does not match the function called; the permission was never set with allowed: true for that exact pair; a configured identity check does not match the deployed workflow; or the KeystoneForwarder address in the receiver constructor is wrong for that chain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to migrate if I have never used Chainlink?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not for this deadline. It marks the moment verifiable automation became the procurement standard rather than a differentiator. The question it forces on Chainlink's own users — can you prove what ran, when, and on what input? — is the one your clients and auditors are already asking."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "CRE (Chainlink Runtime Environment) workflow consulting and migration for businesses moving legacy Chainlink Automation upkeeps and Functions subscriptions to verifiable workflows, alongside professional website building for established businesses stuck on landing pages and local LLM devices for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "CRE (Chainlink Runtime Environment) Workflow Consulting and Automation-to-CRE Migration",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Professional services firms", "Healthcare practices", "Law firms", "Businesses with proprietary data", "Teams running production Chainlink automation"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Migration" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

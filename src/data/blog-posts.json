@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-09-28-cre-automation-functions-migration",
+    "title": "The Deadline Already Passed: Migrating Chainlink Automation and Functions to CRE Before a Silent Failure Compounds",
+    "date": "2026-09-28",
+    "description": "Chainlink Automation v1.x, v2.1, and Functions have all passed their published sunset dates. Here is the five-minute check that tells you whether your workload stopped, the seven-step AutomationReceiver migration, and the two controls that decide whether it holds in production.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Chainlink Automation v1.x, v2.1, and Functions have all passed their published sunset dates. Here is the five-minute check that tells you whether your workload stopped, the seven-step AutomationReceiver migration, and the two controls that decide whether it holds in production.",
+    "image": "/blog/2026-09-28-cre-automation-functions-migration/feature_image.png",
+    "path": "/blog/2026-09-28-cre-automation-functions-migration/final.md",
+    "schema": "/blog/2026-09-28-cre-automation-functions-migration/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-09-24-website-build-quote-checklist",
     "title": "The Quote Tells You Everything: What a Professional Website Build Includes and What a Cheap One Skips",
     "date": "2026-09-24",

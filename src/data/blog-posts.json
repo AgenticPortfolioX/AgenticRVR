@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-10-01-exit-cost-of-rented-ai",
+    "title": "The Exit Cost of Rented AI: What Cloud Dependency Actually Costs a Metro Detroit Business Over Three Years",
+    "date": "2026-10-01",
+    "description": "Cloud AI looks cheap because you only ever see one line of the bill. Here is the three-year math for a ten-person Metro Detroit practice, the two costs the invoice hides, and the honest volume threshold where renting still wins.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Cloud AI looks cheap because you only ever see one line of the bill. Here is the three-year math for a ten-person Metro Detroit practice, the two costs the invoice hides, and the honest volume threshold where renting still wins.",
+    "image": "/blog/2026-10-01-exit-cost-of-rented-ai/feature_image.png",
+    "path": "/blog/2026-10-01-exit-cost-of-rented-ai/final.md",
+    "schema": "/blog/2026-10-01-exit-cost-of-rented-ai/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-09-28-cre-automation-functions-migration",
     "title": "The Deadline Already Passed: Migrating Chainlink Automation and Functions to CRE Before a Silent Failure Compounds",
     "date": "2026-09-28",

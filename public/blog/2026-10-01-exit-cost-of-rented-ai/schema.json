@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-01-exit-cost-of-rented-ai",
+      "headline": "The Exit Cost of Rented AI: What Cloud Dependency Actually Costs a Metro Detroit Business Over Three Years",
+      "description": "Cloud AI looks cheap because you only ever see one line of the bill. Here is the three-year math for a ten-person Metro Detroit practice, the two costs the invoice hides, and the honest volume threshold where renting still wins.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-01-exit-cost-of-rented-ai"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-01-exit-cost-of-rented-ai/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "The total cost of ownership of cloud AI versus on-premises local LLM deployment, including break-even thresholds by token volume, hidden cloud costs, data breach and shadow AI exposure, and the seven layers of AI vendor lock-in"
+      },
+      "keywords": [
+        "cloud AI dependency cost",
+        "on-premises AI vs cloud cost",
+        "AI vendor lock-in",
+        "local LLM total cost of ownership",
+        "cloud AI cost overruns",
+        "hidden cloud AI costs",
+        "break-even on-premises AI",
+        "local LLM payback period",
+        "private AI for small business",
+        "HIPAA-ready AI",
+        "local LLM for law firms",
+        "attorney-client privilege AI",
+        "shadow AI data leakage",
+        "healthcare data breach cost 2026",
+        "sovereign technology",
+        "data ownership",
+        "model deprecation risk",
+        "cloud AI exit strategy",
+        "Metro Detroit local LLM"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-01-exit-cost-of-rented-ai#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does cloud AI actually cost a small business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At two million tokens a day, a ten-person practice spends roughly $2,600 a year on inference at mid-tier API pricing — about $7,938 over three years, before retry overhead and integration labor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does an on-premises LLM pay for itself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a volume threshold, not a duration. Against a $3,499 device with about $26 a month in electricity, payback runs about 18 months at two million tokens a day and seven months at five million. Below one million a day it typically never pays back on cost alone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the hidden costs of cloud AI that the invoice doesn't show?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Retry overhead (about $1,800 a year per percentage point at a $180,000 base spend), rate-limit engineering, 5 to 15% payload bloat, and vendor-side pricing and model-deprecation changes you do not control."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does it actually cost to switch AI vendors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "More than the price difference. Lock-in lives in seven layers — model API, prompt library, evaluation harness, fine-tunes, caching strategy, observability, and billing — and prompts, evals, and fine-tunes are tied to one model's behavior, so a switch is a re-validation project rather than a provider change."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it cheaper to run AI locally or use an API?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on volume and on what your data is worth. Below roughly one million tokens a day the API is cheaper, often decisively; above five million the owned side is several times cheaper. In between, breach exposure, privilege, and switching cost decide it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is shadow AI a real risk for a small practice, or just a large-enterprise problem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is worse for small practices, because they rarely have detection. Endpoint telemetry across 420,000+ corporate devices found 58.4% of employees using unsanctioned AI tools and 24.1% pasting sensitive corporate data into an external prompt, while only 38.4% of organizations could detect it."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Local LLM device deployment and private AI infrastructure for HIPAA, attorney-client privilege, and proprietary-data businesses, alongside professional website building for established businesses stuck on landing pages and CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Local LLM Device Deployment and Private AI Infrastructure for Privacy-Required Businesses",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Healthcare practices", "Law firms", "Professional services firms", "Established local businesses", "Businesses with proprietary data", "Practice managers and managing partners"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Migration" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-05-build-order-modern-business-stack",
+      "headline": "Build Order Beats Build Budget: How Metro Detroit Businesses Should Sequence a Modern Stack",
+      "description": "Businesses rarely fail at technology because they bought the wrong tools. They fail because they bought them in the wrong order. Here is the sequence that turns a website, private AI, and verified workflows into one compounding stack — and what the integration tax costs when you get it backwards.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-10-05",
+      "dateModified": "2026-10-05",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-05-build-order-modern-business-stack"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-05-build-order-modern-business-stack/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "The build order of a modern business stack — sequencing a professional website (interface layer), an on-premises local LLM (processing layer), and Chainlink Runtime Environment verified workflows (memory layer) to avoid the integration tax paid by disconnected SaaS and AI tools"
+      },
+      "keywords": [
+        "modern business stack",
+        "integration tax",
+        "SaaS sprawl cost small business",
+        "build order technology roadmap",
+        "website plus AI stack",
+        "AI tool consolidation",
+        "private AI local LLM",
+        "local LLM on-premises",
+        "Chainlink Runtime Environment",
+        "CRE workflow automation",
+        "verifiable workflows",
+        "HIPAA-ready AI",
+        "professional web presence",
+        "website conversion rate benchmarks 2026",
+        "law firm AI adoption privacy barriers",
+        "technology stack for professional services",
+        "Metro Detroit business technology"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-05-build-order-modern-business-stack#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a modern business stack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A modern business stack is three layers in dependency order: a website that collects demand, private AI that processes it, and verified workflows that record what happened. The layers are only a stack if each one feeds the next."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What order should I build a business technology stack in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Website first, private AI second, verified workflows third. The website produces the intake, the AI processes it, and the verified workflow proves what the stack did. Building them out of order is what creates the integration tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the integration tax, in plain terms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the recurring cost of moving, reconciling, and re-entering information across systems that were never designed to share context. For a 25-person business it typically runs three to five times the subscription bill, and rarely under $30,000 a year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many software tools does the average small business run?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 25-employee company typically runs more than 40 software subscriptions, and industry surveys put the real figure between 40 and 110 once employee-expensed tools are counted. On top of that, the average small business carries 14 to 22 separate AI subscriptions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a professional website before I buy AI tools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you want the AI to be useful. An AI with nothing to process is an expensive subscription. The website is the intake layer; without it, the processing layer has no real work to do."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do law firms hesitate to adopt AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Privacy and confidentiality. In 2026 legal-industry research, 57% of legal professionals named data privacy as the top barrier to AI adoption, even as more than 90% now use at least one AI tool. A local LLM resolves the conflict by processing privileged material on hardware the firm owns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the Chainlink Runtime Environment add to ordinary automation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A record. Ordinary automation executes a task; the Chainlink Runtime Environment executes it and leaves a tamper-proof, auditable trail. For any workflow where you might have to prove what happened, that difference is the whole point."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Modern Business Stack Build-Out: Professional Websites, Local LLM / Private AI, and CRE Verified Workflows",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Healthcare practices", "Law firms", "Professional services firms", "Established local businesses", "Businesses with proprietary data", "Practice managers and managing partners"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Migration" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

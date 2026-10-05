@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-10-05-build-order-modern-business-stack",
+    "title": "Build Order Beats Build Budget: How Metro Detroit Businesses Should Sequence a Modern Stack",
+    "date": "2026-10-05",
+    "description": "Businesses rarely fail at technology because they bought the wrong tools. They fail because they bought them in the wrong order. Here is the sequence that turns a website, private AI, and verified workflows into one compounding stack — and what the integration tax costs when you get it backwards.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Businesses rarely fail at technology because they bought the wrong tools. They fail because they bought them in the wrong order. Here is the sequence that turns a website, private AI, and verified workflows into one compounding stack — and what the integration tax costs when you get it backwards.",
+    "image": "/blog/2026-10-05-build-order-modern-business-stack/feature_image.png",
+    "path": "/blog/2026-10-05-build-order-modern-business-stack/final.md",
+    "schema": "/blog/2026-10-05-build-order-modern-business-stack/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-01-exit-cost-of-rented-ai",
     "title": "The Exit Cost of Rented AI: What Cloud Dependency Actually Costs a Metro Detroit Business Over Three Years",
     "date": "2026-10-01",

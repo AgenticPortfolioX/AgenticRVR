@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-08-one-page-cant-do-five-jobs-website-architecture",
+      "headline": "One Page Can't Do Five Jobs: The Website Architecture That Gets Metro Detroit Businesses Found",
+      "description": "The median dedicated page converts at 4.02% against 2.35% for a general one, and search engines rank pages, not businesses. Here is the page architecture — one job per page — that gets a Metro Detroit business found and chosen, plus the thin-content trap that punishes padding.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-10-08",
+      "dateModified": "2026-10-08",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-08-one-page-cant-do-five-jobs-website-architecture"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-08-one-page-cant-do-five-jobs-website-architecture/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Website architecture as a growth decision — one page per service and per service area, the thin-content trap, internal-link wiring, and why structured multi-page sites are what AI answer engines cite"
+      },
+      "keywords": [
+        "how many pages should a website have",
+        "website architecture",
+        "site structure SEO",
+        "service pages",
+        "one page per service",
+        "landing page vs website",
+        "service-area pages",
+        "location pages local SEO",
+        "thin content",
+        "internal linking",
+        "crawl depth",
+        "orphan pages",
+        "AI search citations",
+        "Google AI Overviews",
+        "FAQ schema",
+        "professional website builder Metro Detroit",
+        "local SEO Metro Detroit"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-08-one-page-cant-do-five-jobs-website-architecture#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How many pages should a small business website have?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most small business sites perform best with five to ten focused core pages to start, growing toward seven to fifteen; local service businesses do well in the eight-to-twenty range. The right number comes from counting your services and priority areas, not from a template."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does every service need its own page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you offer three or more distinct services, yes. A dedicated page per service is a top on-page factor for local rankings, and dedicated pages convert at roughly double the rate of general ones. A single well-built services page is fine if you offer only one or two services."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When do I need service-area or location pages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only for the towns that drive real revenue, and only when you can write something genuinely specific about each. Businesses with optimized location pages see about 37% more leads, but a page per town built by swapping the place name is thin content that can hurt the whole site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can too many pages hurt my SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if the extra pages are thin. Search engines judge overall site quality, and a large share of unhelpful pages can pull down your good pages. More pages help only when each one is substantive and earns its place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What pages does every local business website need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Four to start: a home page, an about page, a contact page, and at least one service page (a services hub if you sell several). From that core you add one page per service and per priority service area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does site architecture affect AI search like ChatGPT and Google AI Overviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI engines cite structured, multi-page sites far more than single landing pages. ChatGPT cites only about 15% of the pages it retrieves, and FAQ schema plus first-paragraph answers raise citation odds by roughly 40%. A site with a page per question is far more citable than one page trying to cover everything."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need internal links between my pages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Internal links pass authority to the pages that need it, improve crawl efficiency by 40 to 70%, and can lift rankings by up to 40%. Keep every important page within three clicks of the home page and eliminate orphan pages."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Professional Website Architecture and Build: one page per service and per service area, wired for search visibility and AI citability",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Contractors and trades", "Professional services firms", "Real estate professionals", "Healthcare practices", "Law firms"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Migration" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

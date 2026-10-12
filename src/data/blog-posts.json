@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-10-12-hash-dont-host-verifiable-records-architecture",
+    "title": "Hash, Don't Host: What Blockchain-Verified Records Store, and What Never Leaves Your Building",
+    "date": "2026-10-12",
+    "description": "Encrypted data on a ledger is still personal data — the EDPB settled that in July 2026. Here is what a verifiable record should actually store, what should never leave your building, and why hashing is the only design that survives the regulator and the invoice.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Encrypted data on a ledger is still personal data — the EDPB settled that in July 2026. Here is what a verifiable record should actually store, what should never leave your building, and why hashing is the only design that survives the regulator and the invoice.",
+    "image": "/blog/2026-10-12-hash-dont-host-verifiable-records-architecture/feature_image.png",
+    "path": "/blog/2026-10-12-hash-dont-host-verifiable-records-architecture/final.md",
+    "schema": "/blog/2026-10-12-hash-dont-host-verifiable-records-architecture/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-08-one-page-cant-do-five-jobs-website-architecture",
     "title": "One Page Can't Do Five Jobs: The Website Architecture That Gets Metro Detroit Businesses Found",
     "date": "2026-10-08",

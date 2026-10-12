@@ -1,0 +1,155 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-12-hash-dont-host-verifiable-records-architecture",
+      "headline": "Hash, Don't Host: What Blockchain-Verified Records Store, and What Never Leaves Your Building",
+      "description": "Encrypted data on a ledger is still personal data — the EDPB settled that in July 2026. Here is what a verifiable record should actually store, what should never leave your building, and why hashing is the only design that survives the regulator and the invoice.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-10-12",
+      "dateModified": "2026-10-12",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-12-hash-dont-host-verifiable-records-architecture"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-12-hash-dont-host-verifiable-records-architecture/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Data placement in blockchain-verified business records — what is committed on-chain versus stored off-chain, the EDPB's July 2026 three-criteria anonymisation test, key and salt destruction as erasure proxies, on-chain storage cost physics, and HIPAA and attorney-client privilege mapping"
+      },
+      "keywords": [
+        "what goes on a blockchain",
+        "on-chain vs off-chain data",
+        "blockchain data privacy",
+        "hash not data",
+        "proof of existence blockchain",
+        "EDPB blockchain guidelines",
+        "GDPR blockchain right to erasure",
+        "blockchain storage cost",
+        "tamper-proof audit trail",
+        "HIPAA audit trail blockchain",
+        "attorney-client privilege",
+        "verifiable records architecture",
+        "Chainlink Runtime Environment",
+        "verifiable workflows",
+        "Metro Detroit"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-12-hash-dont-host-verifiable-records-architecture#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does anything personal ever go on the blockchain in a verifiable record?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. In a properly built verifiable workflow the chain receives fingerprints, timestamps, and pseudonymous actor identifiers — never names, patient data, or privileged content. If a vendor proposes storing the records themselves on-chain, that is the architecture to walk away from."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a hash of personal data still personal data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often, yes. The EDPB's July 2026 guidelines treat hashed and encrypted on-chain data as personal data when it can be linked back to an individual. A hash of a document held in a deletable off-chain database, with no linkable external identifier, is the version that can qualify as genuinely anonymous."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you satisfy a deletion or amendment request if a record is on a chain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Two mechanisms are accepted: destroy the decryption key, or destroy the salt. Either renders the on-chain commitment unusable without altering the ledger. HIPAA's amendment right under 45 CFR 164.526 is handled the same way — correct the off-chain record, fingerprint the correction, and keep the audit trail intact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why not use a private blockchain and store everything there?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Private and consortium chains do solve the controller-identification problem the EDPB raises, and they are the right structure when on-chain personal data is genuinely unavoidable. They do not solve cost or custody: you still pay per byte, and you still need key and salt discipline. For most businesses the simpler answer is a public chain for proofs and your own systems for content."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a verifiable record cost to run?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The on-chain footprint is 32 bytes per record — a few cents of gas under most conditions, against roughly $1,300 per megabyte for storing actual data. The real cost is the workflow build and the key-custody process around it, which is a one-time engagement rather than a per-record meter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a Metro Detroit business do before putting anything on-chain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inventory which records anyone will ever dispute, classify each field as content or proof, and confirm that no document, identifier, or privileged sentence is scheduled for a public write. That inventory takes an afternoon and tells you whether your current automation is an asset or a liability."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "CRE (Chainlink Runtime Environment) workflow consulting — verifiable records architecture that commits proofs on-chain while all documents, PHI, and privileged material stay off-chain in client-controlled systems",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Healthcare practices", "Law firms", "Professional services firms", "Established local businesses", "Businesses with proprietary data"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

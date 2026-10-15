@@ -1,0 +1,160 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-15-hire-or-automate-staffing-math-2027",
+      "headline": "Hire or Automate: The 2027 Headcount Math for a Metro Detroit Business",
+      "description": "A Michigan medical secretary costs about $176,000 over three years once benefits load in, and the state's labor force shrank 93,000 this year. Here is the headcount math, the three-column test, and where automation actually earns its place.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-10-15",
+      "dateModified": "2026-10-15",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-15-hire-or-automate-staffing-math-2027"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-15-hire-or-automate-staffing-math-2027/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "The headcount-versus-automation decision for Metro Detroit businesses — fully loaded cost of a hire derived from BLS employment-cost data, Michigan occupational wage benchmarks, employer benefit-cost trends, turnover economics, the deterministic-versus-judgment task split, the on-premises data boundary, and the accountability requirement for verifiable records"
+      },
+      "keywords": [
+        "hire or automate",
+        "fully loaded cost of an employee",
+        "true cost of hiring an employee 2026",
+        "cost of employee turnover 2026",
+        "Michigan median wage",
+        "medical secretary salary Michigan",
+        "bookkeeping clerk salary Michigan",
+        "customer service representative salary Michigan",
+        "paralegal salary Michigan",
+        "benefits percentage of total compensation",
+        "labor force participation Michigan",
+        "NFIB small business jobs report",
+        "local LLM",
+        "private AI that stays on-premises",
+        "HIPAA-ready AI",
+        "attorney-client privilege",
+        "Chainlink Runtime Environment",
+        "verifiable workflows",
+        "sovereign technology",
+        "Metro Detroit"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-15-hire-or-automate-staffing-math-2027#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is it cheaper to automate or to hire in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the task mix, not the job title. A mostly deterministic role — intake, scheduling, reconciliation, follow-up — usually costs less to automate than to staff at Michigan's fully loaded rates. A mostly judgment role is cheaper to hire, because the automation fails at exactly the part that matters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the fully loaded cost of an employee in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Multiply the salary by roughly 1.4. BLS data for March 2026 shows benefits at 30.1% of private-industry total compensation, which is a 43% load on wages. For a $41,100 medical secretary that is about $58,800 a year before recruiting or turnover."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will AI replace my receptionist or bookkeeper?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Probably not the role — likely part of the task list. The repeatable portion can move to a system; the judgment, the relationship, and the accountability cannot. Most small businesses using AI actually grew headcount over the past year, so treat this as a capacity question first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I just use a cloud AI tool for client data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not if the data is protected health information, privileged, or proprietary. The objection is that the data leaves your building, and no agreement changes that. A Local LLM running on-premises delivers the productivity without the exposure — which is what makes HIPAA-ready AI documentable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need blockchain to verify an automated workflow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You need independent verification. Blockchain is how you get it without trusting a single party's database: if the record is tamper-evident and independently checkable, the mechanism matters less than the guarantee. Where a workflow touches money or compliance, that guarantee is the difference between a log and evidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I automate first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The process with the highest volume, the clearest definition, and the lowest cost of being wrong. Define and measure it before you automate it — undefined ROI and bad input data are the two leading reasons automation projects get abandoned, and both are fixable before you spend anything."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Headcount-versus-automation analysis and implementation for Metro Detroit businesses — fully loaded labor-cost modelling against an on-premises Local LLM deployment for the deterministic layer of a role, with verifiable workflows built on the Chainlink Runtime Environment where automation touches money, compliance, or client obligations",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Healthcare practices", "Law firms", "Professional services firms", "Established local businesses", "Businesses with proprietary data"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

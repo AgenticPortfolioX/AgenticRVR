@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-19-baa-is-not-a-vault-ai-privacy",
+      "headline": "The BAA Is Not a Vault: What HIPAA and Attorney-Client Privilege Actually Require From Your AI",
+      "description": "A signed business associate agreement allocates responsibility for protected health information. It does not keep that information inside your building — and for law firms, no such agreement exists at all. Here is what HIPAA and ABA Formal Opinion 512 actually require.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-10-19",
+      "dateModified": "2026-10-19",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-19-baa-is-not-a-vault-ai-privacy"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-19-baa-is-not-a-vault-ai-privacy/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "The distinction between a HIPAA business associate agreement and actual custody of protected health information — the required BAA elements under 45 CFR 164.504(e), the absence of any audit-right requirement in the HIPAA Rules, the proposed HIPAA Security Rule update and its July 2027 final-rule target, ABA Formal Opinion 512 and the Rule 1.6 informed-consent requirement for self-learning AI tools, and on-premises Local LLM architecture as the data path that removes third-party disclosure"
+      },
+      "keywords": [
+        "business associate agreement AI",
+        "HIPAA BAA AI vendor",
+        "can I use AI with PHI",
+        "attorney-client privilege AI",
+        "ABA Formal Opinion 512",
+        "HIPAA Security Rule final rule 2027",
+        "HIPAA Security Rule update",
+        "45 CFR 164.504(e)",
+        "AI subprocessor PHI",
+        "model training on PHI",
+        "local LLM HIPAA",
+        "on-premises AI for healthcare",
+        "private AI that stays on-premises",
+        "HIPAA-ready AI",
+        "Local LLM",
+        "verifiable workflows",
+        "Chainlink Runtime Environment",
+        "Metro Detroit"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-19-baa-is-not-a-vault-ai-privacy#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does a signed BAA make cloud AI HIPAA-compliant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The agreement is required before protected health information is disclosed, but compliance also depends on the safeguards actually implemented, the subprocessors involved, and what you can document. A signature proves intent, not compliance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we use AI on patient information if the vendor signs a BAA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if the vendor will bind every subcontractor, accept your training and retention terms, and give you evidence you can put in an audit file. Without those in writing, the agreement is thinner than it looks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do law firms need a BAA to use AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not usually — firms are not covered entities, so HIPAA's business associate mechanics do not apply to client matters. The governing duty is Rule 1.6 confidentiality, and ABA Formal Opinion 512 requires informed client consent before inputting representation information into a self-learning tool."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a local LLM automatically HIPAA-compliant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It removes the third-party disclosure problem, often the hardest one. You still owe encryption, access control, backups, training, incident response, and an annual risk analysis, and a vendor with remote access puts a third party back in the room."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the proposed HIPAA Security Rule change, and when?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It would make encryption, multifactor authentication, segmentation, and anti-malware mandatory, add annual penetration tests and six-month vulnerability scans, and require an annual risk analysis built on an asset inventory and data-flow map. The final rule is slated for July 2027; timetables are not binding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cheapest defensible path for a small practice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De-identify what does not need identity, keep identifiable data out of tools you cannot audit, and put the rest on hardware you control. That sequence costs less than a breach and survives whichever Security Rule lands."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "AI privacy and compliance assessment for Metro Detroit healthcare practices and law firms — business associate agreement review, data-flow mapping against HIPAA and Model Rule 1.6 obligations, and on-premises Local LLM deployment so protected health information and privileged client communications never reach a third-party model provider",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Healthcare practices", "Law firms", "Professional services firms", "Established local businesses", "Businesses with proprietary data"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

@@ -58,7 +58,7 @@ There is no business associate agreement for attorney-client privilege. No vendo
 
 ## The Honest Gray Zone: Who Holds the Keys
 
-There is a gray zone here. If a device vendor keeps remote support access into a machine that holds client or patient data, you have recreated the third party. That access can create business associate status and can put privileged material in front of an outsider. The defensible pattern is boring: no inbound vendor access, signed update packages, logs that stay on site, physical control of the disk, documented destruction at end of life.
+The gray zone is remote access. If a device vendor keeps remote support access into a machine that holds client or patient data, you have recreated the third party. That access can create business associate status and can put privileged material in front of an outsider. The defensible pattern is boring: no inbound vendor access, signed update packages, logs that stay on site, physical control of the disk, documented destruction at end of life.
 
 Possession is also not compliance. A Local LLM removes the third-party disclosure problem, not your obligations. Multifactor authentication, encryption at rest, backups, workforce training, incident response, and the annual risk analysis remain yours.
 

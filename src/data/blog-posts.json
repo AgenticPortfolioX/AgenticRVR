@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-10-19-baa-is-not-a-vault-ai-privacy",
+    "title": "The BAA Is Not a Vault: What HIPAA and Attorney-Client Privilege Actually Require From Your AI",
+    "date": "2026-10-19",
+    "description": "A signed business associate agreement allocates responsibility for protected health information. It does not keep that information inside your building — and for law firms, no such agreement exists at all. Here is what HIPAA and ABA Formal Opinion 512 actually require.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "A signed business associate agreement allocates responsibility for protected health information. It does not keep that information inside your building — and for law firms, no such agreement exists at all. Here is what HIPAA and ABA Formal Opinion 512 actually require.",
+    "image": "/blog/2026-10-19-baa-is-not-a-vault-ai-privacy/feature_image.png",
+    "path": "/blog/2026-10-19-baa-is-not-a-vault-ai-privacy/final.md",
+    "schema": "/blog/2026-10-19-baa-is-not-a-vault-ai-privacy/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-15-hire-or-automate-staffing-math-2027",
     "title": "Hire or Automate: The 2027 Headcount Math for a Metro Detroit Business",
     "date": "2026-10-15",

@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-10-22-demo-is-not-a-test-local-llm-sizing",
+    "title": "The Demo Is Not a Test: Sizing a Local LLM to Your Workload, Not Its Benchmark Score",
+    "date": "2026-10-22",
+    "description": "A vendor demo proves a local model can talk. It does not prove the model can read your files, hold a citation, or survive five people using it at once. Here is the sizing arithmetic and the pre-purchase test that turns a demo into a decision.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "A vendor demo proves a local model can talk. It does not prove the model can read your files, hold a citation, or survive five people using it at once. Here is the sizing arithmetic and the pre-purchase test that turns a demo into a decision.",
+    "image": "/blog/2026-10-22-demo-is-not-a-test-local-llm-sizing/feature_image.png",
+    "path": "/blog/2026-10-22-demo-is-not-a-test-local-llm-sizing/final.md",
+    "schema": "/blog/2026-10-22-demo-is-not-a-test-local-llm-sizing/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-19-baa-is-not-a-vault-ai-privacy",
     "title": "The BAA Is Not a Vault: What HIPAA and Attorney-Client Privilege Actually Require From Your AI",
     "date": "2026-10-19",

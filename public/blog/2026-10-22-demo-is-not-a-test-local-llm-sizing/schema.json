@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-22-demo-is-not-a-test-local-llm-sizing",
+      "headline": "The Demo Is Not a Test: Sizing a Local LLM to Your Workload, Not Its Benchmark Score",
+      "description": "A vendor demo proves a local model can talk. It does not prove the model can read your files, hold a citation, or survive five people using it at once. Here is the sizing arithmetic and the pre-purchase test that turns a demo into a decision.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-10-22",
+      "dateModified": "2026-10-22",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-22-demo-is-not-a-test-local-llm-sizing"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-22-demo-is-not-a-test-local-llm-sizing/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Sizing an on-premises Local LLM device to a professional practice's actual workload — weight memory and KV-cache arithmetic across 7B, 14B, 32B, and 70B model tiers, GGUF quantization levels (Q4_K_M, Q5_K_M, Q8_0) and their effect on extraction and citation fidelity, concurrency planning for small firms, the limits of advertised context windows given position-sensitive long-context attention (Lost in the Middle, TACL 2024), retrieval-augmented generation over internal documents, and a forty-task pre-purchase evaluation protocol graded on the buyer's own files"
+      },
+      "keywords": [
+        "sizing a local LLM for business",
+        "how much VRAM for local LLM",
+        "local LLM for law firms",
+        "on-premises AI for healthcare",
+        "Q4_K_M vs Q8_0 quality",
+        "GGUF quantization quality loss",
+        "KV cache memory calculation",
+        "context window vs document capacity",
+        "lost in the middle long context",
+        "local LLM concurrent users",
+        "local AI evaluation before purchase",
+        "private AI for small business",
+        "local LLM Metro Detroit",
+        "Private AI that stays on-premises",
+        "Local LLM",
+        "HIPAA-ready AI",
+        "verifiable workflows",
+        "Chainlink Runtime Environment"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-22-demo-is-not-a-test-local-llm-sizing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much memory does a local LLM need for a small practice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 14B model at Q4_K_M needs about 9 GB for weights, plus 15–25% overhead and 2–4 GB of KV cache at long context; a 32B needs about 20 GB. Size to the largest context you will actually use, not to the model file alone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Q4_K_M good enough, or do we need full precision?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Q4_K_M is the right default for professional work. Below Q4, exact-recall tasks degrade first — dates, identifiers, verbatim clauses, citations — which are usually the tasks that justified the purchase. If memory allows, spend it on Q5 or Q8 before spending it on more parameters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a local LLM read a 200-page document?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can accept the tokens, but long-context performance is uneven: models use information near the start and end of an input far better than information in the middle. For long document sets, retrieval with page references outperforms pasting the whole file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many people can use one local LLM device at once?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plan on three to five concurrent users for a 7–8B model, two to three for 14B, and one to two for 32B, assuming interactive latency. Continuous batching helps throughput but not the arithmetic. Measure it with concurrent users during the evaluation, not after deployment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What benchmarks should we trust when comparing local models?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "None of them directly. MMLU measures general knowledge, HumanEval measures code, and GSM8K measures grade-school math. None measures extraction fidelity or citation accuracy on your documents. Use benchmarks to build a shortlist, then run your own task set."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do we need a local LLM, or is a cloud AI with a contract enough?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the workflow can run on de-identified data, cloud AI is often acceptable. If it requires identifiable patient records, privileged communications, or proprietary process data, the question becomes who holds the data — a contract allocates responsibility, it does not change custody."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Local LLM device sizing and pre-purchase evaluation for Metro Detroit law firms, medical practices, and proprietary-data businesses — workload and concurrency planning, model and quantization selection, retrieval architecture over internal documents, and a graded task-evaluation harness delivered before the device is deployed",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Law firms", "Healthcare practices", "Professional services firms", "Established local businesses", "Businesses with proprietary data"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

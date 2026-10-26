@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-26-the-cutover-replace-landing-page",
+      "headline": "The Cutover: What to Protect When You Finally Replace the Landing Page",
+      "description": "Replacing a landing page with a real website does not cost rankings — an unplanned cutover does. Google's own site-move rules, the redirect map, the performance baseline, and the 30-day watch that keep an established Metro Detroit business from losing what it already built.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-10-26",
+      "dateModified": "2026-10-26",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-26-the-cutover-replace-landing-page"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-26-the-cutover-replace-landing-page/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Replacing a single landing page with a full website without losing search rankings, inbound links, or lead flow — permanent redirect (301/308) mapping from old URLs to new equivalents, Google Search Central site-move guidance for small and medium sites (simultaneous URL moves, expected ranking fluctuation over a few weeks, keeping redirects at least a year, the domain-only scope of the Search Console Change of Address tool, avoiding redirect chains), removal of development noindex and robots rules at cutover, mobile-first indexing and Core Web Vitals baselines (LCP, INP, CLS at the 75th percentile), lead-path continuity across forms, tracked phone numbers, Google Business Profile listings, citations, and ad destinations, and a 30-day post-launch monitoring protocol with explicit decision thresholds"
+      },
+      "keywords": [
+        "replace a landing page with a full website",
+        "website migration checklist small business",
+        "301 redirect map",
+        "keep rankings when redesigning a website",
+        "website launch checklist Metro Detroit",
+        "redirect old page to new page",
+        "do I need change of address for a redesign",
+        "how long do 301 redirects take to work",
+        "Core Web Vitals thresholds",
+        "mobile-first indexing",
+        "site move best practices",
+        "landing page to real website",
+        "website redesign traffic loss",
+        "professional web presence",
+        "Professional website builder Metro Detroit",
+        "verifiable workflows",
+        "Future-proof your business"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-26-the-cutover-replace-landing-page#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will replacing my landing page hurt my search rankings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not by itself. Rankings drop when old URLs 404 without redirects, when development noindex tags stay live, or when the new site is slower than the old one. Google documents normal fluctuation: a few weeks or more for a medium-sized site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do 301 redirects lose link value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google states that 301 and other permanent redirects do not cause a loss in PageRank. What you lose without them is the connection itself — a link that lands on a 404 transfers nothing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need the Change of Address tool in Search Console?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if the domain or subdomain changes. A same-domain rebuild, a path change, or a move from HTTP to HTTPS does not require it. Redirects handle those."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long should redirects stay in place after a website launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least a year, per Google's guidance for transferring signals and letting other sites update links. Beyond that, keep them while people still use the old addresses, and point high-value external links straight at the new URLs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should be measured before and after a website launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LCP at 2.5 seconds or better, INP at 200 milliseconds or better, and CLS at 0.1 or better, measured on mobile at the 75th percentile — plus organic sessions by landing page, form submissions, call volume, and indexed page count as a baseline taken the week before cutover."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we keep the old landing page live as a backup after launching a new site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if it has a job the new site does not do. Two live pages targeting the same service compete with each other, and the usual result is that neither ranks as well as one would. If the old page has traffic or links, redirect it to the new equivalent; if it has neither, retire it honestly with a 404 or 410."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Metro Detroit" },
+        { "@type": "AdministrativeArea", "name": "Oakland County" },
+        { "@type": "AdministrativeArea", "name": "Wayne County" },
+        { "@type": "AdministrativeArea", "name": "Genesee County" }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": { "@type": "LocalBusiness", "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness" },
+      "serviceType": "Professional website building for established Metro Detroit businesses replacing a landing page with a full site — architecture and content planning, build, and a scheduled cutover phase covering a complete old-to-new URL redirect map, server-side 301/308 implementation and testing, removal of staging noindex and robots rules, mobile Core Web Vitals baselines before and after launch, lead-path continuity across forms, tracked numbers, Google Business Profile, and citations, and 30-day post-launch monitoring with defined decision thresholds",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Established local businesses", "Contractors and trades", "Professional services firms", "Healthcare practices", "Law firms", "Real estate businesses"]
+      },
+      "areaServed": ["Metro Detroit", "Oakland County", "Wayne County", "Genesee County", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Website Building" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local LLM Devices for Privacy-Required Businesses" } }
+        ]
+      }
+    }
+  ]
+}

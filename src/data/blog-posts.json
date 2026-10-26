@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-10-26-the-cutover-replace-landing-page",
+    "title": "The Cutover: What to Protect When You Finally Replace the Landing Page",
+    "date": "2026-10-26",
+    "description": "Replacing a landing page with a real website does not cost rankings — an unplanned cutover does. Google's own site-move rules, the redirect map, the performance baseline, and the 30-day watch that keep an established Metro Detroit business from losing what it already built.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Replacing a landing page with a real website does not cost rankings — an unplanned cutover does. Google's own site-move rules, the redirect map, the performance baseline, and the 30-day watch that keep an established Metro Detroit business from losing what it already built.",
+    "image": "/blog/2026-10-26-the-cutover-replace-landing-page/feature_image.png",
+    "path": "/blog/2026-10-26-the-cutover-replace-landing-page/final.md",
+    "schema": "/blog/2026-10-26-the-cutover-replace-landing-page/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-22-demo-is-not-a-test-local-llm-sizing",
     "title": "The Demo Is Not a Test: Sizing a Local LLM to Your Workload, Not Its Benchmark Score",
     "date": "2026-10-22",

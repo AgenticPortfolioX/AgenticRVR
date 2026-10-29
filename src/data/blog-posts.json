@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-10-29-automation-stops-at-company-line",
+    "title": "Your Automation Stops at the Company Line: Why Multi-Party Workflows Still Run on Email",
+    "date": "2026-10-29",
+    "description": "Inside your own walls, automation is enforceable. Across a company line, it can only be asked for — which is why suppliers, contractors, and partners still reconcile by spreadsheet. Here is what changes when both sides can verify the same fact on the Chainlink Runtime Environment.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Inside your own walls, automation is enforceable. Across a company line, it can only be asked for — which is why suppliers, contractors, and partners still reconcile by spreadsheet. Here is what changes when both sides can verify the same fact on the Chainlink Runtime Environment.",
+    "image": "/blog/2026-10-29-automation-stops-at-company-line/feature_image.png",
+    "path": "/blog/2026-10-29-automation-stops-at-company-line/final.md",
+    "schema": "/blog/2026-10-29-automation-stops-at-company-line/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-26-the-cutover-replace-landing-page",
     "title": "The Cutover: What to Protect When You Finally Replace the Landing Page",
     "date": "2026-10-26",

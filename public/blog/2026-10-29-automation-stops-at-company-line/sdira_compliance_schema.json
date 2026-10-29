@@ -1,0 +1,203 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-29-automation-stops-at-company-line",
+      "headline": "Your Automation Stops at the Company Line: Why Multi-Party Workflows Still Run on Email",
+      "description": "Inside your own walls, automation is enforceable. Across a company line, it can only be asked for — which is why suppliers, contractors, and partners still reconcile by spreadsheet. Here is what changes when both sides can verify the same fact on the Chainlink Runtime Environment.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-10-29",
+      "dateModified": "2026-10-29",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-29-automation-stops-at-company-line"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-29-automation-stops-at-company-line/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Cross-company workflow automation — why automation that spans two businesses still runs on email and spreadsheets, and how verifiable execution on the Chainlink Runtime Environment (CRE) lets both parties agree on a shared fact. Covers the Workflow DON and Capability DON architecture, Byzantine Fault Tolerant consensus on every capability call, cron/HTTP/onchain triggers, DON-signed reports, Confidential HTTP with Vault DON secrets and enclave execution, the Workflow Registry control plane, institutional proof at scale via Bottomline Global Pay Connect (600+ banks, 1,200 financial institutions, more than $16 trillion in annual payments, ISO 20022 messaging preserved), Michigan Uniform Electronic Transactions Act record and security-procedure provisions (MCL 450.837, 450.839, 450.840), Michigan Construction Lien Act sworn statements (MCL 570.1110), and a go/no-go test for which multi-party workflows justify verifiable execution."
+      },
+      "keywords": [
+        "cross-company workflow automation",
+        "multi-party workflow automation",
+        "Chainlink Runtime Environment consulting",
+        "verifiable workflows",
+        "Chainlink CRE Michigan",
+        "multi-party payment orchestration",
+        "consensus computing",
+        "confidential HTTP",
+        "DON-signed report",
+        "construction draw schedule automation",
+        "construction lien sworn statement",
+        "Michigan Uniform Electronic Transactions Act",
+        "verifiable workflow automation Michigan",
+        "Metro Detroit business automation",
+        "sovereign technology",
+        "Future-proof your business"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-10-29-automation-stops-at-company-line#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is cross-company workflow automation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Automation of a process spanning two or more separate businesses, where no single party controls every system involved. The work is coordination: agreeing on a shared fact and a rule, then proving both were applied."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does automation break down between two companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because authority stops at the company line. Each side can automate its own steps, but neither can enforce a rule inside the other's systems, so the shared fact defaults to email and spreadsheets — the only channel both parties already have."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Chainlink Runtime Environment in plain terms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CRE runs small programs called workflows that react to a schedule, an API call, or an onchain event, call whatever systems they need, and write the result onchain. Multiple nodes execute each step independently and agree through Byzantine Fault Tolerant consensus, so the output is a verified fact rather than one vendor's assertion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you keep data private in a multi-party workflow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By proving the outcome without publishing the inputs. Confidential HTTP runs API calls inside a secure enclave with secrets held by a Vault DON, so node operators never see credentials or responses; the chain records the verified result."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do electronic records hold up in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. MCL 450.837 bars denying legal effect to an electronic record, and MCL 450.839 lets attribution be shown by the efficacy of a security procedure. MCL 450.840 lets a party that followed an agreed procedure void a record altered by a party that did not."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness"
+      },
+      "serviceType": "CRE (Chainlink Runtime Environment) consulting and multi-party workflow build for Metro Detroit businesses — mapping a shared fact across two or more organizations, writing trigger-and-callback workflows in Go or TypeScript compiled to WebAssembly, configuring cron, HTTP, and onchain event triggers, implementing Confidential HTTP with Vault DON secrets and enclave execution for data that must not be disclosed, simulation against live APIs and chains, DON consensus verification, onchain report delivery through IReceiver, Workflow Registry deployment and lifecycle governance, and contract-ready record definitions aligned to the Michigan Uniform Electronic Transactions Act",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Established local businesses",
+          "General contractors and specialty trades",
+          "Suppliers and manufacturers",
+          "Professional services firms",
+          "Healthcare practices",
+          "Law firms",
+          "Financial and lending institutions"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Professional Website Building"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Local LLM Devices for Privacy-Required Businesses"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

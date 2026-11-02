@@ -1,0 +1,200 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-02-owning-stack-after-hardware-refresh",
+      "headline": "The Refresh Cycle Nobody Budgets For: What Owning Your AI Stack Actually Costs After Year Three",
+      "description": "Most owners compare a capital purchase to a monthly seat and conclude that owning AI hardware is expensive. Priced honestly — hardware, support, Michigan power, and a planned refresh — a local LLM device lands near parity with a cloud seat and stops scaling per head. Here is the math, including the parts that argue against buying.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-11-02",
+      "dateModified": "2026-11-02",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-02-owning-stack-after-hardware-refresh"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-02-owning-stack-after-hardware-refresh/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "On-premises AI total cost of ownership — the economics of owning a local LLM device across a hardware refresh cycle, including useful life versus resale value, three hardware tiers (desktop device, workgroup box, rack server), cost per seat versus per-user subscription pricing, trigger-based refresh policy, and what data survives a hardware replacement. Covers sovereign technology and data ownership for HIPAA-covered practices, law firms holding attorney-client privileged material, and businesses with proprietary data in Metro Detroit."
+      },
+      "keywords": [
+        "on-premises AI total cost of ownership",
+        "local LLM device cost",
+        "AI hardware refresh cycle",
+        "cost per seat AI",
+        "private AI for small business",
+        "sovereign technology",
+        "data ownership",
+        "HIPAA-ready AI",
+        "local LLM for law firms",
+        "private AI that stays on-premises",
+        "GPU depreciation",
+        "AI hardware lifecycle",
+        "Metro Detroit",
+        "Future-proof your business"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-02-owning-stack-after-hardware-refresh#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does on-premises AI hardware last before it needs replacing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plan on three to four years for a desktop local LLM device. The machine will still run, but newer models will outgrow its memory before its silicon wears out — so the memory ceiling, not the calendar, sets the date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is owning AI hardware cheaper than a per-seat subscription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At eight users, a $5,000 device with support and power costs about $19.58 per seat per month against $21 for Microsoft 365 Copilot Business. Above ten seats the owned option pulls ahead quickly because adding a user costs nothing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to my data when the hardware is replaced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It moves with you, if you planned for it. The indexed files, prompts, retrieval corpus, and evaluation set live in a directory structure you control; a refresh means copying them to the new device and re-running the evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to replace the whole device or just part of it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a desktop device, replace the unit — component upgrades rarely pay back at that scale. For a workgroup box or rack server, memory and storage upgrades can extend life a year or two, but a GPU generation change means a new machine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a local LLM device cost for a small practice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Expect roughly $4,700 to $5,500 for a capable desktop device, plus about $600 a year in support and $30 a year in electricity at Michigan commercial rates. A workgroup deployment serving a floor runs $15,000 to $40,000."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness"
+      },
+      "serviceType": "Local LLM device deployment and lifecycle planning for Metro Detroit businesses with strict privacy requirements — workload sizing and memory-ceiling analysis, on-premises inference hardware selection across desktop and workgroup tiers, retrieval corpus and prompt library migration, evaluation harness setup, trigger-based refresh planning, hardware lifecycle support and patching, and documentation that proves data residency for HIPAA-covered entities, law firms holding attorney-client privileged material, and businesses protecting proprietary information",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Established local businesses",
+          "Healthcare practices",
+          "Law firms",
+          "Professional services firms",
+          "Financial and lending institutions",
+          "Businesses with proprietary data"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Professional Website Building"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Local LLM Devices for Privacy-Required Businesses"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

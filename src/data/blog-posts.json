@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-11-02-owning-stack-after-hardware-refresh",
+    "title": "The Refresh Cycle Nobody Budgets For: What Owning Your AI Stack Actually Costs After Year Three",
+    "date": "2026-11-02",
+    "description": "Most owners compare a capital purchase to a monthly seat and conclude that owning AI hardware is expensive. Priced honestly — hardware, support, Michigan power, and a planned refresh — a local LLM device lands near parity with a cloud seat and stops scaling per head. Here is the math, including the parts that argue against buying.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Most owners compare a capital purchase to a monthly seat and conclude that owning AI hardware is expensive. Priced honestly — hardware, support, Michigan power, and a planned refresh — a local LLM device lands near parity with a cloud seat and stops scaling per head. Here is the math, including the parts that argue against buying.",
+    "image": "/blog/2026-11-02-owning-stack-after-hardware-refresh/feature_image.png",
+    "path": "/blog/2026-11-02-owning-stack-after-hardware-refresh/final.md",
+    "schema": "/blog/2026-11-02-owning-stack-after-hardware-refresh/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-29-automation-stops-at-company-line",
     "title": "Your Automation Stops at the Company Line: Why Multi-Party Workflows Still Run on Email",
     "date": "2026-10-29",

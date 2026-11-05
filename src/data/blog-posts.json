@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-11-05-proof-not-promises-metro-detroit-modernizations",
+    "title": "Proof, Not Promises: Three Metro Detroit Modernizations and What You Can Verify Yourself",
+    "date": "2026-11-05",
+    "description": "Three anonymized engagements — a website build, a local LLM deployment, and a Chainlink-verified workflow — each ending in an artifact the client holds, not a dashboard the vendor owns. Plus the five questions that separate a real case study from a testimonial.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Three anonymized engagements — a website build, a local LLM deployment, and a Chainlink-verified workflow — each ending in an artifact the client holds, not a dashboard the vendor owns. Plus the five questions that separate a real case study from a testimonial.",
+    "image": "/blog/2026-11-05-proof-not-promises-metro-detroit-modernizations/feature_image.png",
+    "path": "/blog/2026-11-05-proof-not-promises-metro-detroit-modernizations/final.md",
+    "schema": "/blog/2026-11-05-proof-not-promises-metro-detroit-modernizations/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-11-02-owning-stack-after-hardware-refresh",
     "title": "The Refresh Cycle Nobody Budgets For: What Owning Your AI Stack Actually Costs After Year Three",
     "date": "2026-11-02",

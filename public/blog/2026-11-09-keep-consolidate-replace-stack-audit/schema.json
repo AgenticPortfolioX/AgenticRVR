@@ -1,0 +1,202 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-09-keep-consolidate-replace-stack-audit",
+      "headline": "Keep, Consolidate, or Replace: Auditing the Stack You Already Own",
+      "description": "Most technology audits count licenses and cancel the unused ones. The stack that decides whether a business compounds is three layers — website, private AI, verified workflows — and each one has a different keep-or-replace test. Here are the tests, the real cost of replacement, and a 90-minute audit you can run yourself.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-11-09",
+      "dateModified": "2026-11-09",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-09-keep-consolidate-replace-stack-audit"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-09-keep-consolidate-replace-stack-audit/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Business technology stack audit — a three-layer review of an existing Metro Detroit business stack (professional website, local LLM device for private AI, Chainlink Runtime Environment verified workflows) measured against three tests: asset custody (what the business still holds if the vendor disappears), evidence (what the layer can prove about itself with baselines, logs, or exports), and survivability (whether it survives a change of vendor, model, or platform). Includes migration recovery data for website replacement (median 304 days across 1,052 migrations, 64% of platform switches losing page-one rankings), SaaS waste benchmarks (118 apps per company, 36% of licenses unused), guidance on keeping local LLM hardware while re-evaluating model weights against a pre-launch evaluation set, the export test for verifiable workflow records, and a 90-minute self-service audit."
+      },
+      "keywords": [
+        "business technology stack audit Metro Detroit",
+        "professional website builder Metro Detroit",
+        "local LLM for law firms",
+        "private AI for small business",
+        "Chainlink Runtime Environment consulting",
+        "verifiable workflows",
+        "HIPAA-ready AI",
+        "private AI that stays on-premises",
+        "professional web presence",
+        "sovereign technology",
+        "should I rebuild my website or keep it",
+        "website migration traffic loss",
+        "how to audit SaaS subscriptions",
+        "keep or replace local LLM hardware",
+        "Metro Detroit"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-09-keep-consolidate-replace-stack-audit#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a technology stack audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a review of the layers a business runs on — website, private AI, verified workflows — measured on asset custody, evidence, and survivability. It differs from a software spend audit, which counts licenses and produces savings, not capability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I rebuild my website or keep it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keep it if you own the domain, content, and analytics account and the site can hold separate pages for services, locations, and proof without a developer. Rebuild if it is a single landing page that cannot hold page structure. Rebuilding a site that already ranks carries a median 304-day recovery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much traffic do you lose migrating a website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A clean, well-mapped migration typically loses 10–30% of organic traffic in the first month. Median full recovery runs about 304 days across 1,052 migrations, and roughly 14% never fully recover. Sloppy moves with redirect gaps lose 30–50% or more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I have to replace my local LLM hardware when a new model arrives?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Hardware, model weights, retrieval corpus, and evaluation set are separable. Keep the device, swap the weights, and re-run your evaluation set to confirm the new model is better on your work rather than on a benchmark."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know whether a workflow's records will survive a vendor change?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask for an export before you sign and again after thirty days. If you can produce a record of which steps ran, when, and against which data without the vendor's dashboard, the record is yours. If you cannot, you are renting it."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness"
+      },
+      "serviceType": "Business stack audits and builds for Metro Detroit businesses — reviewing an existing stack layer by layer (professional web presence, private AI running on a local LLM device, verified workflows built on the Chainlink Runtime Environment) against asset custody, evidence, and survivability, then delivering the layer that is missing: page-architecture website builds with owned analytics, on-premises AI deployment with scoped retrieval corpora and pre-launch evaluation sets for HIPAA-covered practices and firms holding privileged material, and consensus-verified workflow records for processes where a dispute would cost real money",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Established local businesses",
+          "Contractors and trades",
+          "Healthcare practices",
+          "Law firms",
+          "Professional services firms",
+          "Distributors and logistics operators",
+          "Businesses with proprietary data"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Professional Website Building"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Local LLM Devices for Privacy-Required Businesses"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

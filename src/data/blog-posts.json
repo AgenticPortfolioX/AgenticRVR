@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-11-09-keep-consolidate-replace-stack-audit",
+    "title": "Keep, Consolidate, or Replace: Auditing the Stack You Already Own",
+    "date": "2026-11-09",
+    "description": "Most technology audits count licenses and cancel the unused ones. The stack that decides whether a business compounds is three layers — website, private AI, verified workflows — and each one has a different keep-or-replace test. Here are the tests, the real cost of replacement, and a 90-minute audit you can run yourself.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Most technology audits count licenses and cancel the unused ones. The stack that decides whether a business compounds is three layers — website, private AI, verified workflows — and each one has a different keep-or-replace test. Here are the tests, the real cost of replacement, and a 90-minute audit you can run yourself.",
+    "image": "/blog/2026-11-09-keep-consolidate-replace-stack-audit/feature_image.png",
+    "path": "/blog/2026-11-09-keep-consolidate-replace-stack-audit/final.md",
+    "schema": "/blog/2026-11-09-keep-consolidate-replace-stack-audit/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-11-05-proof-not-promises-metro-detroit-modernizations",
     "title": "Proof, Not Promises: Three Metro Detroit Modernizations and What You Can Verify Yourself",
     "date": "2026-11-05",

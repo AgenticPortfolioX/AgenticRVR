@@ -6,8 +6,7 @@ category: "Agentic Workflows"
 author: "Agentic"
 ---
 # Where Quote Requests Die: The Intake Path Audit Nobody Runs
-*Published: November 12, 2026 | By Agentic*
----
+
 A Metro Detroit business spends real money replacing a landing page with a proper website. Traffic arrives. People fill out the form. The phone rings a little more than it used to. And the calendar barely moves.
 
 The owner concludes the website failed. Usually the website did its job. It delivered the request. Somewhere between the inbox and the calendar, the business lost it — and nobody in the building owns that stretch of road. Traffic has an owner. Closing has an owner. The middle has nobody.

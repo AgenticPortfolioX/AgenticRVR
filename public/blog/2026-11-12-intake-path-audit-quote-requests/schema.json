@@ -1,0 +1,204 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-12-intake-path-audit-quote-requests",
+      "headline": "Where Quote Requests Die: The Intake Path Audit Nobody Runs",
+      "description": "Your website may be delivering more requests than your business can answer. Here are the seven handoffs between a quote request and a signed job, the verified failure rate at each one, the arithmetic that turns seven tolerable leaks into a 20% win rate, and the 90-minute audit you can run from four exports you already own.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-11-12",
+      "dateModified": "2026-11-12",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-12-intake-path-audit-quote-requests"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-12-intake-path-audit-quote-requests/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Lead intake path audit — a seven-handoff review of what happens to a quote request between website form submission and a recorded outcome, measured for a Metro Detroit service business with one phone line, one inbox, and a quote log: form completion (Zuko 2025 benchmarking, 34% of starters abandon), acknowledgement, phone answer rate (Invoca 2026 at 56%, CallRail 2026 at 28% unanswered, and the 2016 origin of the widely repeated 62% figure), hold time, speed to first response (2007 MIT/InsideSales lead response study with its sample and sponsor limits stated), quote turnaround, follow-up cadence (1.3 attempts average versus six attempts), and whether the outcome is logged at all. Includes the compounding arithmetic across seven handoffs, four exports a business already owns, six fixes ranked by effort, and where Chainlink Runtime Environment verified workflows and on-premises Local LLM drafting fit."
+      },
+      "keywords": [
+        "lead intake audit",
+        "website lead intake audit",
+        "where do website leads get lost",
+        "why is my website not generating leads",
+        "professional website builder Metro Detroit",
+        "form abandonment rate",
+        "what percentage of business calls go unanswered",
+        "lead response time benchmark",
+        "quote follow up process",
+        "Chainlink Runtime Environment consulting",
+        "private AI for small business",
+        "local LLM for law firms",
+        "HIPAA-ready AI",
+        "verifiable workflows",
+        "private AI that stays on-premises",
+        "professional web presence",
+        "Metro Detroit"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-12-intake-path-audit-quote-requests#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a lead intake audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a stage-by-stage measurement of what happens to a quote request between submission and a recorded outcome — form completion, acknowledgement, answer rate, time to first response, quote turnaround, follow-up attempts, and whether the outcome was logged. It measures the business, not the website."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What percentage of business calls go unanswered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CallRail's 2026 platform data puts it at 28%, and Invoca's 2026 benchmark finds 56% of calls reach a person at all, rising to 65% for calls over 15 seconds. The widely repeated 62% figure comes from a 2016 study of 85 businesses that counted voicemail as unanswered."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast should a business respond to a website inquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Automated acknowledgement should be under a minute, and a human response should come within one business hour. The 2007 MIT/InsideSales study found leads called within five minutes were 21 times more likely to qualify, though it measured contact and qualification from six companies — direction, not a guarantee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many times should you follow up on a quote?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six attempts across call, text, and email. InsideSales research puts the average at 1.3 attempts, which means most quotes are abandoned by the seller, not rejected by the buyer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a normal form abandonment rate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zuko's 2025 benchmark of 93 million form sessions found 34% of people who start a form never complete it. Anything materially above that points at field count, mobile layout, or the lack of an obvious next step."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness"
+      },
+      "serviceType": "Lead intake path audits and the builds that close the gaps — mapping the seven handoffs between a website quote request and a recorded outcome (form completion, acknowledgement, phone answer rate, time to first response, quote turnaround, follow-up cadence, outcome logging) for Metro Detroit service businesses, then delivering the layer that is missing: page-architecture website builds with owned analytics and a form that matches the buyer's decision, on-premises AI deployment on a local LLM device with scoped retrieval corpora so inquiries from HIPAA-covered practices and firms holding privileged material are summarized and answered without leaving the building, and consensus-verified workflow records on the Chainlink Runtime Environment for multi-party handoffs where a dispute would cost real money",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Established local businesses",
+          "Contractors and trades",
+          "Healthcare practices",
+          "Law firms",
+          "Professional services firms",
+          "Home services and installation businesses",
+          "Businesses with proprietary data"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Professional Website Building"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Local LLM Devices for Privacy-Required Businesses"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

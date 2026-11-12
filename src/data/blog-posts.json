@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-11-12-intake-path-audit-quote-requests",
+    "title": "Where Quote Requests Die: The Intake Path Audit Nobody Runs",
+    "date": "2026-11-12",
+    "description": "Your website may be delivering more requests than your business can answer. Here are the seven handoffs between a quote request and a signed job, the verified failure rate at each one, the arithmetic that turns seven tolerable leaks into a 20% win rate, and the 90-minute audit you can run from four exports you already own.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Your website may be delivering more requests than your business can answer. Here are the seven handoffs between a quote request and a signed job, the verified failure rate at each one, the arithmetic that turns seven tolerable leaks into a 20% win rate, and the 90-minute audit you can run from four exports you already own.",
+    "image": "/blog/2026-11-12-intake-path-audit-quote-requests/feature_image.png",
+    "path": "/blog/2026-11-12-intake-path-audit-quote-requests/final.md",
+    "schema": "/blog/2026-11-12-intake-path-audit-quote-requests/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-11-09-keep-consolidate-replace-stack-audit",
     "title": "Keep, Consolidate, or Replace: Auditing the Stack You Already Own",
     "date": "2026-11-09",

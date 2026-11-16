@@ -1,0 +1,202 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-16-model-provenance-proving-what-ai-said",
+      "headline": "Proving What the AI Said Six Months Later",
+      "description": "Your compliance framework already requires a record of what your AI system said, on which model version, with whose review — and vendors retire models on published schedules. Here are the four layers of proof, the seven fields a log has to hold, and a thirty-minute drill that shows whether you could answer a subpoena about an AI decision you made last spring.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-16-model-provenance-proving-what-ai-said"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-16-model-provenance-proving-what-ai-said/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Model provenance — the evidentiary record a business needs to prove what an AI system said, on which model version, under which policy, with whose review. Covers the four layers of proof (input, model identity, output, governing policy); the regulatory basis in 45 CFR §164.312(b) audit controls and §164.316(b)(2)(i) six-year retention; ABA Formal Opinion 512 (July 29, 2024) and Florida Bar Ethics Opinion 24-1 (January 19, 2024); vendor model retirement and OpenAI's 2026-10-23 shutdown cohort; the reproducibility limit documented by Thinking Machines Lab ('Defeating Nondeterminism in LLM Inference', September 10, 2025) where batch-variant kernels mean temperature zero is not deterministic and batch-invariant kernels restore it at roughly 20% throughput cost; discovery treatment of AI logs as ESI under Fed. R. Civ. P. 34, In re OpenAI (S.D.N.Y., preservation order May 13, 2025; 20 million logs ordered December 2, 2025) and Flagg v. City of Detroit, 252 F.R.D. 346 (E.D. Mich. 2008); the seven-field log schema; logging as a second copy of protected information; and why on-premises local LLM deployment with a hashed weights file provides a fixed referent for six-year obligations."
+      },
+      "keywords": [
+        "model provenance",
+        "AI audit log requirements",
+        "HIPAA audit controls AI",
+        "AI record retention six years",
+        "AI chat logs discoverable",
+        "attorney-client privilege AI",
+        "local LLM for law firms",
+        "HIPAA-ready AI",
+        "private AI that stays on-premises",
+        "private AI for small business",
+        "verifiable workflows",
+        "Chainlink Runtime Environment consulting",
+        "is temperature zero deterministic",
+        "sovereign technology",
+        "Metro Detroit"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-16-model-provenance-proving-what-ai-said#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long do we have to keep records of AI interactions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For HIPAA-covered work, six years. 45 CFR §164.316(b)(2)(i) requires retaining security documentation for six years from creation or from when it was last in effect, whichever is later. Litigation holds can extend that further, and a hold suspends routine deletion immediately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are AI chat logs discoverable in litigation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. They are electronically stored information under Rule 34, and courts have treated data on third-party servers as within a party's control — Flagg v. City of Detroit, 252 F.R.D. 346 (E.D. Mich. 2008). In In re OpenAI (S.D.N.Y.), a May 2025 order compelled preservation of output logs over privacy objections."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does setting temperature to zero make an AI's answers reproducible?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Thinking Machines Lab showed in September 2025 that standard inference kernels are not batch-invariant, so server load alone changes the output. Batch-invariant kernels restore determinism at roughly a 20% throughput cost. Log the answer; do not plan to regenerate it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is model provenance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The record of four things: what went in, which model version produced the output, what came out, and which policy governed the exchange. It is what lets a business answer \"what did the system tell you\" with a file instead of an estimate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can screenshots of the AI's answers satisfy this?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only as a last resort. A screenshot has no verifiable hash, no version string, and no reviewer identity, so it proves an image existed rather than what the system produced. A HIPAA-ready AI deployment captures the structured row at the moment of the request instead."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness"
+      },
+      "serviceType": "AI model provenance and audit-record deployment for regulated Metro Detroit businesses — implementing the seven-field request record (request identifier and timestamp, model version string, weights hash or hosted snapshot ID, sampling configuration, retrieved context versions, verbatim output with reviewer and decision, and governing policy version) alongside the retention rule and legal-hold switch that satisfy 45 CFR §164.312(b) audit controls and §164.316(b)(2)(i) six-year retention, delivered as an on-premises local LLM device with a hashed weights file so the model that produced a record cannot be retired by a vendor mid-obligation, with Chainlink Runtime Environment workflows anchoring record hashes across party lines where a dispute requires independent verification",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Healthcare practices",
+          "Law firms",
+          "Professional services firms",
+          "Businesses with proprietary data",
+          "Established local businesses",
+          "Contractors and trades",
+          "Compliance and risk officers"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Professional Website Building"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Local LLM Devices for Privacy-Required Businesses"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

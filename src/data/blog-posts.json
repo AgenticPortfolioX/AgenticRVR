@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-11-16-model-provenance-proving-what-ai-said",
+    "title": "Proving What the AI Said Six Months Later",
+    "date": "2026-11-16",
+    "description": "Your compliance framework already requires a record of what your AI system said, on which model version, with whose review — and vendors retire models on published schedules. Here are the four layers of proof, the seven fields a log has to hold, and a thirty-minute drill that shows whether you could answer a subpoena about an AI decision you made last spring.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "Your compliance framework already requires a record of what your AI system said, on which model version, with whose review — and vendors retire models on published schedules. Here are the four layers of proof, the seven fields a log has to hold, and a thirty-minute drill that shows whether you could answer a subpoena about an AI decision you made last spring.",
+    "image": "/blog/2026-11-16-model-provenance-proving-what-ai-said/feature_image.png",
+    "path": "/blog/2026-11-16-model-provenance-proving-what-ai-said/final.md",
+    "schema": "/blog/2026-11-16-model-provenance-proving-what-ai-said/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-11-12-intake-path-audit-quote-requests",
     "title": "Where Quote Requests Die: The Intake Path Audit Nobody Runs",
     "date": "2026-11-12",

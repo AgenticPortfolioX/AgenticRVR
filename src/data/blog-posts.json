@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-11-19-garbage-in-immutable-out-oracle-problem",
+    "title": "Garbage In, Immutable Out: Where the Facts in a Verified Record Actually Come From",
+    "date": "2026-11-19",
+    "description": "A ledger can prove a record has not changed since the day it was written. It cannot prove the record was true when it was written. Here is the input half of verifiable automation: the four questions any fact has to answer before it is worth anchoring, what an attestation actually proves, and why data freshness is a design parameter rather than a footnote.",
+    "category": "Agentic Workflows",
+    "author": "Agentic",
+    "tags": [],
+    "excerpt": "A ledger can prove a record has not changed since the day it was written. It cannot prove the record was true when it was written. Here is the input half of verifiable automation: the four questions any fact has to answer before it is worth anchoring, what an attestation actually proves, and why data freshness is a design parameter rather than a footnote.",
+    "image": "/blog/2026-11-19-garbage-in-immutable-out-oracle-problem/feature_image.png",
+    "path": "/blog/2026-11-19-garbage-in-immutable-out-oracle-problem/final.md",
+    "schema": "/blog/2026-11-19-garbage-in-immutable-out-oracle-problem/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-11-16-model-provenance-proving-what-ai-said",
     "title": "Proving What the AI Said Six Months Later",
     "date": "2026-11-16",

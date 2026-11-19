@@ -1,0 +1,202 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-19-garbage-in-immutable-out-oracle-problem",
+      "headline": "Garbage In, Immutable Out: Where the Facts in a Verified Record Actually Come From",
+      "description": "A ledger can prove a record has not changed since the day it was written. It cannot prove the record was true when it was written. Here is the input half of verifiable automation: the four questions any fact has to answer before it is worth anchoring, what an attestation actually proves, and why data freshness is a design parameter rather than a footnote.",
+      "author": {
+        "@type": "Organization",
+        "name": "Agentic",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "datePublished": "2026-11-19",
+      "dateModified": "2026-11-19",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Agentic (Renowned Value Restoration LLC)",
+        "url": "https://agenticportfoliox.github.io/AgenticRVR"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-19-garbage-in-immutable-out-oracle-problem"
+      },
+      "image": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-19-garbage-in-immutable-out-oracle-problem/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "The oracle problem applied to business evidence — how facts enter a blockchain-verified record, why immutability does not imply accuracy, and what makes an input checkable. Covers the four-question input test (who asserted it, which system of record produced it, when and for how long it is true, what a third party can check without the underlying data); decentralized oracle networks with independent operators and on-chain aggregation (Chainlink AccessControlledOffchainAggregator) versus a single operator that reintroduces a trust chokepoint; the distinction between a data attestation and proof of truth, framed against notarization; Chainlink Confidential Compute (unveiled 2025-11-08), where private logic runs in a trusted execution environment off-chain and only a single attribute is released on-chain, and Space and Time Virtual Vaults (Q3 2026) verifying collateral conditions without exposing borrower positions; data freshness as a stated validity window plus heartbeat; three business inputs worth verifying (service completion and punch-list close-out, property condition reports, AI output as documented in the 2026-11-16 model provenance post); Chainlink Runtime Environment workflow mechanics (TypeScript or Go, HTTPClient and EVMClient capabilities, cron/HTTP/on-chain triggers, Byzantine fault tolerant consensus across DONs, local simulation via cre workflow simulate); and the institutional evidence that this is production plumbing rather than a pilot — DTCC's first production tokenized-securities trades in Q3 2026 with J.P. Morgan posting tokenized stock as collateral against a CME Group margin requirement, Bottomline connecting 600+ banks over ISO 20022 with CCIP and CRE, Infosys standardizing on CCIP/CRE/ACE/Proof of Reserve/Data Streams/Data Feeds, CCIP 2.0 live September 2026 with more than $15 billion in token value migrated during the year, and Deloitte & Touche's SOC 2 Type 2 examination of CCIP and Data Feeds alongside SOC 2 Type 1 and ISO/IEC 27001:2022 certification."
+      },
+      "keywords": [
+        "blockchain oracle for business",
+        "oracle problem",
+        "Chainlink Runtime Environment consulting",
+        "CRE workflow automation Michigan",
+        "verifiable workflows",
+        "data provenance",
+        "data attestation",
+        "proof of delivery",
+        "audit trail",
+        "data freshness",
+        "decentralized oracle network",
+        "Chainlink Confidential Compute",
+        "verifiable records",
+        "sovereign technology",
+        "Metro Detroit"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/blog/2026-11-19-garbage-in-immutable-out-oracle-problem#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a blockchain record be wrong?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Immutability guarantees the record has not changed since it was written; it says nothing about whether the fact was true when it went in. Input design matters more than the choice of ledger."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the oracle problem in plain English?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A blockchain can only hold what is written to it and cannot fetch outside data on its own. Something has to carry the external fact in, and whatever carries it becomes the trust boundary. Choosing and hardening that carrier is the oracle problem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does one oracle node defeat the purpose?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It reintroduces a single point of trust. Independent operators fetching independently and aggregating on-chain change the question from \"who do you trust\" to \"how many parties would have to collude.\""
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a data attestation actually prove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That a specific key signed a specific statement about specific bytes at a specific time. It does not prove the statement is accurate — acceptable, because most disputes are about who claimed what and when, not about the physics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you verify a delivery or service record?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Record the assertion at the point of completion — who, where, when, what — sign it, and anchor the hash so neither side can alter it later. Then set a validity window so a stale confirmation cannot be presented as a current one."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness",
+      "name": "Agentic (Agentic Portfolio X)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "Professional website building, Chainlink Runtime Environment (CRE) workflow consulting, and local LLM devices for privacy-required businesses in Metro Detroit.",
+      "url": "https://agenticportfoliox.github.io/AgenticRVR",
+      "telephone": "(248) 313-8955",
+      "email": "valuerestoration@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://agenticportfoliox.github.io/AgenticRVR/#service",
+      "name": "Agentic Services",
+      "description": "Professional website building for established businesses stuck on landing pages, CRE (Chainlink Runtime Environment) consulting for verifiable, tamper-proof automation workflows, and local LLM device deployment so private AI stays on-premises for HIPAA, attorney-client privilege, and proprietary-data businesses.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://agenticportfoliox.github.io/AgenticRVR/#localbusiness"
+      },
+      "serviceType": "Verifiable workflow design and CRE (Chainlink Runtime Environment) consulting for Metro Detroit businesses — input provenance assessment using the four-question test (asserting key, system of record and record ID, stated validity window and heartbeat, and what a third party can independently verify), decentralized oracle network design with independent operators and on-chain aggregation instead of a single trusted node, attestation design scoped to authorship and timing rather than claims of truth, privacy-preserving verification through confidential compute so a law firm or HIPAA-covered practice can prove a condition without producing the underlying record, and CRE workflow implementation in TypeScript or Go with HTTP, on-chain and scheduled triggers, Byzantine fault tolerant execution across decentralized oracle networks, and local simulation before deployment",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Contractors and trades",
+          "Professional services firms",
+          "Law firms",
+          "Healthcare practices",
+          "Property owners and managers",
+          "Businesses with proprietary data",
+          "Compliance and risk officers"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Oakland County",
+        "Wayne County",
+        "Genesee County",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Professional Website Building"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "CRE (Chainlink Runtime Environment) Workflow Consulting and Verifiable Records Architecture"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Local LLM Devices for Privacy-Required Businesses"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
